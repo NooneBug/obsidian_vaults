@@ -8,3 +8,4 @@ FIGER is a [[Datasets with hierarchical sets of types]]
 
 This is the first dataset built using [[Distant Supervision]], for each entity, authors found its wikipedia page and use it to retrieve its types in freebase.
 
+Training is extracted from Wikipedia, test comes from 18 up-to-date news reports manually annotated using the tag set T 
