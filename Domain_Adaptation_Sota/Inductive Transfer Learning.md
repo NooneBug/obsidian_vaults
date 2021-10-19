@@ -1,0 +1,8 @@
+Part of the [[Transfer Learning Taxonomy]]
+Defined by [[2009 Pan - A Survey on Transfer Learning]]:
+
+In the inductive transfer learning setting, the target task is different from the source task, no matter when the source and target domains are the same or not. In this case, some labeled data in the target domain are required to induce an objective predictive model fT() for use in the target domain. In addition, according to different situations of labeled and unlabeled data in the source domain, we can further categorize the inductive transfer learning setting into two cases: 
+	
+	a. A lot of labeled data in the source domain are available. In this case, the inductive transfer learning setting is similar to the multitask learning setting. However, the inductive transfer learning setting only aims at achieving high performance in the target task by transferring knowledge from the source task while multitask learning tries to learn the target and source task simultaneously.
+	
+	b. No labeled data in the source domain are available. In this case, the inductive transfer learning setting is similar to the self-taught learning setting, which is first proposed by (Raina et al.) In the self-taught learning setting, the label spaces between the source and target domains may be different, which implies the side information of the source domain cannot be used directly. Thus, it’s similar to the inductive transfer learning setting where the labeled data in the source domain are unavailable.

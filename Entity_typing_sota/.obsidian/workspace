@@ -1,0 +1,98 @@
+{
+  "main": {
+    "id": "0442ec409da41c54",
+    "type": "split",
+    "children": [
+      {
+        "id": "bf1fea3818df8e13",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9b257c503155718d",
+    "type": "split",
+    "children": [
+      {
+        "id": "6fd8095d78d90cf8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5b482d124c716f71",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "d5c1f01149d6866f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 457
+  },
+  "right": {
+    "id": "53c4873889e075c6",
+    "type": "split",
+    "children": [
+      {
+        "id": "8a51256900b46298",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2d07e293e51ec66b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "bf1fea3818df8e13",
+  "lastOpenFiles": [
+    "Encoders - Handcrated Features  Based Models.md",
+    "paper/2010 Rahman - Inducing Fine-Grained Semantic Classes via Hierarchical and Collective Classification.md",
+    "paper/2012 Ling - Fine-Grained Entity Recognition.md",
+    "FIGER.md",
+    "Datasets with hierarchical sets of types.md",
+    "paper/2006 Hovy - OntoNotes, The 90% Solution.md",
+    "Distant Supervision.md",
+    "Datasets with 10 to 200 classes.md",
+    "2012 Ling - Fine-Grained Entity Recognition.md",
+    "Untitled.md"
+  ]
+}

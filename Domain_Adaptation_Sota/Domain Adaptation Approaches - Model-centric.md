@@ -1,0 +1,3 @@
+From [[2018 Ramponi - Neural Unsupervised Domain Adaptation in NLP, A Survey]]
+
+Model-centric methods target approaches to augment the feature space, alter the loss function, the architecture or model parameters [[2006 Blitzer - Domain Adaptation with Structural Correspondence Learning]] [[2010 Pan - Cross-Domain Sentiment Classification via Spectral Feature Alignment]] [[2015 Ganin -  Domain-Adversarial Training of Neural Networks]]

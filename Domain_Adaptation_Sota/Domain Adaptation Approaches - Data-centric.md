@@ -1,0 +1,3 @@
+From [[2018 Ramponi - Neural Unsupervised Domain Adaptation in NLP, A Survey]]
+
+Data-centric methods focus on the data aspect and either involve pseudo-labeling (or bootstrapping) to bridge the domain gap (Abney, 2007; Zhu and Goldberg, 2009; Ruder and Plank, 2018; Cui and Bollegala, 2019), data selection (Axelrod et al., 2011; Plank and van Noord, 2011; Ruder and Plank, 2017) and pre-training methods (Han and Eisenstein, 2019; Guo et al., 2020).

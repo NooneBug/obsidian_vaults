@@ -1,0 +1,4 @@
+From [[2018 Ramponi - Neural Unsupervised Domain Adaptation in NLP, A Survey]]:
+
+*A theoretical notion put forward by [[2016 Plank - What to do about non-standard (or non-canonical) language in NLP]] is the variety space. In the variety space a corpus is seen as a subspace (subregion), a sample of the variety space. A corpus is a set of instances drawn from the underlying unknown high-dimensional variety space, whose dimensions (or latent factors) are fuzzy language and annotation aspects. These latent factors can be related to the notions discussed above, such as genre (e.g., scientific, newswire, informal), sub-domain (e.g., finance, immunology, politics, environmental law, molecular biology) and socio-demographic aspects (e.g., gender), among other unknown factors, as well as stylistic or data sampling impacts (e.g., sentence length, annotator bias)*
+

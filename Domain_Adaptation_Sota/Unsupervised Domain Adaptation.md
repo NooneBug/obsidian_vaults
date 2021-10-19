@@ -1,0 +1,3 @@
+From [[2018 Ramponi - Neural Unsupervised Domain Adaptation in NLP, A Survey]]:
+
+Unsupervised domain adaptation (UDA) mitigates the domain shift issue by learning only from unlabeled target data, which is typically available for both source and target domain(s). UDA fits the classical real-world scenario better, in which labeled data in the target domain is absent, but unlabeled data might be abundant. UDA thus provides an elegant and scalable solution. We believe these advances in UDA will help for out-of-distribution generalization. 

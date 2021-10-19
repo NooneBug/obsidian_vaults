@@ -1,0 +1,3 @@
+From [[2019 Ruder - Neural Transfer Learning for Natural Language Processing]]:
+
+Whereas sequential transfer learning requires access to labelled instances of the target task, domain adaptation is generally studied in the unsupervised setting [[Unsupervised Domain Adaptation]] where a sufficient number of labelled examples in the source domain and only unlabelled examples in the target domain are assumed to be available. A subset of methods study the supervised case [[Supervised Domain Adaptation]] where a small number of labelled target instances are available. 

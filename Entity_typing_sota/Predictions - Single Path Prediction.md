@@ -1,0 +1,1 @@
+Models which predict a Single Path Prediction produce a set of types that lies in the same branch of the type hierarchy
