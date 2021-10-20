@@ -8,3 +8,6 @@ Same 7 types organized under 3 tags (so 3 trees)
 
 [[FIGER]]
 112 types from Freebase (38 trees, 31 of them with only the root)
+
+[[YAGO505]]
+505 types from Yago (5 trees, 101 nodes per tree, max depth = 9)

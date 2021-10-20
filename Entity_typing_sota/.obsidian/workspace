@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "paper/2012 Ling - Fine-Grained Entity Recognition.md",
+            "file": "Inference Method - Hierarchical Inference.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "paper/2012 Ling - Fine-Grained Entity Recognition.md",
+                "file": "Inference Method - Hierarchical Inference.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "bf1fea3818df8e13",
   "lastOpenFiles": [
+    "Inference Method - Hierarchical Inference.md",
+    "YAGO505.md",
+    "Datasets with hierarchical sets of types.md",
+    "Datasets with 10 to 200 classes.md",
+    "paper/2012 Yosef - HYENA, Hierarchical Type Classification for Entity Names.md",
+    "Untitled.md",
     "paper/2012 Ling - Fine-Grained Entity Recognition.md",
     "FIGER.md",
     "Encoders - Handcrated Features  Based Models.md",
-    "paper/2010 Rahman - Inducing Fine-Grained Semantic Classes via Hierarchical and Collective Classification.md",
-    "Datasets with hierarchical sets of types.md",
-    "paper/2006 Hovy - OntoNotes, The 90% Solution.md",
-    "Distant Supervision.md",
-    "Datasets with 10 to 200 classes.md",
-    "2012 Ling - Fine-Grained Entity Recognition.md",
-    "Untitled.md"
+    "paper/2010 Rahman - Inducing Fine-Grained Semantic Classes via Hierarchical and Collective Classification.md"
   ]
 }
