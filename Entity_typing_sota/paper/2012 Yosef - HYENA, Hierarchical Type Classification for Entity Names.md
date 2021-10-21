@@ -8,6 +8,12 @@ From Contribution: This paper introduces HYENA (Hierarchical tYpe classification
 	• experiments against state-of-the-art baselines, demonstrating the superiority of HYENA; 
 	• an extrinsic study on boosting NED by harnessing type information.
 
-Authors defines the dataset [[YAGO505]]
+Authors defines the dataset [[Dataset - YAGO505]]
+
+Experiments on [[Dataset - FIGER]] and [[Dataset - Original BBN]]
+
+Authors use [[Encoders - Handcrated Features  Based Models]] and SVM 
+
+First paper to use [[Inference Method - Hierarchical Inference]], so HYENA produces [[Predictions - Single Path Prediction]] (the description of Inference Method is in [[Inference Method - Hierarchical Inference]])
 
 #paper 

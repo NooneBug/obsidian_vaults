@@ -3,3 +3,5 @@ Proposed by Weischedel and Brunstein in 2005, is a corpus for coreference resolu
 Originally used 92 types to categorize named entities, organized in 29 trees
 
 First [[Datasets with hierarchical sets of types]] with a complex hierarchy
+
+#dataset

@@ -1,8 +1,8 @@
 7 general types, single-label classification task:
 *"For ENAMEX, the TYPE value can be ORGANIZATION, PERSON, or LOCATION; for TIMEX, the TYPE value can be DATE or TIME; and for NUMEX, the TYPE value can be MONEY or PERCENT."*
-[[1995 Sundheim - Entity Task Definition (MUC-6)]]
-[[1997 Chinchor - MUC-7 Named Entity Task Definition]]
-[[1996 Merchant - The Multilingual Entity Task (MET) Overview]]
+[[Dataset - MUC 6]]
+[[Dataset - MUC 7]]
+[[Dataset - MET]]
 
 8 subtypes of location, extracted from TREC9 Database:
 Country, City, Street, Territory, Region, Water, Mountain, and Artifact (e.g., man-made locations, such as airports and universities)
@@ -15,3 +15,5 @@ athlete, politician/government, clergy, businessperson, entertainer/artist, lawy
 CoNLL 2002 and CoNLL 2003 NE Recognition Task (4 classes)
 
 ACE 2005  mention detection task  (7 classes)
+
+#dataset_specific 

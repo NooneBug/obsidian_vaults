@@ -1,0 +1,1 @@
+Models which predict a Multiple Path Prediction produce a set of types that lies in different branches of the type hierarchy

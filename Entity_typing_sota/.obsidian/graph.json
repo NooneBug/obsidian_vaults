@@ -5,13 +5,27 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
+  "collapse-color-groups": false,
   "colorGroups": [
     {
       "query": "tag:#paper",
       "color": {
         "a": 1,
         "rgb": 14701138
+      }
+    },
+    {
+      "query": "tag:#dataset",
+      "color": {
+        "a": 1,
+        "rgb": 65331
+      }
+    },
+    {
+      "query": "tag:#dataset_specific",
+      "color": {
+        "a": 1,
+        "rgb": 65505
       }
     }
   ],
@@ -25,6 +39,6 @@
   "repelStrength": 10.4273504273504,
   "linkStrength": 1,
   "linkDistance": 445,
-  "scale": 0.29593236098240433,
+  "scale": 0.8666311506683203,
   "close": false
 }
