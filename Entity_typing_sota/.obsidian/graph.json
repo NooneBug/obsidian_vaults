@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "tag:#paper",
@@ -25,7 +25,21 @@
       "query": "tag:#dataset_specific",
       "color": {
         "a": 1,
-        "rgb": 65505
+        "rgb": 8583087
+      }
+    },
+    {
+      "query": "tag:#denoising_category",
+      "color": {
+        "a": 1,
+        "rgb": 14972155
+      }
+    },
+    {
+      "query": "tag:#denoising_technique",
+      "color": {
+        "a": 1,
+        "rgb": 10235112
       }
     }
   ],
@@ -34,11 +48,11 @@
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 0.898314606741573,
   "lineSizeMultiplier": 1.42134831460674,
-  "collapse-forces": false,
+  "collapse-forces": true,
   "centerStrength": 0,
   "repelStrength": 10.4273504273504,
   "linkStrength": 1,
   "linkDistance": 445,
-  "scale": 0.8666311506683203,
+  "scale": 0.1729304775357638,
   "close": false
 }

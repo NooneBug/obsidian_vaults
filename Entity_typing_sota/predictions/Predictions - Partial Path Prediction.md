@@ -1,0 +1,1 @@
+A Partial Path Prediction is a set of types (from a hierarchy) that does not include a hierarchy leaf, but is still considered valid 
