@@ -10,4 +10,6 @@ Test set includes all news documents in the [[Dataset - OntoNotes v1]] test set 
 
 This dataset allows [[Predictions - Partial Path Prediction]] 
 
+Performances can be found in [[Performances - Ontonotes v5 - GFT]]
+
 #dataset 

@@ -4,4 +4,4 @@
 
 [[Datasets with hierarchical sets of types]]
 
-#dataset_specific
+#dataset_category

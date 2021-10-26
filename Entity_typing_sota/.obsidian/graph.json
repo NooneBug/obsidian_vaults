@@ -22,7 +22,7 @@
       }
     },
     {
-      "query": "tag:#dataset_specific",
+      "query": "tag:#dataset_category",
       "color": {
         "a": 1,
         "rgb": 8583087
@@ -41,6 +41,13 @@
         "a": 1,
         "rgb": 10235112
       }
+    },
+    {
+      "query": "",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
     }
   ],
   "collapse-display": true,
@@ -50,9 +57,9 @@
   "lineSizeMultiplier": 1.42134831460674,
   "collapse-forces": true,
   "centerStrength": 0,
-  "repelStrength": 10.4273504273504,
+  "repelStrength": 12.3076923076923,
   "linkStrength": 1,
   "linkDistance": 445,
-  "scale": 0.1729304775357638,
-  "close": false
+  "scale": 0.37584426475740096,
+  "close": true
 }

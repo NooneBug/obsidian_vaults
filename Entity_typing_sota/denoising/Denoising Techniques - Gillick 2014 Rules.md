@@ -1,4 +1,4 @@
-Rules applied by [[2014 Gillick - Context-Dependent Fine-Grained Entity Type Tagging]] on [[Dataset - Ontonotes v5]] training set to produce a denoised training corpus [[Denoising Techniques - Modify the training set]]. Rules are:
+Rules applied by [[2014 Gillick - Context-Dependent Fine-Grained Entity Type Tagging]] on [[Dataset - Ontonotes v5 - GFT]] training set to produce a denoised training corpus [[Denoising Techniques - Modify the training set]]. Rules are:
 
 Sibling Pruning:
 

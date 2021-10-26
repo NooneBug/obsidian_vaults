@@ -12,7 +12,7 @@ Same 7 types organized under 3 tags (so 3 trees)
 [[Dataset - YAGO505]]
 505 types from Yago (5 trees, 101 nodes per tree, max depth = 9)
 
-[[Dataset - Ontonotes v5]]
+[[Dataset - Ontonotes v5 - GFT]]
 89 types from Freebase & [[Dataset - FIGER]] (4 trees, max depth = 3)
 
-#dataset_specific 
+#dataset_category

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "paper/2014 Gillick - Context-Dependent Fine-Grained Entity Type Tagging.md",
+            "file": "performances/Performances - FIGER.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#paper",
+                "query": "tag:#dataset_specific",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "paper/2014 Gillick - Context-Dependent Fine-Grained Entity Type Tagging.md",
+                "file": "performances/Performances - FIGER.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "bf1fea3818df8e13",
   "lastOpenFiles": [
-    "paper/2014 Gillick - Context-Dependent Fine-Grained Entity Type Tagging.md",
-    "Distant Supervision.md",
-    "denoising/Denoising Techniques - Gillick 2014 Rules.md",
-    "denoising/Denoising Techniques - Modify the training set.md",
-    "datasets/Dataset - Ontonotes v5.md",
-    "datasets/Dataset - YAGO505.md",
+    "performances/Performances - FIGER.md",
+    "performances/Performances - Ontonotes v5 - GFT.md",
+    "datasets/Dataset - Ontonotes v5 - GFT.md",
     "datasets/Datasets with hierarchical sets of types.md",
+    "datasets/Dataset - FIGER.md",
+    "paper/2015 Yogatama - Embedding Methods for Fine Grained Entity Type Classification.md",
     "datasets/Datasets with 10 to 999 classes.md",
-    "paper/2012 Yosef - HYENA, Hierarchical Type Classification for Entity Names.md",
-    "paper/2012 Ling - Fine-Grained Entity Recognition.md"
+    "datasets/Datasets Categorization.md",
+    "datasets/Datasets with less than 10 classes.md",
+    "predictions/Predictions - Partial Path Prediction.md"
   ]
 }

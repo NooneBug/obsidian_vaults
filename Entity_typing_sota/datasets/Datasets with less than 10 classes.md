@@ -16,4 +16,4 @@ CoNLL 2002 and CoNLL 2003 NE Recognition Task (4 classes)
 
 ACE 2005  mention detection task  (7 classes)
 
-#dataset_specific 
+#dataset_category
