@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "bf1fea3818df8e13",
+        "id": "1ca17fbd2fc17735",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "performances/Performances - FIGER.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -39,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#dataset_specific",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "performances/Performances - FIGER.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -76,6 +72,17 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "75aef2c126e13f21",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
               }
             }
           }
@@ -86,17 +93,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "bf1fea3818df8e13",
+  "active": "1ca17fbd2fc17735",
   "lastOpenFiles": [
-    "performances/Performances - FIGER.md",
-    "performances/Performances - Ontonotes v5 - GFT.md",
-    "datasets/Dataset - Ontonotes v5 - GFT.md",
-    "datasets/Datasets with hierarchical sets of types.md",
-    "datasets/Dataset - FIGER.md",
-    "paper/2015 Yogatama - Embedding Methods for Fine Grained Entity Type Classification.md",
+    "paper/2012 Yosef - HYENA, Hierarchical Type Classification for Entity Names.md",
+    "encoders/Encoders - Neural Based Models.md",
+    "paper/2015 Dong - A Hybrid Neural Model for Type Classification of Entity Mentions.md",
+    "Dataset - Wiki22.md",
     "datasets/Datasets with 10 to 999 classes.md",
-    "datasets/Datasets Categorization.md",
-    "datasets/Datasets with less than 10 classes.md",
-    "predictions/Predictions - Partial Path Prediction.md"
+    "datasets/Dataset - FIGER.md",
+    "performances/Performances - FIGER.md",
+    "Models with Type Representations.md",
+    "encoders/Encoders - Handcrated Features  Based Models.md",
+    "Encoders - Sentence splitting.md"
   ]
 }

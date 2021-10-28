@@ -13,3 +13,5 @@ The first approach in Entity Typing that uses Handcrafted features is [[1997 Ben
 [[2012 Ling - Fine-Grained Entity Recognition]]
 
 [[2014 Gillick - Context-Dependent Fine-Grained Entity Type Tagging]]
+
+#encoders
