@@ -4,11 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "1ca17fbd2fc17735",
+        "id": "ea29b971c8e5b1c7",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "paper/2016 Ren  - Label Noise Reduction in Entity Typing by Heterogeneous Partial-Label Embedding.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -65,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "paper/2016 Ren  - Label Noise Reduction in Entity Typing by Heterogeneous Partial-Label Embedding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,17 +97,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1ca17fbd2fc17735",
+  "active": "ea29b971c8e5b1c7",
   "lastOpenFiles": [
-    "paper/2012 Yosef - HYENA, Hierarchical Type Classification for Entity Names.md",
+    "paper/2016 Ren  - Label Noise Reduction in Entity Typing by Heterogeneous Partial-Label Embedding.md",
+    "paper/2016 Ren - AFET, Automatic Fine-Grained Entity Typing by Hierarchical Partial-Label Embedding.md",
+    "Downstream task in which ET is usefull.md",
+    "paper/2016 Shimaoka - An Attentive Neural Architecture for Fine-grained Entity Type Classification.md",
+    "datasets/Dataset - Wiki22.md",
+    "datasets/Dataset - Ontonotes v5 - GFT.md",
     "encoders/Encoders - Neural Based Models.md",
-    "paper/2015 Dong - A Hybrid Neural Model for Type Classification of Entity Mentions.md",
-    "Dataset - Wiki22.md",
-    "datasets/Datasets with 10 to 999 classes.md",
-    "datasets/Dataset - FIGER.md",
+    "paper/2006 Hovy - OntoNotes, The 90% Solution.md",
     "performances/Performances - FIGER.md",
-    "Models with Type Representations.md",
-    "encoders/Encoders - Handcrated Features  Based Models.md",
-    "Encoders - Sentence splitting.md"
+    "datasets/Dataset - FIGER.md"
   ]
 }
