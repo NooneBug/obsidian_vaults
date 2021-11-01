@@ -43,10 +43,10 @@
       }
     },
     {
-      "query": "",
+      "query": "tag:#inference_method",
       "color": {
         "a": 1,
-        "rgb": 5419488
+        "rgb": 15776768
       }
     }
   ],
@@ -55,11 +55,11 @@
   "textFadeMultiplier": -1.2,
   "nodeSizeMultiplier": 0.97948717948718,
   "lineSizeMultiplier": 1.42134831460674,
-  "collapse-forces": false,
+  "collapse-forces": true,
   "centerStrength": 0,
   "repelStrength": 16.4102564102564,
   "linkStrength": 1,
   "linkDistance": 500,
-  "scale": 0.15282174484487612,
+  "scale": 0.15282174484487426,
   "close": false
 }

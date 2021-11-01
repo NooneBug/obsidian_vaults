@@ -11,6 +11,10 @@ Event extraction
 Entity Recommentation
 
 	- Yu 2014
+	
+Information Extraction:
+	
+	- M. Schmitz, R. Bart, S. Soderland, O. Etzioni, et al. Open language learning for information extraction. In EMNLP, 2012.
 
 knowledge base construction / population
 
@@ -37,6 +41,7 @@ question answering
 	- [[2015 Dong - A Hybrid Neural Model for Type Classification of Entity Mentions]]
 	- Yahya 2013
 	- lee 2006
+	- A. Fader, L. Zettlemoyer, and O. Etzioni. Open question answering over curated and extracted knowledge bases. KDD, 2014
 
 semantic search
 

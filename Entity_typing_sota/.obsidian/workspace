@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "ea29b971c8e5b1c7",
+        "id": "94a0c9749672074f",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "paper/2016 Ren  - Label Noise Reduction in Entity Typing by Heterogeneous Partial-Label Embedding.md",
-            "mode": "source"
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -39,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ranking",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -52,7 +49,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 457
+    "width": 494
   },
   "right": {
     "id": "53c4873889e075c6",
@@ -68,7 +65,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "paper/2016 Ren  - Label Noise Reduction in Entity Typing by Heterogeneous Partial-Label Embedding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,6 +85,22 @@
                 "useHierarchy": true
               }
             }
+          },
+          {
+            "id": "5a051fbaddfcfb4a",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_nodes",
+              "state": {}
+            }
+          },
+          {
+            "id": "a3b8d53841d0963f",
+            "type": "leaf",
+            "state": {
+              "type": "juggl_style",
+              "state": {}
+            }
           }
         ]
       }
@@ -97,17 +109,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ea29b971c8e5b1c7",
+  "active": "94a0c9749672074f",
   "lastOpenFiles": [
-    "paper/2016 Ren  - Label Noise Reduction in Entity Typing by Heterogeneous Partial-Label Embedding.md",
-    "paper/2016 Ren - AFET, Automatic Fine-Grained Entity Typing by Hierarchical Partial-Label Embedding.md",
-    "Downstream task in which ET is usefull.md",
-    "paper/2016 Shimaoka - An Attentive Neural Architecture for Fine-grained Entity Type Classification.md",
-    "datasets/Dataset - Wiki22.md",
-    "datasets/Dataset - Ontonotes v5 - GFT.md",
-    "encoders/Encoders - Neural Based Models.md",
-    "paper/2006 Hovy - OntoNotes, The 90% Solution.md",
+    "datasets/Dataset - Ren's Ontonotes.md",
+    "datasets/Dataset - Ren's FIGER.md",
+    "datasets/Dataset - Ren's BBN.md",
+    "performances/Performances - Ren's Ontonotes.md",
+    "performances/Performances - Ren's BBN.md",
+    "performances/Performances - Ren's Figer.md",
     "performances/Performances - FIGER.md",
-    "datasets/Dataset - FIGER.md"
+    "datasets/Dataset - FIGER.md",
+    "paper/2016 Ren - AFET, Automatic Fine-Grained Entity Typing by Hierarchical Partial-Label Embedding.md",
+    "Ranking Loss - 2016 Ren - Partial Label Loss.md"
   ]
 }

@@ -14,6 +14,6 @@ Experiments on [[Dataset - FIGER]] and [[Dataset - Original BBN]]
 
 Authors use [[Encoders - Handcrated Features  Based Models]] and SVM 
 
-First paper to use [[Inference Method - Hierarchical Inference]], so HYENA produces [[Predictions - Single Path Prediction]] (the description of Inference Method is in [[Inference Method - Hierarchical Inference]])
+First paper to use a hierarchical inference method [[Inference Method - Hierarchical Inference - 2012 Josef]], so HYENA produces [[Predictions - Single Path Prediction]]
 
 #paper 

@@ -8,7 +8,7 @@ Given an entity mention in a sentence, the entity mention is encoded with [[Enco
 
 Authors use ranking loss to encourage the model to place positive labels above negative labels without competing with each other 
 
-For inference the authors use [[Inference Method - Hierarchical Inference]]:*"During inference, we consider the top-k predicted labels, where k is the maximum depth of the label hierarchy, and greedily remove labels that are not consistent with other labels (i.e., not on the same path of the tree)"*. Authors also use a threshold to stop the inference before reaching k consinstent labels. So this model produces [[Predictions - Single Path Prediction]] and allow [[Predictions - Partial Path Prediction]]
+For inference the authors use [[Inference Method - Hierarchical Inference - 2015 Yogatama]]: So this model produces [[Predictions - Single Path Prediction]] and allow [[Predictions - Partial Path Prediction]]
 
 Experiments use [[Dataset - FIGER]] and [[Dataset - Ontonotes v5 - GFT]]
 
