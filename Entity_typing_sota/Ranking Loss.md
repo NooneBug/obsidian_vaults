@@ -7,4 +7,5 @@ It is used by:
 [[2015 Yogatama - Embedding Methods for Fine Grained Entity Type Classification]]
 [[2016 Ren  - Label Noise Reduction in Entity Typing by Heterogeneous Partial-Label Embedding]]
 [[2016 Ren - AFET, Automatic Fine-Grained Entity Typing by Hierarchical Partial-Label Embedding]]
+[[2016 Ma - Label Embedding for Zero-shot Fine-grained Named Entity Typing]]
 

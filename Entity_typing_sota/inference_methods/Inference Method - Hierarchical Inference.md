@@ -2,9 +2,11 @@ A hierarchical inference method is a inference method that accounts the presence
 
 It is reported a list of hierarchical inference methods:
 
-The first hierarchical inference method in ET is [[Inference Method - Hierarchical Inference - 2012 Josef ]]
+The first hierarchical inference method in ET is [[Inference Method - Hierarchical Inference - 2012 Josef]]
 
-Then there are [[Inference Method - Hierarchical Inference - 2015 Yogatama]] [[Inference Method - Hierarchical Inference - 2016 Ren]] which are very similar, but Yogatama fix a maximum number of prediction
-
+Then there are [[Inference Method - Hierarchical Inference - 2015 Yogatama]], [[Inference Method - Hierarchical Inference - 2016 Ren]], [[Inference Method - Hierarchical Inference - 2016 Ma]] which are very similar, but 
+	
+	- Yogatama fix a maximum number of predictions
+	- Ma fix a maximum number of predictions and use a dynamic threshold to stop the inference
 
 #inference_method

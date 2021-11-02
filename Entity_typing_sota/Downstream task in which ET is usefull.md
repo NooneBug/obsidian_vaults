@@ -30,18 +30,18 @@ open information extraction
 
 Relation extraction 
 
+	- Mintz 2009
 	- (Yao et al., 2010), 
 	- [[2012 Ling - Fine-Grained Entity Recognition]]
-	- Mintz 2009
 
 question answering 
 	
+	- lee 2006
 	- (Lin et al., 2012).
 	- (Murdock et al 2012)
-	- [[2015 Dong - A Hybrid Neural Model for Type Classification of Entity Mentions]]
 	- Yahya 2013
-	- lee 2006
 	- A. Fader, L. Zettlemoyer, and O. Etzioni. Open question answering over curated and extracted knowledge bases. KDD, 2014
+	- [[2015 Dong - A Hybrid Neural Model for Type Classification of Entity Mentions]]
 
 semantic search
 
