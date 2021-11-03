@@ -7,5 +7,7 @@ RNN:
 
 LSTM:
 [[2016 Shimaoka - An Attentive Neural Architecture for Fine-grained Entity Type Classification]]
+[[2017 Abishek - Fine-Grained Entity Type Classification by Jointly Learning Representations and Label Embeddings]]
+
 
 #encoders

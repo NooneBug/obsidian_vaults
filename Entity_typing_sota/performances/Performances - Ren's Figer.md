@@ -9,6 +9,7 @@ Macro Examples
 2015 Dong - A Hybrid Neural Model for Type Classification of Entity Mentions : .409
 2015 Yogatama - Embedding Methods for Fine Grained Entity Type Classification : .679
 2016 Ren - AFET, Automatic Fine-Grained Entity Typing by Hierarchical Partial-Label Embedding : .693
+2017 Abishek - Fine-Grained Entity Type Classification by Jointly Learning Representations and Label Embeddings : .812
 
 Micro
 2012 Ling - Fine-Grained Entity Recognition : .655
@@ -17,5 +18,6 @@ Micro
 2015 Dong - A Hybrid Neural Model for Type Classification of Entity Mentions : .417
 2015 Yogatama - Embedding Methods for Fine Grained Entity Type Classification : .657
 2016 Ren - AFET, Automatic Fine-Grained Entity Typing by Hierarchical Partial-Label Embedding : .664
+2017 Abishek - Fine-Grained Entity Type Classification by Jointly Learning Representations and Label Embeddings : .774
 
 #performance 

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "inference_methods/Inference Method - Hierarchical Inference - 2016 Ma.md",
+            "file": "Transfer Learning in ET.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "inference_methods/Inference Method - Hierarchical Inference - 2016 Ma.md",
+                "file": "Transfer Learning in ET.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,15 +115,15 @@
   },
   "active": "94a0c9749672074f",
   "lastOpenFiles": [
-    "inference_methods/Inference Method - Hierarchical Inference - 2016 Ma.md",
-    "Models with Type Representations.md",
-    "paper/2016 Ma - Label Embedding for Zero-shot Fine-grained Named Entity Typing.md",
-    "inference_methods/Inference Method - Hierarchical Inference - 2015 Yogatama.md",
+    "Transfer Learning in ET.md",
+    "performances/Performances - Ren's Ontonotes.md",
+    "performances/Performances - Ren's Figer.md",
+    "performances/Performances - Ren's BBN.md",
+    "paper/2017 Abishek - Fine-Grained Entity Type Classification by Jointly Learning Representations and Label Embeddings.md",
     "inference_methods/Inference Method - Hierarchical Inference.md",
-    "Ranking Loss.md",
+    "inference_methods/Inference Method - Hierarchical Inference - 2016 Ren.md",
+    "denoising/Models Robust to Noise.md",
     "paper/2016 Ren - AFET, Automatic Fine-Grained Entity Typing by Hierarchical Partial-Label Embedding.md",
-    "paper/2016 Ren  - Label Noise Reduction in Entity Typing by Heterogeneous Partial-Label Embedding.md",
-    "Zero Shot Fine Grained Entity Typing.md",
-    "Downstream task in which ET is usefull.md"
+    "paper/2016 Ren  - Label Noise Reduction in Entity Typing by Heterogeneous Partial-Label Embedding.md"
   ]
 }

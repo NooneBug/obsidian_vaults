@@ -3,15 +3,28 @@ Motivations in Sekine 2008
 Coreference resolution 
 	
 	- (Recasens et al., 2013), 
+	- G. Durrett and D. Klein. A joint model for entity analysis: Coreference, typing, and linking. TACL.
 
-Event extraction 
+Entity Disambiguation
 
-	- Ji 2008
+	- S. Cucerzan. Large-scale named entity disambiguation based on wikipedia data. In EMNLP-CoNLL, volume 7, 2007.
+	- R. Bunescu and M. Pasca. Using encyclopedic knowledge for named entity disambiguation. In EACL, volume 6, 2006.
+	- X. Han and J. Zhao. Named entity disambiguation by leveraging wikipedia semantic knowledge. In CIKM, 2009
+
+Entity linking
+
+	- M. A. Rodríguez and M. J. Egenhofer. Determining semantic similarity among entity classes from different ontologies. TKDE, 15(2).
+	- T. Lin, O. Etzioni, et al. Entity linking at web scale. In Joint Workshop on Automatic Knowledge Base Construction and Web-scale Knowledge Extraction.
+	- G. Durrett and D. Klein. A joint model for entity analysis: Coreference, typing, and linking. TACL.
 
 Entity Recommentation
 
 	- Yu 2014
 	
+Event extraction 
+
+	- Ji 2008
+
 Information Extraction:
 	
 	- M. Schmitz, R. Bart, S. Soderland, O. Etzioni, et al. Open language learning for information extraction. In EMNLP, 2012.
@@ -19,29 +32,50 @@ Information Extraction:
 knowledge base construction / population
 
 	- (Carlson et al., 2010) 
+	- M. Dredze, P. McNamee, D. Rao, A. Gerber, and T. Finin. Entity disambiguation for knowledge base population. In COLING
+	- R. Bunescu and R. J. Mooney. A shortest path dependency kernel for relation extraction. In HLT-EMNLP.
 
 KB completion
 
 	- Dong 2014
+	- H. Ji and R. Grishman. Knowledge base population: Successful approaches and challenges. In ACL-HLT
 
+Machine Translation
+
+	- Philipp Koehn, Hieu Hoang, Alexandra Birch, Chris Callison-Burch, Marcello Federico, Nicola Bertoldi, Brooke Cowan, Wade Shen, Christine Moran, Richard Zens, Chris Dyer, Ondrej Bojar, Alexandra Constantin, and Evan Herbst. 2007. Moses: Open source toolkit for statistical machine translation. In Proceedings of the 45th Annual Meeting of the Association for Computational Linguistics Companion Volume Proceedings of the Demo and Poster Sessions
+	
 open information extraction
 
 	- lin 2012
 
 Relation extraction 
 
+	- T. Hasegawa, S. Sekine, and R. Grishman. Discovering relations among named entities from large corpora. In ACL, 2004.
 	- Mintz 2009
 	- (Yao et al., 2010), 
-	- [[2012 Ling - Fine-Grained Entity Recognition]]
+	- A. Culotta and J. Sorensen. Dependency tree kernels for relation extraction. In ACL
+	- 2012 Ling - Fine-Grained Entity Recognition
+	- R. Bunescu and R. J. Mooney. A shortest path dependency kernel for relation extraction. In HLT-EMNLP.
+	- Mitchell Koch, John Gilmer, Stephen Soderland, and Daniel S. Weld. 2014. Type-aware distantly supervised relation extraction with linked arguments. In Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)
+	- T. Mitchell, W. Cohen, E. Hruschka, P. Talukdar, J. Betteridge, A. Carlson, B. Dalvi, M. Gardner, B. Kisiel, J. Krishnamurthy, N. Lao, K. Mazaitis, T. Mohamed, N. Nakashole, E. Platanios, A. Ritter, M. Samadi, B. Settles, R. Wang, D. Wijaya, A. Gupta, X. Chen, A. Saparov, M. Greaves, and J. Welling. 2015. Neverending learning.
+
+query analysis
+	
+	- K. Balog and R. Neumayer. Hierarchical target type identification for entity-oriented queries. In CIKM.
+	- B. Bazzanella, H. Stoermer, and P. Bouquet. Searching for individual entities: a query analysis. In IRI
+	
 
 question answering 
 	
+	- Xin Li and Dan Roth. 2002. Learning question classifiers. In Proceedings of the 19th International Conference on Computational Linguistics - Volume 1, COLING ’02
+	- D. Mollá, M. Van Zaanen, D. Smith, et al. Named entity recognition for question answering. 2006.
 	- lee 2006
 	- (Lin et al., 2012).
 	- (Murdock et al 2012)
 	- Yahya 2013
 	- A. Fader, L. Zettlemoyer, and O. Etzioni. Open question answering over curated and extracted knowledge bases. KDD, 2014
-	- [[2015 Dong - A Hybrid Neural Model for Type Classification of Entity Mentions]]
+	- 2015 Dong - A Hybrid Neural Model for Type Classification of Entity Mentions
+	- H. Sun, H. Ma, W.-t. Yih, C.-T. Tsai, J. Liu, and M.-W. Chang. Open domain question answering via semantic enrichment. In WWW
 
 semantic search
 

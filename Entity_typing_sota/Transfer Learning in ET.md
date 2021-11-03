@@ -1,0 +1,3 @@
+Proposed by [[2017 Abishek - Fine-Grained Entity Type Classification by Jointly Learning Representations and Label Embeddings]], conists in using a model to obtain representation that will be used on another model / dataset.
+
+[[2017 Abishek - Fine-Grained Entity Type Classification by Jointly Learning Representations and Label Embeddings]] train their model on FIGER and use the obtained representation as input for 2016 Ren - AFET, Automatic Fine-Grained Entity Typing by Hierarchical Partial-Label Embedding - This setup obtain performances that are better than Abishek model and also than AFET

@@ -4,9 +4,10 @@ It is reported a list of hierarchical inference methods:
 
 The first hierarchical inference method in ET is [[Inference Method - Hierarchical Inference - 2012 Josef]]
 
-Then there are [[Inference Method - Hierarchical Inference - 2015 Yogatama]], [[Inference Method - Hierarchical Inference - 2016 Ren]], [[Inference Method - Hierarchical Inference - 2016 Ma]] which are very similar, but 
+Then there are [[Inference Method - Hierarchical Inference - 2015 Yogatama]], [[Inference Method - Hierarchical Inference - 2016 Ren]], [[Inference Method - Hierarchical Inference - 2016 Ma]], [[2017 Abishek - Fine-Grained Entity Type Classification by Jointly Learning Representations and Label Embeddings]] which are very similar, but 
 	
 	- Yogatama fix a maximum number of predictions
 	- Ma fix a maximum number of predictions and use a dynamic threshold to stop the inference
+	- Abishek uses the same threshold in all datasets
 
 #inference_method
