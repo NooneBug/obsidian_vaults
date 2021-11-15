@@ -12,6 +12,7 @@ Macro Examples
 2017 Abishek - Fine-Grained Entity Type Classification by Jointly Learning Representations and Label Embeddings : .685
 2017 Shimaoka - Neural Architectures for Fine-grained Entity Type Classification: .7098
 2018 Choi - Ultra-Fine Entity Typing : .768
+2018 Xu - Neural Fine-Grained Entity Type Classification with Hierarchy-Aware Loss: .764
 
 
 Micro
@@ -24,5 +25,6 @@ Micro
 2017 Abishek - Fine-Grained Entity Type Classification by Jointly Learning Representations and Label Embeddings : .633
 2017 Shimaoka - Neural Architectures for Fine-grained Entity Type Classification: .6493
 2018 Choi - Ultra-Fine Entity Typing : .718
+2018 Xu - Neural Fine-Grained Entity Type Classification with Hierarchy-Aware Loss: .702
 
 #performance 

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "paper/2018 Xin - Improving Neural Fine-Grained Entity Typing with Knowledge Attention.md",
+            "file": "performances/Performances - Ren's Figer.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "paper/2018 Xin - Improving Neural Fine-Grained Entity Typing with Knowledge Attention.md",
+                "file": "performances/Performances - Ren's Figer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,8 +105,17 @@
               "type": "juggl_style",
               "state": {}
             }
+          },
+          {
+            "id": "0c546b0dc317ac2e",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -115,15 +124,15 @@
   },
   "active": "94a0c9749672074f",
   "lastOpenFiles": [
-    "paper/2018 Xin - Improving Neural Fine-Grained Entity Typing with Knowledge Attention.md",
-    "encoders/Encoders - Neural Based Models - Attention based architectures.md",
+    "performances/Performances - Ren's Figer.md",
+    "datasets/Dataset - Ren's FIGER.md",
+    "paper/2018 Xu - Neural Fine-Grained Entity Type Classification with Hierarchy-Aware Loss.md",
+    "datasets/Dataset - Ren's Ontonotes.md",
+    "performances/Performances - Ren's Ontonotes.md",
     "encoders/Encoders - Neural Based Models - Recurrent architectures.md",
-    "images/xin_architeture.png",
-    "Downstream task in which ET is usefull.md",
-    "paper/2018 Murty - Hierarchical Losses and New Resources for Fine-grained Entity Typing and Linking.md",
-    "paper/2018 Choi - Ultra-Fine Entity Typing.md",
-    "paper/2017 Shimaoka - Neural Architectures for Fine-grained Entity Type Classification.md",
-    "paper/2017 Rabinovich - Fine-Grained Entity Typing with High-Multiplicity Assignments.md",
-    "paper/2017 Abishek - Fine-Grained Entity Type Classification by Jointly Learning Representations and Label Embeddings.md"
+    "encoders/Encoders - Neural Based Models - Attention based architectures.md",
+    "encoders/Encoders - Pretrained Word Embeddings.md",
+    "denoising/Noise Definition - Out-of-context.md",
+    "denoising/Noise Definition - Overly Specific.md"
   ]
 }

@@ -5,7 +5,7 @@ http://nlp.csai.tsinghua.edu.cn/~lyk/publications/aaai2018_entitytyping.pdf
 
 *we propose KnowledgeAttention Neural Fine-Grained Entity Typing (KNET). Our model mainly consists of two parts. Firstly, we build a neural network to generate context and entity mention representations. Secondly, depending on the entity mention, we use knowledge attention to focus on important context words and improve the quality of context representation. Knowledge attention is computed using entity embeddings, which are learned from KB relational information and reconstructed from the text. Considering we will encounter both in-KB and out-of-KB entities in testing, we propose a disambiguation procedure, which can provide not only in-KB entities with precise KB information, but also out-of-KB entities with useful knowledge. *
 
-![[xin_architeture.png]]
+![[2018_xin_architeture.png]]
 
 They propose a recurrent neural network to encode the input sentence and the and a neural network to encode entity information from a KB. [[Encoders - Neural Based Models - Recurrent architectures]], [[Encoders - Neural Based Models - Attention based architectures]] 
 
