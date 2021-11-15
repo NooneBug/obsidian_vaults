@@ -6,5 +6,6 @@ This paper presents a universal schema approach to fine-grained entity type pred
 It is not clear how they use the types to solve entity typing
 The authors do not compare with any other article
 
+This kind of approach is defined [[Entity-level Typing]] in 2018 Murty
 
 #paper 

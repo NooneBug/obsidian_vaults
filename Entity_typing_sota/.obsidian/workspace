@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Transfer Learning in ET.md",
+            "file": "paper/2018 Xin - Improving Neural Fine-Grained Entity Typing with Knowledge Attention.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ranking",
+                "query": "cnn",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -52,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 494
+    "width": 326
   },
   "right": {
     "id": "53c4873889e075c6",
@@ -68,13 +68,13 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Transfer Learning in ET.md",
+                "file": "paper/2018 Xin - Improving Neural Fine-Grained Entity Typing with Knowledge Attention.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               }
             }
@@ -115,15 +115,15 @@
   },
   "active": "94a0c9749672074f",
   "lastOpenFiles": [
-    "Transfer Learning in ET.md",
-    "performances/Performances - Ren's Ontonotes.md",
-    "performances/Performances - Ren's Figer.md",
-    "performances/Performances - Ren's BBN.md",
-    "paper/2017 Abishek - Fine-Grained Entity Type Classification by Jointly Learning Representations and Label Embeddings.md",
-    "inference_methods/Inference Method - Hierarchical Inference.md",
-    "inference_methods/Inference Method - Hierarchical Inference - 2016 Ren.md",
-    "denoising/Models Robust to Noise.md",
-    "paper/2016 Ren - AFET, Automatic Fine-Grained Entity Typing by Hierarchical Partial-Label Embedding.md",
-    "paper/2016 Ren  - Label Noise Reduction in Entity Typing by Heterogeneous Partial-Label Embedding.md"
+    "paper/2018 Xin - Improving Neural Fine-Grained Entity Typing with Knowledge Attention.md",
+    "encoders/Encoders - Neural Based Models - Attention based architectures.md",
+    "encoders/Encoders - Neural Based Models - Recurrent architectures.md",
+    "images/xin_architeture.png",
+    "Downstream task in which ET is usefull.md",
+    "paper/2018 Murty - Hierarchical Losses and New Resources for Fine-grained Entity Typing and Linking.md",
+    "paper/2018 Choi - Ultra-Fine Entity Typing.md",
+    "paper/2017 Shimaoka - Neural Architectures for Fine-grained Entity Type Classification.md",
+    "paper/2017 Rabinovich - Fine-Grained Entity Typing with High-Multiplicity Assignments.md",
+    "paper/2017 Abishek - Fine-Grained Entity Type Classification by Jointly Learning Representations and Label Embeddings.md"
   ]
 }

@@ -5,3 +5,5 @@ Word2Vec
 
 Glove 
 [[2016 Shimaoka - An Attentive Neural Architecture for Fine-grained Entity Type Classification]]
+[[2017 Shimaoka - Neural Architectures for Fine-grained Entity Type Classification]]
+[[2018 Choi - Ultra-Fine Entity Typing]]

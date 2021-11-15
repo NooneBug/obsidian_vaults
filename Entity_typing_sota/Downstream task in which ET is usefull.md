@@ -16,6 +16,8 @@ Entity linking
 	- M. A. Rodríguez and M. J. Egenhofer. Determining semantic similarity among entity classes from different ontologies. TKDE, 15(2).
 	- T. Lin, O. Etzioni, et al. Entity linking at web scale. In Joint Workshop on Automatic Knowledge Base Construction and Web-scale Knowledge Extraction.
 	- G. Durrett and D. Klein. A joint model for entity analysis: Coreference, typing, and linking. TACL.
+	- Nitish Gupta, Sameer Singh, and Dan Roth. 2017. Entity linking via joint encoding of types, descriptions, and context
+	- Chabchoub, M.; Gagnon, M.; and Zouaq, A. 2016. Collective disambiguation and semantic annotation for entity linking and typing
 
 Entity Recommentation
 
@@ -34,6 +36,7 @@ knowledge base construction / population
 	- (Carlson et al., 2010) 
 	- M. Dredze, P. McNamee, D. Rao, A. Gerber, and T. Finin. Entity disambiguation for knowledge base population. In COLING
 	- R. Bunescu and R. J. Mooney. A shortest path dependency kernel for relation extraction. In HLT-EMNLP.
+	- Benjamin Roth, Nicholas Monath, David Belanger, Emma Strubell, Patrick Verga, and Andrew McCallum. 2015
 
 KB completion
 
@@ -57,7 +60,9 @@ Relation extraction
 	- 2012 Ling - Fine-Grained Entity Recognition
 	- R. Bunescu and R. J. Mooney. A shortest path dependency kernel for relation extraction. In HLT-EMNLP.
 	- Mitchell Koch, John Gilmer, Stephen Soderland, and Daniel S. Weld. 2014. Type-aware distantly supervised relation extraction with linked arguments. In Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)
+	- Liu, Y.; Liu, K.; Xu, L.; and Zhao, J. 2014. Exploring fine-grained entity type constraints for distantly supervised relation extraction.
 	- T. Mitchell, W. Cohen, E. Hruschka, P. Talukdar, J. Betteridge, A. Carlson, B. Dalvi, M. Gardner, B. Kisiel, J. Krishnamurthy, N. Lao, K. Mazaitis, T. Mohamed, N. Nakashole, E. Platanios, A. Ritter, M. Samadi, B. Settles, R. Wang, D. Wijaya, A. Gupta, X. Chen, A. Saparov, M. Greaves, and J. Welling. 2015. Neverending learning.
+	- Yadollah Yaghoobzadeh, Heike Adel, and Hinrich Schutze. 2017b. Noise mitigation for neural entity ¨ typing and relation extraction
 
 query analysis
 	
@@ -76,6 +81,13 @@ question answering
 	- A. Fader, L. Zettlemoyer, and O. Etzioni. Open question answering over curated and extracted knowledge bases. KDD, 2014
 	- 2015 Dong - A Hybrid Neural Model for Type Classification of Entity Mentions
 	- H. Sun, H. Ma, W.-t. Yih, C.-T. Tsai, J. Liu, and M.-W. Chang. Open domain question answering via semantic enrichment. In WWW
+	- Semih Yavuz, Izzeddin Gur, Yu Su, Mudhakar Srivatsa, and Xifeng Yan. 2016. Improving semantic parsing via answer type inference
+	- Rajarshi Das, Manzil Zaheer, Siva Reddy, and Andrew McCallum. 2017. Question answering on knowledge bases and text using universal schema and memory networks
+	- Johannes Welbl, Pontus Stenetorp, and Sebastian Riedel. 2017. Constructing datasets for multi-hop reading comprehension across documents. arXiv preprint arXiv:1710.06481.
+
+Question search 
+	
+	- Jeffrey Dalton, Laura Dietz, and James Allan. 2014. Entity query feature expansion using knowledge base links
 
 semantic search
 

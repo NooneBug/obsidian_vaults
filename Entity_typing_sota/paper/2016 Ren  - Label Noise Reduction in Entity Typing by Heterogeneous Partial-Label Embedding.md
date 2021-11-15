@@ -1,6 +1,6 @@
 https://arxiv.org/pdf/1602.05307.pdf
 
-*Define a new task, Label Noise Reduction in Entity Typing (LNR), to be the automatic identification of correct type labels (type-paths) for training examples, given the set of candidate type labels obtained by distant supervision with a given type hierarchy. The unknown type labels for individual entity mentions and the semantic similarity between entity types pose unique challenges for solving the LNR task.*
+*Define a new task, Label Noise Reduction in Entity Typing (LNR), to be the automatic identification of correct type labels (type-paths) for training examples, given the set of candidate type labels obtained by [[Distant Supervision]] with a given type hierarchy. The unknown type labels for individual entity mentions and the semantic similarity between entity types pose unique challenges for solving the LNR task.*
 
 Defines noise as [[Noise Definition - SIngle Path vs Multi-Path]], this definition has some problems [[Noise Definition Problems - Single Path vs Multi Path]]
 

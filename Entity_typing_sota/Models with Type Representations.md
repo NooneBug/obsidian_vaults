@@ -9,3 +9,7 @@ The first paper that uses type representation in ET is [[2015 Yogatama - Embeddi
 Then [[2016 Ma - Label Embedding for Zero-shot Fine-grained Named Entity Typing]] extends Yogatama's work introducing unseen label representation
 
 [[2016 Ren  - Label Noise Reduction in Entity Typing by Heterogeneous Partial-Label Embedding]] [[2016 Ren - AFET, Automatic Fine-Grained Entity Typing by Hierarchical Partial-Label Embedding]] [[2017 Abishek - Fine-Grained Entity Type Classification by Jointly Learning Representations and Label Embeddings]] learn runtime labels vectors and use dot product to produce a similarity score with the mention
+
+[[2017 Rabinovich - Fine-Grained Entity Typing with High-Multiplicity Assignments]] uses type cooccurrence and a Poset of types to encode types 
+
+[[2017 Shimaoka - Neural Architectures for Fine-grained Entity Type Classification]] uses a simple hierarchical representation: one-hot encodings contain a 1 on the i-esim dimension (to represent the i-esim type) and a 1 on each ancestor of the i-esim type

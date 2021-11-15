@@ -4,7 +4,7 @@ They can be:
 
 [[Encoders - Neural Based Models - Recurrent architectures]]
 [[Encoders - Pretrained Word Embeddings]]
-
+[[Encoders - Convolutional Networks]]
 
 
 #encoder

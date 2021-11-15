@@ -1,0 +1,1 @@
+Distant supervision is a technique to obtain annotated data without the direct action of a human. Generally use a restricted set of manually curated annotated examples to approximate / learn the annotation procedure and then is used to produce a high number of automatically annotated examples

@@ -10,8 +10,12 @@ Macro Examples
 2015 Yogatama - Embedding Methods for Fine Grained Entity Type Classification : .679
 2016 Ren - AFET, Automatic Fine-Grained Entity Typing by Hierarchical Partial-Label Embedding : .693
 2017 Abishek - Fine-Grained Entity Type Classification by Jointly Learning Representations and Label Embeddings : .812
+2017 Shimaoka - Neural Architectures for Fine-grained Entity Type Classification: .7897
+2018 Murty - Hierarchical Losses and New Resources for Fine-grained Entity Typing and Linking: .783
+
 
 Micro
+
 2012 Ling - Fine-Grained Entity Recognition : .655
 2012 Yosef - HYENA, Hierarchical Type Classification for Entity Names : .536
 2014 Gillick - Context-Dependent Fine-Grained Entity Type Tagging: .631
@@ -19,5 +23,8 @@ Micro
 2015 Yogatama - Embedding Methods for Fine Grained Entity Type Classification : .657
 2016 Ren - AFET, Automatic Fine-Grained Entity Typing by Hierarchical Partial-Label Embedding : .664
 2017 Abishek - Fine-Grained Entity Type Classification by Jointly Learning Representations and Label Embeddings : .774
+2017 Shimaoka - Neural Architectures for Fine-grained Entity Type Classification: .7536
+2018 Murty - Hierarchical Losses and New Resources for Fine-grained Entity Typing and Linking: .754
+
 
 #performance 
