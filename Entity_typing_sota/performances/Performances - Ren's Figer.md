@@ -3,7 +3,7 @@ Performances about [[Dataset - Ren's FIGER]]
 All computed by [[2016 Ren - AFET, Automatic Fine-Grained Entity Typing by Hierarchical Partial-Label Embedding]], since they regenerated all datasets
 
 | Paper                                                                                                           | Macro Example | Micro |
-| --------------------------------------------------------------------------------------------------------------- | ------------- | ----- |
+|:--------------------------------------------------------------------------------------------------------------- | ------------- | ----- |
 | 2012 Ling - Fine-Grained Entity Recognition                                                                     | .692          | .655  |
 | 2012 Yosef - HYENA, Hierarchical Type Classification for Entity Names                                           | .566          | .536  |
 | 2014 Gillick - Context-Dependent Fine-Grained Entity Type Tagging                                               | .691          | .631  |
@@ -15,6 +15,5 @@ All computed by [[2016 Ren - AFET, Automatic Fine-Grained Entity Typing by Hiera
 | 2018 Murty - Hierarchical Losses and New Resources for Fine-grained Entity Typing and Linking                   | .783          | .79   |
 | 2018 Xu - Neural Fine-Grained Entity Type Classification with Hierarchy-Aware Loss                              | .819          | .79   |
 |                                                                                                                 |               |       |
-
 
 #performance 

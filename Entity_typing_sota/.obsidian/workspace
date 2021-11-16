@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "performances/Performances - Ren's Figer.md",
+            "file": "performances/Performances - Ren's Ontonotes.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "performances/Performances - Ren's Figer.md",
+                "file": "performances/Performances - Ren's Ontonotes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,15 +124,15 @@
   },
   "active": "94a0c9749672074f",
   "lastOpenFiles": [
+    "performances/Performances - Ren's Ontonotes.md",
     "performances/Performances - Ren's Figer.md",
+    "performances/Performances - Ontonotes v5 - GFT.md",
+    "performances/Performances - FIGER.md",
+    "performances/Performances - Ren's BBN.md",
     "datasets/Dataset - Ren's FIGER.md",
     "paper/2018 Xu - Neural Fine-Grained Entity Type Classification with Hierarchy-Aware Loss.md",
     "datasets/Dataset - Ren's Ontonotes.md",
-    "performances/Performances - Ren's Ontonotes.md",
     "encoders/Encoders - Neural Based Models - Recurrent architectures.md",
-    "encoders/Encoders - Neural Based Models - Attention based architectures.md",
-    "encoders/Encoders - Pretrained Word Embeddings.md",
-    "denoising/Noise Definition - Out-of-context.md",
-    "denoising/Noise Definition - Overly Specific.md"
+    "encoders/Encoders - Neural Based Models - Attention based architectures.md"
   ]
 }
