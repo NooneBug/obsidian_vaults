@@ -15,7 +15,7 @@ The model starts from [[2017 Shimaoka - Neural Architectures for Fine-grained En
 
 This approach uses [[Inference Method - Threshold or Max]] 
 
-As a loss function, they simply divide the logistic regression loss into three losses, one fr each abstraction level of types. Given an abstraction level, its weights are updated only if a positive type of that abstraction level is in the groundtruth
+As a loss function authors use [[Losses - Choi Loss]]
 
 The approach is evaluated on [[Dataset - Ren's Ontonotes]] and [[Dataset - UFET]]
 

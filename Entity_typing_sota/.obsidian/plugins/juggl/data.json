@@ -93,7 +93,7 @@
         "color": "white"
       },
       "showInPane": true,
-      "show": true,
+      "show": false,
       "size": 1
     },
     {
@@ -106,7 +106,7 @@
         "color": "white"
       },
       "showInPane": true,
-      "show": true,
+      "show": false,
       "size": 1
     }
   ],
@@ -168,7 +168,7 @@
     "limit": 10000,
     "hoverEdges": false,
     "layout": {
-      "name": "dagre",
+      "name": "grid",
       "animate": true,
       "animationDuration": 500,
       "spacingFactor": 0.5,

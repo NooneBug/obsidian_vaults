@@ -1,5 +1,7 @@
 First datasets for Ultra Fine Entity Typing, introduced by [[2018 Choi - Ultra-Fine Entity Typing]]
 
+[[Performances - UFET]]
+
 First 6000 sentences are annotated with crowdsource, from GigaWord, Ontonotes and web articles, annotations are pair-agreed and each type is accepted only if at least 3/5 annotators agree
 
 To select mentions a constituency parser and a coreference resolution system is used (this is probably the motivation behind the fact that only this datasets has pronouns as mentions), the dataset provides a well-rounded benchmark with roughly 40% pronouns, 38% nominal expressions, and 22% named entity mentions. The case of pronouns is particularly interesting, since the mention itself provides little information.

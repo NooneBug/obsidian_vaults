@@ -2,5 +2,10 @@
   "alwaysUpdateLinks": true,
   "promptDelete": false,
   "newFileLocation": "current",
-  "readableLineLength": false
+  "readableLineLength": true,
+  "spellcheck": true,
+  "spellcheckDictionary": [
+    "perceptron",
+    "embeddings"
+  ]
 }

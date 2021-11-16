@@ -7,7 +7,7 @@ http://nlp.csai.tsinghua.edu.cn/~lyk/publications/aaai2018_entitytyping.pdf
 
 ![[2018_xin_architeture.png]]
 
-They propose a recurrent neural network to encode the input sentence and the and a neural network to encode entity information from a KB. [[Encoders - Neural Based Models - Recurrent architectures]], [[Encoders - Neural Based Models - Attention based architectures]] 
+They propose a recurrent neural network to encode the input sentence and the and a neural network to encode entity information from a KB. [[Encoders - Neural Based Models - Recurrent architectures]], [[Encoders - Neural Based Models - Attention based architectures]] , [[Encoders - Pretrained Word Embeddings]]
 
 The sentence encoder is composed of three components:
 
@@ -15,7 +15,7 @@ The sentence encoder is composed of three components:
 	- an KB entity encoder (TransE) 
 	- the context representations are obtained by applying an LSTM (different from left and right context).
 
-This approach als used three different definition of attention:
+This approach also used three different definition of attention:
 
 	- The one from 2017 Shimaoka
 	- An attention approach applied only on mention representation

@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "94a0c9749672074f",
+        "id": "ef98cd69912c68f0",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "performances/Performances - Ren's Ontonotes.md",
+            "file": "performances/Performances - UFET.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cnn",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "performances/Performances - Ren's Ontonotes.md",
+                "file": "performances/Performances - UFET.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,25 +114,24 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "94a0c9749672074f",
+  "active": "ef98cd69912c68f0",
   "lastOpenFiles": [
-    "performances/Performances - Ren's Ontonotes.md",
-    "performances/Performances - Ren's Figer.md",
-    "performances/Performances - Ontonotes v5 - GFT.md",
-    "performances/Performances - FIGER.md",
-    "performances/Performances - Ren's BBN.md",
-    "datasets/Dataset - Ren's FIGER.md",
-    "paper/2018 Xu - Neural Fine-Grained Entity Type Classification with Hierarchy-Aware Loss.md",
-    "datasets/Dataset - Ren's Ontonotes.md",
-    "encoders/Encoders - Neural Based Models - Recurrent architectures.md",
-    "encoders/Encoders - Neural Based Models - Attention based architectures.md"
+    "performances/Performances - UFET.md",
+    "paper/2018 Choi - Ultra-Fine Entity Typing.md",
+    "datasets/Dataset - UFET.md",
+    "paper/2019 Lopez - Fine-Grained Entity Typing in Hyperbolic Space.md",
+    "Losses - Choi Loss.md",
+    "Ranking Loss.md",
+    "Models with Type Representations.md",
+    "paper/2017 Shimaoka - Neural Architectures for Fine-grained Entity Type Classification.md",
+    "paper/2018 Zhou - Zero-Shot Open Entity Typing as Type-Compatible Grounding.md",
+    "Zero Shot Fine Grained Entity Typing.md"
   ]
 }

@@ -12,7 +12,7 @@ Country, City, Street, Territory, Region, Water, Mountain, and Artifact (e.g., m
 athlete, politician/government, clergy, businessperson, entertainer/artist, lawyer, doctor/scientist, and police.
 [[2002 Fleischman - Fine Grained Classification of Named Entities]]
 
-CoNLL 2002 and CoNLL 2003 NE Recognition Task (4 classes)
+CoNLL 2002 and [[2003 Sang - Introduction to the CoNLL-2003 Shared Task, Language-Independent Named Entity Recognition]]
 
 ACE 2005  mention detection task  (7 classes)
 

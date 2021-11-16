@@ -100,3 +100,8 @@ synctactic patterns
 taxonomy induction
 
 	- snow 2006
+	
+Textual Entailment
+	
+	- Dagan 2010,
+	- Dagan 2013
