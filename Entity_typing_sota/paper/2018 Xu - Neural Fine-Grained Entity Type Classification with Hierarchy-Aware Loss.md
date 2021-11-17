@@ -8,7 +8,7 @@ Authors use [[Noise Definition - SIngle Path vs Multi-Path]], assuming that only
 
 ![[2018_xu_architecture.png]]
 
-This approach represent words with [[Encoders - Pretrained Word Embeddings]]
+This approach represent words with [[Encoders - Pretrained Word Embeddings]] (GloVe)
 
 - Mentions are represented by averaging [[Encoders - Pretrained Word Embeddings]] and also by LSTM [[Encoders - Neural Based Models - Recurrent architectures]]
 

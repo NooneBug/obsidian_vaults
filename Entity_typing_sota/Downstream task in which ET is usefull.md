@@ -16,8 +16,12 @@ Entity linking
 	- M. A. Rodríguez and M. J. Egenhofer. Determining semantic similarity among entity classes from different ontologies. TKDE, 15(2).
 	- T. Lin, O. Etzioni, et al. Entity linking at web scale. In Joint Workshop on Automatic Knowledge Base Construction and Web-scale Knowledge Extraction.
 	- G. Durrett and D. Klein. A joint model for entity analysis: Coreference, typing, and linking. TACL.
-	- Nitish Gupta, Sameer Singh, and Dan Roth. 2017. Entity linking via joint encoding of types, descriptions, and context
+	- Xiao Ling, Sameer Singh, and Daniel S. Weld. Design challenges for entity linking. TACL,
 	- Chabchoub, M.; Gagnon, M.; and Zouaq, A. 2016. Collective disambiguation and semantic annotation for entity linking and typing
+	- Nitish Gupta, Sameer Singh, and Dan Roth. 2017. Entity linking via joint encoding of types, descriptions, and context
+	- Jonathan Raiman and Olivier Raiman. 2018. Deeptype: Multilingual entity linking by neural type system evolution. In Proceedings of the Thirty-Second AAAI Conference on Artificial Intelligence, (AAAI18), the 30th innovative Applications of Artificial Intelligence (IAAI-18), and the 8th AAAI Symposium on Educational Advances in Artificial Intelligence (EAAI-18)
+	- Onoe & Durret 2019 : Fine-Grained Entity Typing for Domain Independent Entity Linking
+	
 
 Entity Recommentation
 
@@ -84,6 +88,7 @@ question answering
 	- Semih Yavuz, Izzeddin Gur, Yu Su, Mudhakar Srivatsa, and Xifeng Yan. 2016. Improving semantic parsing via answer type inference
 	- Rajarshi Das, Manzil Zaheer, Siva Reddy, and Andrew McCallum. 2017. Question answering on knowledge bases and text using universal schema and memory networks
 	- Johannes Welbl, Pontus Stenetorp, and Sebastian Riedel. 2017. Constructing datasets for multi-hop reading comprehension across documents. arXiv preprint arXiv:1710.06481.
+	- Sangdo Han, Soonchoul Kwon, Hwanjo Yu, and Gary Geunbae Lee. 2017. Answer ranking based on named entity types for question answering. In Proceedings of the 11th International Conference on Ubiquitous Information Management and Communication
 
 Question search 
 	

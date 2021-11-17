@@ -15,6 +15,10 @@ All computed by [[2016 Ren - AFET, Automatic Fine-Grained Entity Typing by Hiera
 | 2018 Murty - Hierarchical Losses and New Resources for Fine-grained Entity Typing and Linking                      | .783  | .79   |
 | 2018 Xu - Neural Fine-Grained Entity Type Classification with Hierarchy-Aware Loss                                 | .819  | .79   |
 | 2018 Zhang - Fine-grained Entity Typing through Increased Discourse Context and Adaptive Classification Thresholds | .7867 | .7552 |
-| 2018 Yuan - OTyper , A Neural Architecture for Open Named Entity Typing                                            | .779  | .759  | 
+| 2018 Yuan - OTyper , A Neural Architecture for Open Named Entity Typing                                            | .779  | .759  |
+| 2019 Wu - Modeling Noisy Hierarchical Types in Fine-Grained Entity Typing, A Content-Based Weighting Approach      | .818  | .780  |
+| 2019 Sahay - A Type-Specific Attention Model For Fine Grained Entity Type Classification                           | .7853 | .7479 |
+| 2019 Dai - Improving Fine-grained Entity Typing with Entity Linking                                                | .871  | .846  |
+|                                                                                                                    |       |       |
 
 #performance 

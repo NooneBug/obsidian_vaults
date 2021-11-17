@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "performances/Performances - UFET.md",
+            "file": "performances/Performances - Ren's BBN.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "elmo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "performances/Performances - UFET.md",
+                "file": "performances/Performances - Ren's BBN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -123,15 +124,15 @@
   },
   "active": "ef98cd69912c68f0",
   "lastOpenFiles": [
-    "performances/Performances - UFET.md",
-    "paper/2018 Choi - Ultra-Fine Entity Typing.md",
-    "datasets/Dataset - UFET.md",
-    "paper/2019 Lopez - Fine-Grained Entity Typing in Hyperbolic Space.md",
-    "Losses - Choi Loss.md",
-    "Ranking Loss.md",
+    "performances/Performances - Ren's BBN.md",
+    "performances/Performances - Ren's Figer.md",
+    "paper/2019 Dai - Improving Fine-grained Entity Typing with Entity Linking.md",
+    "encoders/Encoders - Pretrained Word Embeddings.md",
     "Models with Type Representations.md",
-    "paper/2017 Shimaoka - Neural Architectures for Fine-grained Entity Type Classification.md",
-    "paper/2018 Zhou - Zero-Shot Open Entity Typing as Type-Compatible Grounding.md",
-    "Zero Shot Fine Grained Entity Typing.md"
+    "encoders/Encoders - Neural Based Models - Recurrent architectures.md",
+    "paper/2019 Xiong - Imposing Label-Relational Inductive Bias for Extremely Fine-Grained Entity Typing.md",
+    "datasets/Dataset - Ren's FIGER.md",
+    "paper/2019 Sahay - A Type-Specific Attention Model For Fine Grained Entity Type Classification.md",
+    "encoders/Encoders - Neural Based Models - Attention based architectures.md"
   ]
 }

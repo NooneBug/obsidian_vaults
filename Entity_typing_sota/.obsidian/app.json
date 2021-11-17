@@ -6,6 +6,16 @@
   "spellcheck": true,
   "spellcheckDictionary": [
     "perceptron",
-    "embeddings"
+    "embeddings",
+    "cooccurrence",
+    "encodings",
+    "dataset",
+    "denoise",
+    "denoised",
+    "denoising",
+    "autoencoder",
+    "labelset",
+    "overfit",
+    "missclassify"
   ]
 }
