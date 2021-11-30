@@ -8,4 +8,6 @@ The basic idea is that when an entity mention is placed in a sentence, only a sm
 
 This definition has counterfactuals : [[Noise Definition Problems - Single Path vs Multi Path]]
 
+There is a [[Noise Definition - Single Ancestor vs Multi Ancestor | lighter definition]]
+
 	

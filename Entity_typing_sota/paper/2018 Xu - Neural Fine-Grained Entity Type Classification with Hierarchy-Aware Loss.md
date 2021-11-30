@@ -4,15 +4,11 @@ https://arxiv.org/pdf/1803.03378.pdf
 
 First paper that explicitly talking about [[Noise Definition - Out-of-context]] and [[Noise Definition - Overly Specific]]
 
-Authors use [[Noise Definition - SIngle Path vs Multi-Path]], assuming that only single path types are to predict and so casting the multilabel entity typing task in a single label task, using the terminal node for each possible single-path and inferring the ancestors after. 
+Authors use [[Noise Definition - SIngle Path vs Multi-Path]], assuming that only single path types are to predict and so [[Dataset Modification - 2018 Xu - Multilabel to single label | casting the multilabel entity typing task in a single label task]], using the terminal node for each possible single-path and inferring the ancestors after. 
 
 ![[2018_xu_architecture.png]]
 
-This approach represent words with [[Encoders - Pretrained Word Embeddings]] (GloVe)
-
-- Mentions are represented by averaging [[Encoders - Pretrained Word Embeddings]] and also by LSTM [[Encoders - Neural Based Models - Recurrent architectures]]
-
-- Contexts are represented through Bi-LSTM over word vectors [[Encoders - Neural Based Models - Recurrent architectures]][[Encoders - Pretrained Word Embeddings]] and word level attention [[Encoders - Neural Based Models - Attention based architectures]]
+The encoder is [[Xu Encoder]]
 
 Authors propose two different losses:
 

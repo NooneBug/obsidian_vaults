@@ -46,6 +46,10 @@ KB completion
 
 	- Dong 2014
 	- H. Ji and R. Grishman. Knowledge base population: Successful approaches and challenges. In ACL-HLT
+	
+KB-embedding:
+	
+	-  T. Dong, Z. Wang, J. Li, C. Bauckhage, and A. Cremers, “Triple classification using regions and fine-grained entity typing,” in Proceedings of the Thirty-Third AAAI Conference on Artificial Intelligence. AAAI Press, 2019.
 
 Machine Translation
 
