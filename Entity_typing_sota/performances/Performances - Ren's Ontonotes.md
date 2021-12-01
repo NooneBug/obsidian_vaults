@@ -21,6 +21,9 @@ All computed by [[2016 Ren - AFET, Automatic Fine-Grained Entity Typing by Hiera
 | 2019 Xiong - Imposing Label-Relational Inductive Bias for Extremely Fine-Grained Entity Typing                       | .778  | .722  |
 | 2019 Onoe - Learning to Denoise Distantly-Labeled Data for Entity Typing                                             | .845  | .792  |
 | 2020 Ren - Fine-Grained Entity Typing with Hierarchical Inference                                                    | .774  | .725  |
-| 2020 Zhang - Learning with Noise, Improving Distantly-Supervised Fine-grained Entity Typing via Automatic Relabeling | .788  | .730  | 
+| 2020 Zhang - Learning with Noise, Improving Distantly-Supervised Fine-grained Entity Typing via Automatic Relabeling | .788  | .730  |
+| 2020 Ren - Fine-Grained Entity Typing with Hierarchical Inference                                                    | .730  | .681  |
+| 2020 Lopez - A Fully Hyperbolic Neural Model for Hierarchical Multi-Class Classification                             | .778  | .722  |
+| 2020 Shi - Alleviate Dataset Shift Problem in Fine-grained Entity Typing with Virtual Adversarial Training           | .864  | .812  | 
 
 #performance 

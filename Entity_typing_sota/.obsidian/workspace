@@ -39,8 +39,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "xu",
-                "matchingCase": false,
+                "query": "",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -52,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 342
+    "width": 423
   },
   "right": {
     "id": "53c4873889e075c6",
@@ -124,14 +124,14 @@
   "active": "52fa80d58ad936cc",
   "lastOpenFiles": [
     "performances/Performances - Ren's Ontonotes.md",
-    "performances/Performances - Ren's Figer.md",
     "performances/Performances - Ren's BBN.md",
     "datasets/Dataset - Ren's BBN.md",
-    "paper/2020 Zhang - Learning with Noise, Improving Distantly-Supervised Fine-grained Entity Typing via Automatic Relabeling.md",
-    "paper/2018 Xu - Neural Fine-Grained Entity Type Classification with Hierarchy-Aware Loss.md",
-    "encoders/Encoders - Neural Based Models - Attention based architectures.md",
-    "paper/2018 Xin - Improving Neural Fine-Grained Entity Typing with Knowledge Attention.md",
-    "paper/2019 Chen - Improving Distantly-supervised Entity Typing with Compact Latent Space Clustering.md",
-    "encoders/Xu Encoder.md"
+    "paper/2020 Shi - Alleviate Dataset Shift Problem in Fine-grained Entity Typing with Virtual Adversarial Training.md",
+    "encoders/Encoders - Neural Based Models - BERT Based Arhitectures.md",
+    "encoders/Encoders - Neural Based Models - ELMo based architectures.md",
+    "Downstream task in which ET is usefull.md",
+    "paper/2016 Ren  - Label Noise Reduction in Entity Typing by Heterogeneous Partial-Label Embedding.md",
+    "paper/2020 Ren - Fine-Grained Entity Typing with Hierarchical Inference.md",
+    "paper/2020 Sofronova - Entity Typing based on RDF2Vec using Supervised and Unsupervised Methods.md"
   ]
 }

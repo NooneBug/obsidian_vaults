@@ -16,6 +16,8 @@ All computed by [[2016 Ren - AFET, Automatic Fine-Grained Entity Typing by Hiera
  | 2019 Wu - Modeling Noisy Hierarchical Types in Fine-Grained Entity Typing, A Content-Based Weighting Approach        | .764  | .777  |
  | 2019 Lin - An Attentive Fine-Grained Entity Typing Model with Latent Type Representation                             | .793  | .781  |
  | 2019 Dai - Improving Fine-grained Entity Typing with Entity Linking                                                  | .892  | .896  |
- | 2020 Zhang - Learning with Noise, Improving Distantly-Supervised Fine-grained Entity Typing via Automatic Relabeling | .814  | .815      |
+ | 2020 Zhang - Learning with Noise, Improving Distantly-Supervised Fine-grained Entity Typing via Automatic Relabeling | .814  | .815  |
+ | 2020 Ren - Fine-Grained Entity Typing with Hierarchical Inference                                                    | .797  | .805  |
+ | 2020 Shi - Alleviate Dataset Shift Problem in Fine-grained Entity Typing with Virtual Adversarial Training           | .830  | .838      |
 
 #performance 

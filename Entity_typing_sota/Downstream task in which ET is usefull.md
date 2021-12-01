@@ -21,6 +21,7 @@ Entity linking
 	- Nitish Gupta, Sameer Singh, and Dan Roth. 2017. Entity linking via joint encoding of types, descriptions, and context
 	- Jonathan Raiman and Olivier Raiman. 2018. Deeptype: Multilingual entity linking by neural type system evolution. In Proceedings of the Thirty-Second AAAI Conference on Artificial Intelligence, (AAAI18), the 30th innovative Applications of Artificial Intelligence (IAAI-18), and the 8th AAAI Symposium on Educational Advances in Artificial Intelligence (EAAI-18)
 	- Onoe & Durret 2019 : Fine-Grained Entity Typing for Domain Independent Entity Linking
+	- Xiyuan Yang, Xiaotao Gu, Sheng Lin, Siliang Tang, Yueting Zhuang, Fei Wu, Zhigang Chen, Guoping Hu, and Xiang Ren. Learning dynamic context augmentation for global entity linking In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing
 	
 
 Entity Recommentation
@@ -30,6 +31,7 @@ Entity Recommentation
 Event extraction 
 
 	- Ji 2008
+	- Xiao Ding, Yue Zhang, Ting Liu, and Junwen Duan. Deep learning for event-driven stock prediction. In Twenty-fourth international joint conference on artificial intelligence
 
 Information Extraction:
 	

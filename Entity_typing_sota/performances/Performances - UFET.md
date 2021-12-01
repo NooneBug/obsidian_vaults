@@ -7,5 +7,6 @@ Performances on [[Dataset - UFET]]
 | 2019 Lopez - Fine-Grained Entity Typing in Hyperbolic Space                                    | .32   |       |
 | 2019 Xiong - Imposing Label-Relational Inductive Bias for Extremely Fine-Grained Entity Typing | .369  |       |
 | 2019 Onoe - Learning to Denoise Distantly-Labeled Data for Entity Typing                       | .402  |       |
+| 2020 Lopez - A Fully Hyperbolic Neural Model for Hierarchical Multi-Class Classification]]     | .382  |       |
 
 #performance 

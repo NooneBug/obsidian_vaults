@@ -1,4 +1,4 @@
-https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9085112&tag=1
+https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9085112
 
 *Recent models do not explicitly consider the hierarchical structure of the type set in type inference. Some state-of-the-art models transform the problem from a multi-label classification to a single-label classification, which results in the confirmation bias. Therefore, we propose a neural model that can effectively capture entity information from the context and the mention aspects and hierarchical inference, which hierarchically infers types layer by layer in type set. In the optimization process, we also introduce a penalty term that can effectively alleviate the side effect of the confirmation bias and label noise introduced by distant supervision*
 

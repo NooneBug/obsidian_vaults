@@ -12,7 +12,7 @@ https://www.ijcai.org/Proceedings/2020/0527.pdf
 
 "*The learning  purpose is minimizing the Kullback-Leibler (KL) divergence between the predicted distribution and the pseudo-truth label distribution. Finally, **we take the label with the highest value in $\tilde p$ as the only one pseudo-truth label**. In order to ensure the rationality of the final estimated pseudo-truth distribution, we integrate the golden-noisy information during the training process with two specific designed constraints. In this way, our method can effectively relabel the noisy distant samples during training, thus improving the predictive performance."*
 
-This approach is a [[Models Robust to Noise | model robust to noise]] and use the [[Dataset Modification - 2018 Xu - Multilabel to single label | Xu dataset modification (Multilabel to single label)]]
+This approach is a [[Models Robust to Noise | model robust to noise]] and use the [[Dataset Modification - 2018 Xu - Multilabel to single label | Xu dataset modification (Multilabel to single label)]] *"The basic assumption of our idea is: for each mention-context pair (m, c), there exists only one most appropriate type given the candidate set T"*
 
 The model is composed as follows:
 
