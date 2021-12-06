@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "performances/Performances - Ren's Ontonotes.md",
+            "file": "performances/Performances - Ren's Figer.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "performances/Performances - Ren's Ontonotes.md",
+                "file": "performances/Performances - Ren's Figer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,15 +123,15 @@
   },
   "active": "52fa80d58ad936cc",
   "lastOpenFiles": [
-    "performances/Performances - Ren's Ontonotes.md",
+    "performances/Performances - Ren's Figer.md",
     "performances/Performances - Ren's BBN.md",
     "datasets/Dataset - Ren's BBN.md",
-    "paper/2020 Shi - Alleviate Dataset Shift Problem in Fine-grained Entity Typing with Virtual Adversarial Training.md",
-    "encoders/Encoders - Neural Based Models - BERT Based Arhitectures.md",
-    "encoders/Encoders - Neural Based Models - ELMo based architectures.md",
+    "paper/2020 Dai - Exploiting Semantic Relations for Fine-grained Entity Typing.md",
     "Downstream task in which ET is usefull.md",
-    "paper/2016 Ren  - Label Noise Reduction in Entity Typing by Heterogeneous Partial-Label Embedding.md",
-    "paper/2020 Ren - Fine-Grained Entity Typing with Hierarchical Inference.md",
-    "paper/2020 Sofronova - Entity Typing based on RDF2Vec using Supervised and Unsupervised Methods.md"
+    "paper/2020 Zhang - Learning with Noise, Improving Distantly-Supervised Fine-grained Entity Typing via Automatic Relabeling.md",
+    "performances/Performances - FIGER.md",
+    "performances/Performances - Ren's Ontonotes.md",
+    "paper/2020 Shi - Alleviate Dataset Shift Problem in Fine-grained Entity Typing with Virtual Adversarial Training.md",
+    "encoders/Encoders - Neural Based Models - BERT Based Arhitectures.md"
   ]
 }

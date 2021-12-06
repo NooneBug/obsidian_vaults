@@ -18,6 +18,7 @@ All computed by [[2016 Ren - AFET, Automatic Fine-Grained Entity Typing by Hiera
  | 2019 Dai - Improving Fine-grained Entity Typing with Entity Linking                                                  | .892  | .896  |
  | 2020 Zhang - Learning with Noise, Improving Distantly-Supervised Fine-grained Entity Typing via Automatic Relabeling | .814  | .815  |
  | 2020 Ren - Fine-Grained Entity Typing with Hierarchical Inference                                                    | .797  | .805  |
- | 2020 Shi - Alleviate Dataset Shift Problem in Fine-grained Entity Typing with Virtual Adversarial Training           | .830  | .838      |
+ | 2020 Shi - Alleviate Dataset Shift Problem in Fine-grained Entity Typing with Virtual Adversarial Training           | .830  | .838  |
+ | 2020 Dai - Exploiting Semantic Relations for Fine-grained Entity Typing                                              | .9147 | .9170 |
 
 #performance 

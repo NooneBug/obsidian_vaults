@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "papers/2015 Plank - Non-canonical language is not harder to annotate than canonical language.md",
+            "file": "papers/2016 Plank - What to do about non-standard (or non-canonical) language in NLP.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "papers/2015 Plank - Non-canonical language is not harder to annotate than canonical language.md",
+                "file": "papers/2016 Plank - What to do about non-standard (or non-canonical) language in NLP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,12 +88,12 @@
   },
   "active": "2b15fba2247d2618",
   "lastOpenFiles": [
+    "papers/2016 Plank - What to do about non-standard (or non-canonical) language in NLP.md",
     "papers/2015 Plank - Non-canonical language is not harder to annotate than canonical language.md",
     "Canonical Language Definition.md",
     "Domain Definition - Canonical vs Non-canonical.md",
     "Canonical Language Definision.md",
     "Untitled.md",
-    "papers/2016 Plank - What to do about non-standard (or non-canonical) language in NLP.md",
     "Paper Related Work.md",
     "Domain Adaptation.md",
     "papers/2018 Ramponi - Neural Unsupervised Domain Adaptation in NLP, A Survey.md",
