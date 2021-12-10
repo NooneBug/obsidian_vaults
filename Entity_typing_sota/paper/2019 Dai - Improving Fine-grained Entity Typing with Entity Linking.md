@@ -30,3 +30,4 @@ Authors use a variant of the [[Special Hinge Loss - 2017 Abishek]], simply the e
 The approach is experimented on [[Dataset - Ren's FIGER]] and [[Dataset - Ren's BBN]]
 
 #paper 
+#entity_linking 

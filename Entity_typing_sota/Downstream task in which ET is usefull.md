@@ -2,7 +2,7 @@ Motivations in Sekine 2008
 
 Coreference resolution 
 	
-	- (Recasens et al., 2013), 
+	- Recasens M, de Marneffe MC, Potts C (2013) The life and death of discourse entities: Identifying singleton mentions. In: Proceedings of the 2013 conference of the North American chapter of the association for computational linguistics: human language technologies
 	- G. Durrett and D. Klein. A joint model for entity analysis: Coreference, typing, and linking. TACL.
 
 Entity Disambiguation
@@ -18,10 +18,14 @@ Entity linking
 	- G. Durrett and D. Klein. A joint model for entity analysis: Coreference, typing, and linking. TACL.
 	- Xiao Ling, Sameer Singh, and Daniel S. Weld. Design challenges for entity linking. TACL,
 	- Chabchoub, M.; Gagnon, M.; and Zouaq, A. 2016. Collective disambiguation and semantic annotation for entity linking and typing
-	- Nitish Gupta, Sameer Singh, and Dan Roth. 2017. Entity linking via joint encoding of types, descriptions, and context
+	- Nitish G, Sameer S, Dan R (2017) Entity linking via joint encoding of types, descriptions, and context. In: Proceedings of the conference on empirical methods in natural language processing, pp 2671–2680
 	- Jonathan Raiman and Olivier Raiman. 2018. Deeptype: Multilingual entity linking by neural type system evolution. In Proceedings of the Thirty-Second AAAI Conference on Artificial Intelligence, (AAAI18), the 30th innovative Applications of Artificial Intelligence (IAAI-18), and the 8th AAAI Symposium on Educational Advances in Artificial Intelligence (EAAI-18)
 	- Onoe & Durret 2019 : Fine-Grained Entity Typing for Domain Independent Entity Linking
 	- Xiyuan Yang, Xiaotao Gu, Sheng Lin, Siliang Tang, Yueting Zhuang, Fei Wu, Zhigang Chen, Guoping Hu, and Xiang Ren. Learning dynamic context augmentation for global entity linking In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing
+	
+Entity Search:
+	
+	- Ma D, Chen Y, Chang KCC, Du X, Xu C, Chang Y (2018) Leveraging fine-grained Wikipedia categories for entity search.
 	
 
 Entity Recommentation
@@ -37,16 +41,22 @@ Information Extraction:
 	
 	- M. Schmitz, R. Bart, S. Soderland, O. Etzioni, et al. Open language learning for information extraction. In EMNLP, 2012.
 
+Information Retrieval:
+	
+	- Ni Lao and William W Cohen. Relational retrieval using a combination of path-constrained random walks. Machine learning, 81(1):53–67, 2010.
+
 knowledge base construction / population
 
 	- (Carlson et al., 2010) 
 	- M. Dredze, P. McNamee, D. Rao, A. Gerber, and T. Finin. Entity disambiguation for knowledge base population. In COLING
 	- R. Bunescu and R. J. Mooney. A shortest path dependency kernel for relation extraction. In HLT-EMNLP.
+	- Xin Dong, Evgeniy Gabrilovich, Geremy Heitz, Wilko Horn, Ni Lao, Kevin Murphy, Thomas Strohmann, Shaohua Sun, and Wei Zhang. Knowledge vault: a web-scale approach to probabilistic knowledge fusion, KDD 2014
 	- Benjamin Roth, Nicholas Monath, David Belanger, Emma Strubell, Patrick Verga, and Andrew McCallum. 2015
+	
 
 KB completion
 
-	- Dong 2014
+	- Xin Dong, Evgeniy Gabrilovich, Geremy Heitz, Wilko Horn, Ni Lao, Kevin Murphy, Thomas Strohmann, Shaohua Sun, and Wei Zhang. Knowledge vault: a web-scale approach to probabilistic knowledge fusion, KDD 2014
 	- H. Ji and R. Grishman. Knowledge base population: Successful approaches and challenges. In ACL-HLT
 	
 KB-embedding:
@@ -82,6 +92,7 @@ query analysis
 
 question answering 
 	
+	- Deepak Ravichandran and Eduard Hovy. Learning surface text patterns for a question answering system. In Proceedings of the 40th annual meeting on association for computational linguistics, pages 41–47. Association for Computational Linguistics, 2002.
 	- Xin Li and Dan Roth. 2002. Learning question classifiers. In Proceedings of the 19th International Conference on Computational Linguistics - Volume 1, COLING ’02
 	- D. Mollá, M. Van Zaanen, D. Smith, et al. Named entity recognition for question answering. 2006.
 	- lee 2006

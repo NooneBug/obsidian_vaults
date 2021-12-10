@@ -13,3 +13,5 @@ Models with use attention mechanism in the input encoder
 [[2019 Sahay - A Type-Specific Attention Model For Fine Grained Entity Type Classification]]
 
 All models with [[Encoders - Neural Based Models - ELMo based architectures]]
+
+All models with [[Encoders - Neural Based Models - BERT Based Architectures]]

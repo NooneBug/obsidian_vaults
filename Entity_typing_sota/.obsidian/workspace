@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "performances/Performances - Ren's Figer.md",
+            "file": "paper/2021 Ali - Fine-Grained Named Entity Typing over Distantly Supervised Data via Refinement in Hyperbolic Space.md",
             "mode": "source"
           }
         }
@@ -39,8 +39,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": true,
+                "query": "bert",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "performances/Performances - Ren's Figer.md",
+                "file": "paper/2021 Ali - Fine-Grained Named Entity Typing over Distantly Supervised Data via Refinement in Hyperbolic Space.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,15 +123,15 @@
   },
   "active": "52fa80d58ad936cc",
   "lastOpenFiles": [
-    "performances/Performances - Ren's Figer.md",
-    "performances/Performances - Ren's BBN.md",
-    "datasets/Dataset - Ren's BBN.md",
-    "paper/2020 Dai - Exploiting Semantic Relations for Fine-grained Entity Typing.md",
+    "paper/2021 Ali - Fine-Grained Named Entity Typing over Distantly Supervised Data via Refinement in Hyperbolic Space.md",
     "Downstream task in which ET is usefull.md",
-    "paper/2020 Zhang - Learning with Noise, Improving Distantly-Supervised Fine-grained Entity Typing via Automatic Relabeling.md",
-    "performances/Performances - FIGER.md",
-    "performances/Performances - Ren's Ontonotes.md",
-    "paper/2020 Shi - Alleviate Dataset Shift Problem in Fine-grained Entity Typing with Virtual Adversarial Training.md",
-    "encoders/Encoders - Neural Based Models - BERT Based Arhitectures.md"
+    "paper/2021 Hou - Transfer learning for fine-grained entity typing.md",
+    "2021 Hou Literature References.md",
+    "paper/2018 Yaghoobzadeh - Multi-Multi-View Learning, Multilingual and Multi-Representation Entity Typing.md",
+    "paper/2016 Suzuki - Fine-grained named entity classification with wikipedia article vectors.md",
+    "datasets/Dataset - Ren's FIGER.md",
+    "paper/2018 - Transforming Wikipedia into a large-scale fine-grained entity type corpus..md",
+    "paper/2020 Lopez - A Fully Hyperbolic Neural Model for Hierarchical Multi-Class Classification.md",
+    "performances/Performances - Ren's Figer.md"
   ]
 }

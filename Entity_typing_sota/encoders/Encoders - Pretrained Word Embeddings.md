@@ -17,3 +17,6 @@ Glove
 [[2019 Xiong - Imposing Label-Relational Inductive Bias for Extremely Fine-Grained Entity Typing]]
 [[2019 Obeidat - Description-Based Zero-shot Fine-Grained Entity Typing]]
 [[2019 Dai - Improving Fine-grained Entity Typing with Entity Linking]]
+
+FastText 
+[[2021 Hou - Transfer learning for fine-grained entity typing]]

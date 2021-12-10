@@ -21,6 +21,7 @@ LSTM/Bi-LSTM:
 [[2019 Obeidat - Description-Based Zero-shot Fine-Grained Entity Typing]]
 [[2019 Sahay - A Type-Specific Attention Model For Fine Grained Entity Type Classification]]
 [[2019 Dai - Improving Fine-grained Entity Typing with Entity Linking]]
+[[2021 Hou - Transfer learning for fine-grained entity typing]]
 
 All models with [[Encoders - Neural Based Models - ELMo based architectures]]
 

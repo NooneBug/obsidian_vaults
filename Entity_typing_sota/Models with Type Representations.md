@@ -19,6 +19,7 @@ If the representations are computed runtime they can be biased by noise and/or t
 - [[2019 Lin - An Attentive Fine-Grained Entity Typing Model with Latent Type Representation]] learn runtime labels vectors and use a linear layer to produce a similarity score with the mention
 - [[2019 Xiong - Imposing Label-Relational Inductive Bias for Extremely Fine-Grained Entity Typing]]
 - [[2019 Onoe - Learning to Denoise Distantly-Labeled Data for Entity Typing]]
+- [[2021 Onoe - Modeling Fine-Grained Entity Types with Box Embeddings]]: represent each type with box
 
 If the representations are pre-computed their quality can be checked before the training, also zero-shot learning is suitable
 

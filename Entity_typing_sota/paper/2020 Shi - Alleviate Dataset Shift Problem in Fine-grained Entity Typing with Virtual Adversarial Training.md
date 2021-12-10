@@ -25,7 +25,7 @@ The approach is mainly based on the following assumption: the model should predi
 The approach experimented two different input encoders: 
 
 - [[Xu Encoder]]
-- [[Encoders - Neural Based Models - BERT Based Arhitectures | BERT]]
+- [[Encoders - Neural Based Models - BERT Based Architectures | BERT]]
 
 The classifier is composed as: With the representation zi of a mention with its context, we employ a softmax classifier to get the posterior: $P(y|z_i) = softmax(W_c*z_i + b_C )$, where $W_C ∈ R^{K×d_z}$ can be treated as the type embeddings, $b_c ∈ R^{d_z}$ is the type bias, where K is the number of types. The predicted type $\hat y$ is the type with maximum posterior probability: $\hat y = arg max_y P(y|z_i)$. So this is a [[Models with Type Representations | Model with Type Representations]] and predict [[Predictions - Single Path Prediction | Single Path Prediction]] and [[Predictions - Partial Path Prediction | Partial Path Prediction]].
 

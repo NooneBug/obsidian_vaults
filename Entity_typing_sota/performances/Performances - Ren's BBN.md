@@ -20,5 +20,6 @@ All computed by [[2016 Ren - AFET, Automatic Fine-Grained Entity Typing by Hiera
  | 2020 Ren - Fine-Grained Entity Typing with Hierarchical Inference                                                    | .797  | .805  |
  | 2020 Shi - Alleviate Dataset Shift Problem in Fine-grained Entity Typing with Virtual Adversarial Training           | .830  | .838  |
  | 2020 Dai - Exploiting Semantic Relations for Fine-grained Entity Typing                                              | .9147 | .9170 |
+ | 2021 Onoe - Modeling Fine-Grained Entity Types with Box Embeddings                                                   | .787  | .78      |
 
 #performance 
