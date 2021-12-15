@@ -7,3 +7,4 @@ Models robust to noise are:
 [[2017 Abishek - Fine-Grained Entity Type Classification by Jointly Learning Representations and Label Embeddings]]
 [[2020 Ren - Fine-Grained Entity Typing with Hierarchical Inference]]
 [[2020 Zhang - Learning with Noise, Improving Distantly-Supervised Fine-grained Entity Typing via Automatic Relabeling]]
+[[2021 Ali - Fine-Grained Named Entity Typing over Distantly Supervised Data via Refinement in Hyperbolic Space]]

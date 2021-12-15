@@ -52,6 +52,7 @@ knowledge base construction / population
 	- R. Bunescu and R. J. Mooney. A shortest path dependency kernel for relation extraction. In HLT-EMNLP.
 	- Xin Dong, Evgeniy Gabrilovich, Geremy Heitz, Wilko Horn, Ni Lao, Kevin Murphy, Thomas Strohmann, Shaohua Sun, and Wei Zhang. Knowledge vault: a web-scale approach to probabilistic knowledge fusion, KDD 2014
 	- Benjamin Roth, Nicholas Monath, David Belanger, Emma Strubell, Patrick Verga, and Andrew McCallum. 2015
+	- Mohammad Javad Hosseini, Shay B Cohen, Mark Johnson, and Mark Steedman. 2019. Duality of link prediction and entailment graph induction. In Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics
 	
 
 KB completion
@@ -83,6 +84,7 @@ Relation extraction
 	- Liu, Y.; Liu, K.; Xu, L.; and Zhao, J. 2014. Exploring fine-grained entity type constraints for distantly supervised relation extraction.
 	- T. Mitchell, W. Cohen, E. Hruschka, P. Talukdar, J. Betteridge, A. Carlson, B. Dalvi, M. Gardner, B. Kisiel, J. Krishnamurthy, N. Lao, K. Mazaitis, T. Mohamed, N. Nakashole, E. Platanios, A. Ritter, M. Samadi, B. Settles, R. Wang, D. Wijaya, A. Gupta, X. Chen, A. Saparov, M. Greaves, and J. Welling. 2015. Neverending learning.
 	- Yadollah Yaghoobzadeh, Heike Adel, and Hinrich Schutze. 2017b. Noise mitigation for neural entity ¨ typing and relation extraction
+	- Jun Kuang, Yixin Cao, Jianbing Zheng, Xiangnan He, Ming Gao, and Aoying Zhou. 2020. Improving neural relation extraction with implicit mutual relations. In 2020 IEEE 36th International Conference on Data Engineering (ICDE)
 
 query analysis
 	
