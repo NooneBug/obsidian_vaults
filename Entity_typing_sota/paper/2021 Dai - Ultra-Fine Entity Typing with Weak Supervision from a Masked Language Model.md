@@ -50,6 +50,8 @@ Experiments
 ---
 The model is evaluated on [[Dataset - UFET]] and [[Dataset - Ren's Ontonotes]]
 
+Analyze the differences in performances based on the kind of entity mention: named entity, pronoun and nominal
+
 Hongliang Dai,(1) 
 Yangqiu Song (1)
 Haixun Wang (2)

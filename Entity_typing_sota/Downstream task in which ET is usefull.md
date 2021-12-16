@@ -10,7 +10,7 @@ Entity Disambiguation
 	- S. Cucerzan. Large-scale named entity disambiguation based on wikipedia data. In EMNLP-CoNLL, volume 7, 2007.
 	- R. Bunescu and M. Pasca. Using encyclopedic knowledge for named entity disambiguation. In EACL, volume 6, 2006.
 	- X. Han and J. Zhao. Named entity disambiguation by leveraging wikipedia semantic knowledge. In CIKM, 2009
-
+	
 Entity linking
 
 	- M. A. Rodríguez and M. J. Egenhofer. Determining semantic similarity among entity classes from different ontologies. TKDE, 15(2).
@@ -22,6 +22,11 @@ Entity linking
 	- Jonathan Raiman and Olivier Raiman. 2018. Deeptype: Multilingual entity linking by neural type system evolution. In Proceedings of the Thirty-Second AAAI Conference on Artificial Intelligence, (AAAI18), the 30th innovative Applications of Artificial Intelligence (IAAI-18), and the 8th AAAI Symposium on Educational Advances in Artificial Intelligence (EAAI-18)
 	- Onoe & Durret 2019 : Fine-Grained Entity Typing for Domain Independent Entity Linking
 	- Xiyuan Yang, Xiaotao Gu, Sheng Lin, Siliang Tang, Yueting Zhuang, Fei Wu, Zhigang Chen, Guoping Hu, and Xiang Ren. Learning dynamic context augmentation for global entity linking In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing
+	- Hongyu Lin, Yaojie Lu, Xianpei Han, and Le Sun. 2019a. Sequence-to-nuggets: Nested entity mention detection via anchor-region networks. In Proceedings of the 57th Conference of the Association for Computational Linguistics, ACL 2019
+	- Hongyu Lin, Yaojie Lu, Xianpei Han, Le Sun, Bin Dong, and Shanshan Jiang. 2019b. Gazetteerenhanced attentive neural networks for named entity recognition. In Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing, EMNLPIJCNLP 2019, Hong Kong, China
+	- Hongyu Lin, Yaojie Lu, Jialong Tang, Xianpei Han, Le Sun, Zhicheng Wei, and Nicholas Jing Yuan. 2020. A rigorous study on named entity recognition: Can fine-tuning pretrained model lead to the promised land? In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing, EMNLP 2020,
+	- Wenkai Zhang, Hongyu Lin, Xianpei Han, and Le Sun. 2021a. De-biasing distantly supervised named entity recognition via causal intervention. In Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing
+	- Wenkai Zhang, Hongyu Lin, Xianpei Han, Le Sun, Huidan Liu, Zhicheng Wei, and Nicholas Jing Yuan. 2021b. Denoising distantly supervised named entity recognition via a hypergeometric probabilistic model. In Thirty-Fifth AAAI Conference on Artificial Intelligence, AAAI 2021,
 	
 Entity Search:
 	
@@ -59,6 +64,7 @@ KB completion
 
 	- Xin Dong, Evgeniy Gabrilovich, Geremy Heitz, Wilko Horn, Ni Lao, Kevin Murphy, Thomas Strohmann, Shaohua Sun, and Wei Zhang. Knowledge vault: a web-scale approach to probabilistic knowledge fusion, KDD 2014
 	- H. Ji and R. Grishman. Knowledge base population: Successful approaches and challenges. In ACL-HLT
+	- Arvind Neelakantan and Ming-Wei Chang. 2015. Inferring missing entity type instances for knowledge base completion: New dataset and methods. Proceedings of NAACL.
 	
 KB-embedding:
 	
@@ -82,8 +88,10 @@ Relation extraction
 	- R. Bunescu and R. J. Mooney. A shortest path dependency kernel for relation extraction. In HLT-EMNLP.
 	- Mitchell Koch, John Gilmer, Stephen Soderland, and Daniel S. Weld. 2014. Type-aware distantly supervised relation extraction with linked arguments. In Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)
 	- Liu, Y.; Liu, K.; Xu, L.; and Zhao, J. 2014. Exploring fine-grained entity type constraints for distantly supervised relation extraction.
+	- Makoto Miwa and Yutaka Sasaki. 2014. Modeling joint entity and relation extraction with table representation. In Proceedings of EMNLP.
 	- T. Mitchell, W. Cohen, E. Hruschka, P. Talukdar, J. Betteridge, A. Carlson, B. Dalvi, M. Gardner, B. Kisiel, J. Krishnamurthy, N. Lao, K. Mazaitis, T. Mohamed, N. Nakashole, E. Platanios, A. Ritter, M. Samadi, B. Settles, R. Wang, D. Wijaya, A. Gupta, X. Chen, A. Saparov, M. Greaves, and J. Welling. 2015. Neverending learning.
 	- Yadollah Yaghoobzadeh, Heike Adel, and Hinrich Schutze. 2017b. Noise mitigation for neural entity ¨ typing and relation extraction
+	- Zhengyan Zhang, Xu Han, Zhiyuan Liu, Xin Jiang, Maosong Sun, and Qun Liu. 2019. ERNIE: enhanced language representation with informative entities. In Proceedings of the 57th Conference of the Association for Computational Linguistics, ACL 2019,
 	- Jun Kuang, Yixin Cao, Jianbing Zheng, Xiangnan He, Ming Gao, and Aoying Zhou. 2020. Improving neural relation extraction with implicit mutual relations. In 2020 IEEE 36th International Conference on Data Engineering (ICDE)
 
 query analysis

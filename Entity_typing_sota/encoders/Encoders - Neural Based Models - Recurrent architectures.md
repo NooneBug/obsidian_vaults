@@ -23,6 +23,7 @@ LSTM/Bi-LSTM:
 [[2019 Dai - Improving Fine-grained Entity Typing with Entity Linking]]
 [[2021 Hou - Transfer learning for fine-grained entity typing]]
 [[2021 Ali - Fine-Grained Named Entity Typing over Distantly Supervised Data via Refinement in Hyperbolic Space]]
+[[2021 Liu - Fine-grained Entity Typing via Label Reasoning]]
 
 All models with [[Encoders - Neural Based Models - ELMo based architectures]]
 

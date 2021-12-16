@@ -16,6 +16,9 @@
     "autoencoder",
     "labelset",
     "overfit",
-    "missclassify"
+    "missclassify",
+    "activations",
+    "LSTMs",
+    "logit"
   ]
 }

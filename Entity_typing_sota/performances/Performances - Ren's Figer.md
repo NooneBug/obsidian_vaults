@@ -20,6 +20,7 @@ All computed by [[2016 Ren - AFET, Automatic Fine-Grained Entity Typing by Hiera
 | 2019 Sahay - A Type-Specific Attention Model For Fine Grained Entity Type Classification                             | .7853 | .7479 |
 | 2019 Dai - Improving Fine-grained Entity Typing with Entity Linking                                                  | .871  | .846  |
 | 2020 Ren - Fine-Grained Entity Typing with Hierarchical Inference                                                    | .823  | .800  |
+| 2019 Xin - Put It Back, Entity Typing with Language Model Enhancement                                                | .8061 | .7695 | 
 | 2020 Zhang - Learning with Noise, Improving Distantly-Supervised Fine-grained Entity Typing via Automatic Relabeling | .832  | .801  |
 | 2020 Ren - Fine-Grained Entity Typing with Hierarchical Inference                                                    | .826  | .808  |
 | 2020 Dai - Exploiting Semantic Relations for Fine-grained Entity Typing                                              | .8909 | .8663 |

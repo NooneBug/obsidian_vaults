@@ -2,6 +2,7 @@ This kind of encoders are based on existing models, like Word2Vec or GloVe, from
 
 Word2Vec
 [[2015 Del Corro - FINET, Context-Aware Fine-Grained Named Entity Typing]]
+[[2020 Wang - An Empirical Study of Pre-trained Embedding on Ultra-Fine Entity Typing]]
 
 Glove 
 [[2016 Shimaoka - An Attentive Neural Architecture for Fine-grained Entity Type Classification]]
@@ -17,6 +18,9 @@ Glove
 [[2019 Xiong - Imposing Label-Relational Inductive Bias for Extremely Fine-Grained Entity Typing]]
 [[2019 Obeidat - Description-Based Zero-shot Fine-Grained Entity Typing]]
 [[2019 Dai - Improving Fine-grained Entity Typing with Entity Linking]]
+[[2019 Xin - Put It Back, Entity Typing with Language Model Enhancement]]
+[[2020 Wang - An Empirical Study of Pre-trained Embedding on Ultra-Fine Entity Typing]]
+
 
 FastText 
 [[2021 Hou - Transfer learning for fine-grained entity typing]]

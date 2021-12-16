@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "performances/Performances - Ren's BBN.md",
+            "file": "2021 Liu Literature References.md",
             "mode": "source"
           }
         }
@@ -52,7 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 423
+    "width": 328
   },
   "right": {
     "id": "53c4873889e075c6",
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "performances/Performances - Ren's BBN.md",
+                "file": "2021 Liu Literature References.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,15 +124,15 @@
   },
   "active": "52fa80d58ad936cc",
   "lastOpenFiles": [
-    "performances/Performances - Ren's BBN.md",
+    "2021 Liu Literature References.md",
     "performances/Performances - Ren's Ontonotes.md",
-    "datasets/Dataset - Ren's BBN.md",
-    "paper/2021 Ling - Prompt-Learning for Fine-Grained Entity Typing.md",
-    "2021 Dai Literature References.md",
-    "paper/2019 Jin - Fine-grained entity typing via hierarchical multi graph convolutional networks.md",
-    "2021 Hou Literature References.md",
-    "paper/2021 Sun - Fine-Grained Chemical Entity Typing with Multimodal Knowledge Representation.md",
     "performances/Performances - UFET.md",
-    "datasets/Dataset - UFET.md"
+    "paper/2020 Wang - An Empirical Study of Pre-trained Embedding on Ultra-Fine Entity Typing.md",
+    "datasets/Dataset - UFET.md",
+    "encoders/Encoders - Neural Based Models - Attention based architectures.md",
+    "encoders/Encoders - Pretrained Word Embeddings.md",
+    "encoders/Encoders - Neural Based Models - BERT Based Architectures.md",
+    "encoders/Encoders - Neural Based Models - ELMo based architectures.md",
+    "paper/2021 Sun - Fine-Grained Chemical Entity Typing with Multimodal Knowledge Representation.md"
   ]
 }

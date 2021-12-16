@@ -10,6 +10,8 @@ Authors show that even having a little quantity of General Entities improve a lo
 
 The authors use [[2020 Chen - Hierarchical Entity Typing via Multi-level Learning to Rank | 2020 Chen's ET network]]
 
+
+
 ---
 Sabine Weber 
 Mark Steedman

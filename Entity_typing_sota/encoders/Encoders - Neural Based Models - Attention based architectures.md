@@ -11,6 +11,7 @@ Models with use attention mechanism in the input encoder
 [[2019 Lin - An Attentive Fine-Grained Entity Typing Model with Latent Type Representation]]
 [[2019 Xiong - Imposing Label-Relational Inductive Bias for Extremely Fine-Grained Entity Typing]]
 [[2019 Sahay - A Type-Specific Attention Model For Fine Grained Entity Type Classification]]
+[[2021 Liu - Fine-grained Entity Typing via Label Reasoning]]
 
 All models with [[Encoders - Neural Based Models - ELMo based architectures]]
 
