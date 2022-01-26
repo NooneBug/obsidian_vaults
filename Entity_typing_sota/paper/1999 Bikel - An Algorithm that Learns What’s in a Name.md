@@ -11,7 +11,7 @@ Defines the relation between a class occurrence (i.e. named entity) and its cont
 
 Presents a solution based on Hidden Markov Model and Handcrafted Features
 
-It is the first approach in Entity Typing that uses Handcrafted features [[Encoders - Handcrated Features  Based Models]], defining 14 features; each word is encoded using a ordered pairs <word, vector>:
+It is the first approach in Entity Typing that uses Handcrafted features [[Encoders - Handcrafted Features  Based Models]], defining 14 features; each word is encoded using a ordered pairs <word, vector>:
 		- word is a one-hot vector over the dictionary
 		- vector is a 14-dimensional one-hot vector that describes handcrafted features 
 

@@ -12,7 +12,7 @@ We approach the LNR task as follows:
 		- (i) the given type hierarchy, and 
 		- (ii) the shared entities between two types in KB.
 
-So it is based on [[Encoders - Handcrated Features  Based Models]] and [[Ranking Loss]]
+So it is based on [[Encoders - Handcrafted Features  Based Models]] and [[Ranking Loss]]
 
 Inference method is explained in [[Inference Method - Hierarchical Inference - 2016 Ren]]
 

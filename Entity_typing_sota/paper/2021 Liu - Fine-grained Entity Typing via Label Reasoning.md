@@ -1,5 +1,6 @@
 https://aclanthology.org/2021.emnlp-main.378.pdf
 
+https://github.com/loriqing/Label-Reasoning-Network
 Abstract
 ---
 In this paper, we argue that the implicitly entailed extrinsic and intrinsic dependencies between labels can provide critical knowledge to tackle the above challenges. To this end, we propose Label Reasoning Network(LRN), which sequentially reasons finegrained entity labels by discovering and exploiting label dependencies knowledge entailed in the data. Specifically, LRN utilizes an auto-regressive network to conduct deductive reasoning and a bipartite attribute graph to conduct inductive reasoning between labels, which can effectively model, learn and reason complex label dependencies in a sequence-toset, end-to-end manner.
@@ -23,12 +24,12 @@ Architecture
 ---
 ![[2021_liu_architecture.png]]
 
-This approach uses a [[Encoders - Neural Based Models - BERT Based Architectures | BERT Based Encoder]]
+This approach uses a [[Encoders - Neural Based Models - BERT Based Architectures |BERT Based Encoder]]
 
 **Deductive reasoning for extrinsic label dependencies**
 "*The deductive reasoning-based decoder sequentially generates labels based on both context and previous labels, e.g., “for his books" + person → writer and “record an album" + person → musician. In this way, a label is decoded by considering both context-based prediction and previous labels-based prediction*"
 
-This intuition is defined with [[Encoders - Neural Based Models - Recurrent architectures | auto-regressive LSTM]] with [[Encoders - Neural Based Models - Attention based architectures | two kinds of attention]]: attention on context and attention on previous generated labels 
+This intuition is defined with [[Encoders - Neural Based Models - Recurrent architectures |auto-regressive LSTM]] with [[Encoders - Neural Based Models - Attention based architectures |two kinds of attention]]: attention on context and attention on previous generated labels 
 
 A vector is obtained from BERT, attentions and LSTMs, concatenated in a strange way (see the paper, maybe this is a parameter optimization) and the type with highest logit is taken as next predicted label. This label, together with the input (sentence + previous labels) will form the input for the next step of the auto-regressive function. To stop the process, also a special token \[EOS\]  can be generated as label.
 

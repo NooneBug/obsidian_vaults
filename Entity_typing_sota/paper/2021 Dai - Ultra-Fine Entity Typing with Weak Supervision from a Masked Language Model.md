@@ -7,11 +7,11 @@ Abstract
 
 ---
 
-In this paper there are [[Distant Supervision | critics] to how distant supervision is used in FGET datasets building procedures
+In this paper there are [[Distant Supervision |critics]] to how distant supervision is used in FGET datasets building procedures
 
 ---
 
-[[2021 Dai Literature References | The related work is very complete]]
+[[2021 Dai Literature References |The related work is very complete]]
 
 Contributions
 ---

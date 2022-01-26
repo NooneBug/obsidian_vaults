@@ -4,13 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "52fa80d58ad936cc",
+        "id": "0faae2e732d2b827",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "2021 Liu Literature References.md",
-            "mode": "source"
+            "file": "encoders/Encoders - Neural Based Models - BERT Based Architectures.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "46afd52527c2c609",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "paper/2021 Onoe - Modeling Fine-Grained Entity Types with Box Embeddings.md",
+            "mode": "source",
+            "source": false
           }
         }
       }
@@ -39,7 +52,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "bert",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,11 +61,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 328
+    "width": 600
   },
   "right": {
     "id": "53c4873889e075c6",
@@ -68,14 +82,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2021 Liu Literature References.md",
+                "file": "paper/2021 Onoe - Modeling Fine-Grained Entity Types with Box Embeddings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": true,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -114,25 +128,24 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "52fa80d58ad936cc",
+  "active": "46afd52527c2c609",
   "lastOpenFiles": [
-    "2021 Liu Literature References.md",
-    "performances/Performances - Ren's Ontonotes.md",
-    "performances/Performances - UFET.md",
-    "paper/2020 Wang - An Empirical Study of Pre-trained Embedding on Ultra-Fine Entity Typing.md",
-    "datasets/Dataset - UFET.md",
-    "encoders/Encoders - Neural Based Models - Attention based architectures.md",
-    "encoders/Encoders - Pretrained Word Embeddings.md",
+    "paper/2021 Onoe - Modeling Fine-Grained Entity Types with Box Embeddings.md",
     "encoders/Encoders - Neural Based Models - BERT Based Architectures.md",
-    "encoders/Encoders - Neural Based Models - ELMo based architectures.md",
-    "paper/2021 Sun - Fine-Grained Chemical Entity Typing with Multimodal Knowledge Representation.md"
+    "paper/2021 Liu - Fine-grained Entity Typing via Label Reasoning.md",
+    "paper/2021 Hou - Transfer learning for fine-grained entity typing.md",
+    "paper/2021 Dai - Ultra-Fine Entity Typing with Weak Supervision from a Masked Language Model.md",
+    "paper/2020 Wang - An Empirical Study of Pre-trained Embedding on Ultra-Fine Entity Typing.md",
+    "paper/2020 Dai - Exploiting Semantic Relations for Fine-grained Entity Typing.md",
+    "paper/2021 Sabine - Fine-grained General Entity Typing in German using GermaNet.md",
+    "2021 Liu Literature References.md",
+    "2021 Hou Literature References.md"
   ]
 }

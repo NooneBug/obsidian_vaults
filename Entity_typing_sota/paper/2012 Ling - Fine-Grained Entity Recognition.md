@@ -10,6 +10,6 @@ Defines clearly what a mention is and the relation with its types:
 
 *Our task is to uncover the type information of the entity mentions from natural language sentences. Formally speaking, we need to identify the entity mentions {m1, . . . , mk}, such that each mi is a subsequence of s,as well as associate the correct entity types, ti with each mi*
 
-Authors also define a perceptron based model to produce [[Predictions - Multiple Path Precition]] starting from [[Encoders - Handcrated Features  Based Models]]
+Authors also define a perceptron based model to produce [[Predictions - Multiple Path Precition]] starting from [[Encoders - Handcrafted Features  Based Models]]
 
 #paper 

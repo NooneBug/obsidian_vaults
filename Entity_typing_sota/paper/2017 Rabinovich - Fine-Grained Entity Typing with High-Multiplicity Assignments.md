@@ -4,7 +4,7 @@ This work use of a corpus exhibiting high type multiplicity with types derived f
 
 The models is based on "structured prediction", in order to model types as sets, each entity is assigned to a set of types that is a subset of all types
 
-Entities are encoded through handcrafted features [[Encoders - Handcrated Features  Based Models]]
+Entities are encoded through handcrafted features [[Encoders - Handcrafted Features  Based Models]]
 
 Types are encoded with two encoders based on:
 

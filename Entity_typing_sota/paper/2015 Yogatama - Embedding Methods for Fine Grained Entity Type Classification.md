@@ -4,7 +4,7 @@ Authors *"propose a new approach to the task of fine grained entity type classif
 
 First [[Models with Type Representations]]: similarly to WSABIE (Weston 2011) authors use a matrix to represent each type.
 
-Given an entity mention in a sentence, the entity mention is encoded with [[Encoders - Handcrated Features  Based Models]], then a score for each type is computed by computing dot product with type representation 
+Given an entity mention in a sentence, the entity mention is encoded with [[Encoders - Handcrafted Features  Based Models]], then a score for each type is computed by computing dot product with type representation 
 
 Authors use ranking loss to encourage the model to place positive labels above negative labels without competing with each other 
 

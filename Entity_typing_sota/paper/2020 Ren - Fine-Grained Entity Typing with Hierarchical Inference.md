@@ -8,16 +8,16 @@ https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9085112
 
 The architecture is composed as follows: 
 
--	Word-level representation: a sentence is represented though a [[Encoders - Neural Based Models - Recurrent architectures | Bi-LSTM]] with [[Encoders - Neural Based Models - Attention based architectures | self-attention]]. Mention is represented in a tricky way (*not really well explained*).
+-	Word-level representation: a sentence is represented though a [[Encoders - Neural Based Models - Recurrent architectures |Bi-LSTM]] with [[Encoders - Neural Based Models - Attention based architectures |self-attention]]. Mention is represented in a tricky way (*not really well explained*).
 -	Char-level representation: char embedding of the mention characters.
 
-Then the model [[Hierarchy Representation - 2020 Ren | represent the hierarchy internally]]
+Then the model [[Hierarchy Representation - 2020 Ren |represent the hierarchy internally]]
 
 The loss is Binary Cross Entropy
 
 They apply a [[Denoising Techniques - 2020 Ren | denoising technique]] under [[Noise Definition - Single Ancestor vs Multi Ancestor| their own noise definition]]
 
-The inference is hierarchical and is the same as [[Inference Method - Hierarchical Inference - 2016 Ren | Ren, Abishek]] and so the [[Predictions - Single Path Prediction | predictions are strictly single path]] with an optimization on the threshold value
+The inference is hierarchical and is the same as [[Inference Method - Hierarchical Inference - 2016 Ren |Ren, Abishek]] and so the [[Predictions - Single Path Prediction | predictions are strictly single path]] with an optimization on the threshold value
 
 The approach is experimented on [[Dataset - Ren's FIGER]], [[Dataset - Ren's Ontonotes]]
  

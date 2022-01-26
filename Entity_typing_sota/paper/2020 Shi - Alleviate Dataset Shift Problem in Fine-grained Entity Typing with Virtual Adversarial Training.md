@@ -16,7 +16,7 @@ The major contributions of this paper are summarized as follows:
 2. A novel regularization module for FET is proposed, where a variant of VAT and a sample selection function is proposed to control the robustness of typing model. 
 3. Extensive experiments on standard benchmarks with two different base models demonstrate that our method brings stable and significant improvement over the base models. Finally, the proposed method consistently outperforms several state-of-the-art (SOTA) FET systems by a significant margin.
 
-In this approach [[Dataset Modification - 2018 Xu - Multilabel to single label | the same assumptions]] of [[2018 Xu - Neural Fine-Grained Entity Type Classification with Hierarchy-Aware Loss | 2018 Xu]] holds, so the multilabel problem is casted in a single label problem. To do this [[Noise Definition - SIngle Path vs Multi-Path | Single Path labels are considered clean]] and the other are considered noisy
+In this approach [[Dataset Modification - 2018 Xu - Multilabel to single label |the same assumptions]] of [[2018 Xu - Neural Fine-Grained Entity Type Classification with Hierarchy-Aware Loss |2018 Xu]] holds, so the multilabel problem is casted in a single label problem. To do this [[Noise Definition - SIngle Path vs Multi-Path | Single Path labels are considered clean]] and the other are considered noisy
 
 **Approach**
 
@@ -25,9 +25,9 @@ The approach is mainly based on the following assumption: the model should predi
 The approach experimented two different input encoders: 
 
 - [[Xu Encoder]]
-- [[Encoders - Neural Based Models - BERT Based Architectures | BERT]]
+- [[Encoders - Neural Based Models - BERT Based Architectures |BERT]]
 
-The classifier is composed as: With the representation zi of a mention with its context, we employ a softmax classifier to get the posterior: $P(y|z_i) = softmax(W_c*z_i + b_C )$, where $W_C ∈ R^{K×d_z}$ can be treated as the type embeddings, $b_c ∈ R^{d_z}$ is the type bias, where K is the number of types. The predicted type $\hat y$ is the type with maximum posterior probability: $\hat y = arg max_y P(y|z_i)$. So this is a [[Models with Type Representations | Model with Type Representations]] and predict [[Predictions - Single Path Prediction | Single Path Prediction]] and [[Predictions - Partial Path Prediction | Partial Path Prediction]].
+The classifier is composed as: With the representation $z_i$ of a mention with its context, we employ a softmax classifier to get the posterior: $P(y|z_i) = softmax(W_c*z_i + b_C )$, where $W_C ∈ R^{K×d_z}$ can be treated as the type embeddings, $b_c ∈ R^{d_z}$ is the type bias, where K is the number of types. The predicted type $\hat y$ is the type with maximum posterior probability: $\hat y = arg max_y P(y|z_i)$. So this is a [[Models with Type Representations |Model with Type Representations]] and predict [[Predictions - Single Path Prediction |Single Path Prediction]] and [[Predictions - Partial Path Prediction |Partial Path Prediction]].
 
 **Dataset Shift**
 The dataset shift problem is faced with adversarial training. Each encoded input is evaluated to express how noisy is (see the paper, Sample Selection paragraph). Then for each sample, KL divergence is computed between:

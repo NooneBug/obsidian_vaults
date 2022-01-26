@@ -6,7 +6,7 @@ The authors propose a new dataset for fine grained entity typing: [[Dataset - On
 
 This is the first paper that try to apply [[Denoising Techniques - Modify the training set]] on the training set [[Denoising Techniques - Gillick 2014 Rules]]
 
-Authors define a model to perform Entity Typing: each sentence is represented through a [[Encoders - Handcrated Features  Based Models]] and a topic model on the document *training a simple bag-of-words topic model with eight topics (arts, business, entertainment, health, mayhem, politics, scitech, sport)*
+Authors define a model to perform Entity Typing: each sentence is represented through a [[Encoders - Handcrafted Features  Based Models]] and a topic model on the document *training a simple bag-of-words topic model with eight topics (arts, business, entertainment, health, mayhem, politics, scitech, sport)*
 
 Authors experiments both local classifier (one binary classifier for each label, label consinstency is forced at test time) and flat classifier (one classifier for all labels)
 

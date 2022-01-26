@@ -20,5 +20,7 @@
     "activations",
     "LSTMs",
     "logit"
-  ]
+  ],
+  "legacyEditor": false,
+  "livePreview": true
 }
