@@ -12,9 +12,9 @@ Model
 
 [[Encoders - Neural Based Models - ELMo based architectures]]
 [[Encoders - Neural Based Models - BERT Based Architectures]]
-[[Encoders - Pretrained Word Embeddings]]
-[[Encoders - Neural Based Models - Attention based architectures]]
-[[Encoders - Neural Based Models - Recurrent architectures]]
+#pretrained_word_embeddings_word2vec 
+#encoder_with_attention 
+#encoders_with_recurrent_architecture 
 
 Evaluation
 ---
@@ -32,4 +32,4 @@ School of Computer Science and Technology Beijing Institute of Technology Beijin
 Ping Guo 
 School of Systems Science Beijing Normal University
 
-#paper 
+#paper #encoder_with_attention #pretrained_word_embeddings_word2vec 

@@ -32,7 +32,7 @@ Stage-I follows text encoding pipeline to generate mention’s encoding in relat
 
 Stage-II is focused on label noise reduction, for this, we map the mention’s encoding (from stage-I) in the hyperbolic space and use a graph to share aggregated type-specific contextual information along the type-hierarchy in order to refine the mention encoding. Finally, the refined mention encoding is embedded along with the label encodings in the hyperbolic space for entity typing.
 
-So this is a [[Models Robust to Noise]]
+So this is a #model_robust_to_noise 
 
 Encoder
 ---
@@ -44,7 +44,7 @@ The encoder is composed as:
 
 All these 5 representations are concatenated.
 
-[[Encoders - Neural Based Models - Recurrent architectures]]
+#encoders_with_recurrent_architecture 
 
 Fine-Tuning the input encoding
 ---
@@ -78,3 +78,5 @@ Muhammad Asif Ali,1 Yifang Sun,1 Bing Li,1 Wei Wang,1,2
 
 1School of Computer Science and Engineering, UNSW, Australia 
 2College of Computer Science and Technology, DGUT, China
+
+#paper #model_robust_to_noise #encoders_with_recurrent_architecture 

@@ -7,8 +7,8 @@ https://aclanthology.org/D19-1641.pdf
 The architecture is composed of these modules: 
 
 - Sentence Encoder: [[Encoders - Neural Based Models - ELMo based architectures]]
-- Mention Encoder: Weighted sum of ELMo Representation, weights learned with attention [[Encoders - Neural Based Models - Attention based architectures]]
-- Context Encoder: weighted sum of ELMo Representation, weights learned with attention [[Encoders - Neural Based Models - Attention based architectures]]
+- Mention Encoder: Weighted sum of ELMo Representation, weights learned with attention #encoder_with_attention 
+- Context Encoder: weighted sum of ELMo Representation, weights learned with attention #encoder_with_attention 
 
 For the inference, this approach has [[Models with Type Representations]] learned runtime, but also use these embedding to generate a type representation with few dimensions, obtained by LSA; in this way will combine representation dependent from the input with underlying type correlation 
 
@@ -18,4 +18,4 @@ Once logits for each type are obtained [[Inference Method - Threshold or Max]] i
 
 The approach is evaluated on [[Dataset - Ren's Ontonotes]], [[Dataset - FIGER]], [[Dataset - Ren's BBN]] and datasets from 2018 Xin
 
-#paper 
+#paper #encoder_with_attention 

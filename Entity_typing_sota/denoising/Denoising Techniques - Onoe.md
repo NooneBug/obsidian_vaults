@@ -22,7 +22,7 @@ Fun fact: the trained relabeling module often drop some input labels
 The input encoder is the same used in [[2019 Onoe - Learning to Denoise Distantly-Labeled Data for Entity Typing]], the type encoder is composed of:
 
 - Learn a representation for each type and treat a typeset as an unordered bag of word by summing the learned vectors
-- Learn a representation using a BiLSTM on the GloVe representations of words in the wordnet definition of each type [[Encoders - Neural Based Models - Recurrent architectures]], [[Encoders - Pretrained Word Embeddings]] and sum each representation like the previous point
+- Learn a representation using a BiLSTM on the GloVe representations of words in the wordnet definition of each type  #pretrained_word_embeddings_glove  and sum each representation like the previous point #encoders_with_recurrent_architecture 
 - The type encoding is the concatenation of the two representations
 
 The two new training module are obtained by the manually annotated dataset, the trained network is fed with the automatically annotated dataset to produce a new dataset [[Denoising Techniques - Modify the training set]]

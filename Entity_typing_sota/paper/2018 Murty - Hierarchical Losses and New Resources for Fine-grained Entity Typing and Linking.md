@@ -4,7 +4,7 @@ https://aclanthology.org/P18-1010.pdf
 
 Authors provide two new [[Ultra Fine Entity Typing]] datasets: MedMentions and TypeNet (which are Now (Nov 2021) are not used outside this work and so are not described)
 
-The sentence encoder is based on [[Encoders - Pretrained Word Embeddings]], [[Encoders - Convolutional Networks]] and [[Encoders - Neural Based Models]]
+The sentence encoder is based on #pretrained_word_embeddings_glove , #encoder_with_convolutional_networks  and [[Encoders - Neural Based Models]]
 
 	- Mention is encoded by averaging word vectors
 	- Context is encoded togheter with mention using Word Level CNN with maxpool with window = 5
@@ -16,4 +16,4 @@ The approach is experimented on [[Dataset - Ren's FIGER]], MedMentions and TypeN
 
 
 
-#paper 
+#paper #pretrained_word_embeddings_glove 

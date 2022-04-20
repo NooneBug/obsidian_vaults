@@ -73,7 +73,10 @@ KB-embedding:
 Machine Translation
 
 	- Philipp Koehn, Hieu Hoang, Alexandra Birch, Chris Callison-Burch, Marcello Federico, Nicola Bertoldi, Brooke Cowan, Wade Shen, Christine Moran, Richard Zens, Chris Dyer, Ondrej Bojar, Alexandra Constantin, and Evan Herbst. 2007. Moses: Open source toolkit for statistical machine translation. In Proceedings of the 45th Annual Meeting of the Association for Computational Linguistics Companion Volume Proceedings of the Demo and Poster Sessions
-	
+
+Natural Language Understanding
+
+	- Lemao Liu, Haisong Zhang, Haiyun Jiang, Yangming Li, Enbo Zhao, Kun Xu, Linfeng Song, Suncong Zheng, Botong Zhou, Jianchen Zhu, et al. 2021. Texsmart: A system for enhanced natural language understanding
 open information extraction
 
 	- lin 2012
@@ -93,6 +96,7 @@ Relation extraction
 	- Yadollah Yaghoobzadeh, Heike Adel, and Hinrich Schutze. 2017b. Noise mitigation for neural entity ¨ typing and relation extraction
 	- Zhengyan Zhang, Xu Han, Zhiyuan Liu, Xin Jiang, Maosong Sun, and Qun Liu. 2019. ERNIE: enhanced language representation with informative entities. In Proceedings of the 57th Conference of the Association for Computational Linguistics, ACL 2019,
 	- Jun Kuang, Yixin Cao, Jianbing Zheng, Xiangnan He, Ming Gao, and Aoying Zhou. 2020. Improving neural relation extraction with implicit mutual relations. In 2020 IEEE 36th International Conference on Data Engineering (ICDE)
+	- Zhendong Chu, Haiyun Jiang, Yanghua Xiao, and Wei Wang. 2020. Insrl: A multi-view learning framework fusing multiple information sources for distantly-supervised relation extraction. arXiv preprint arXiv:2012.09370.
 
 query analysis
 	

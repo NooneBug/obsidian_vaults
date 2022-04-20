@@ -4,11 +4,11 @@ https://www.researchgate.net/profile/Lovelu-Hassan/publication/347144760_A_Study
 
 The network is composed as:
 
-- Pretrained word vectors are projected in lower dimension [[Encoders - Pretrained Word Embeddings]]
+- Pretrained word vectors are projected in lower dimension #pretrained_word_embeddings_glove 
 - Mention representation is obtained by averaging mention tokens 
-- context representation by [[2017 Shimaoka - Neural Architectures for Fine-grained Entity Type Classification]] network [[Encoders - Neural Based Models - Recurrent architectures]] [[Encoders - Neural Based Models - Attention based architectures]]
+- context representation by [[2017 Shimaoka - Neural Architectures for Fine-grained Entity Type Classification]] network #encoders_with_recurrent_architecture  #encoder_with_attention 
 - Type specific attention layer (the main contribution of this article)
 
 Evaluated on [[Dataset - Ren's FIGER]]
 
-#paper 
+#paper #encoder_with_attention #pretrained_word_embeddings_glove 

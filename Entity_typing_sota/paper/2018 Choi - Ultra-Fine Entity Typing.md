@@ -7,10 +7,10 @@ Defines Ultra Fine Entity Typing task, introduces a new dataset: [[Dataset - UFE
 Authors propose also a model to perform Entity Typing task (and of course Ultra Fine Entity Typing) 
 
 The model starts from [[2017 Shimaoka - Neural Architectures for Fine-grained Entity Type Classification]] so :
-- uses GloVe [[Encoders - Pretrained Word Embeddings]]
-- context representation is obtained by feeding the entire sentence into a LSTM, each word is represented with the GloVe word vector and a positional encoding that indicates if the word is on the left, inside, or on the right w.r.t. the mention [[Encoders - Neural Based Models - Recurrent architectures]], [[Encoders - Neural Based Models - Attention based architectures]]
+- uses GloVe #pretrained_word_embeddings_glove 
+- context representation is obtained by feeding the entire sentence into a LSTM, each word is represented with the GloVe word vector and a positional encoding that indicates if the word is on the left, inside, or on the right w.r.t. the mention #encoders_with_recurrent_architecture , #encoder_with_attention 
 - mention representation is obtained as a concatenation of:
-	- a char-CNN on the entire mention span [[Encoders - Convolutional Networks]]
+	- a char-CNN on the entire mention span #encoder_with_convolutional_networks
 	- attention-weighted sum of GloVe word vectors
 
 This approach uses [[Inference Method - Threshold or Max]] 
@@ -19,4 +19,4 @@ As a loss function authors use [[Losses - Choi Loss]]
 
 The approach is evaluated on [[Dataset - Ren's Ontonotes]] and [[Dataset - UFET]]
 
-#paper 
+#paper #encoder_with_attention #encoders_with_recurrent_architecture #pretrained_word_embeddings_glove 

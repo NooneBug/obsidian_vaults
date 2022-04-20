@@ -12,10 +12,10 @@ We approach the LNR task as follows:
 		- (i) the given type hierarchy, and 
 		- (ii) the shared entities between two types in KB.
 
-So it is based on [[Encoders - Handcrafted Features  Based Models]] and [[Ranking Loss]]
+So it is based on #encoder_with_handcrafted_features  and [[Ranking Loss]]
 
 Inference method is explained in [[Inference Method - Hierarchical Inference - 2016 Ren]]
 
 The method is designed as a graph embedding method, but is quite complicated; a clearer version is contained in [[2016 Ren - AFET, Automatic Fine-Grained Entity Typing by Hierarchical Partial-Label Embedding]]
 
-#paper 
+#paper #model_robust_to_noise #encoder_with_handcrafted_features 

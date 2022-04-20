@@ -4,7 +4,7 @@ https://arxiv.org/pdf/1702.06709.pdf
 
 Use [[Noise Definition - SIngle Path vs Multi-Path]]
 
-Propose a model based on recurrent architecture [[Encoders - Neural Based Models - Recurrent architectures]], [[Encoders - Pretrained Word Embeddings]] composed of
+Propose a model based on recurrent architecture #encoders_with_recurrent_architecture , #pretrained_word_embeddings_glove  composed of
 
 	- an LSTM to encode mention tokens
 	- two bi-LSTM to encode left and right contexts
@@ -13,7 +13,7 @@ Then concatenates the three representations
 
 Propose a model with runtime learned type representation [[Models with Type Representations]] and use dot product as score function 
 
-Use a special loss function : [[Special Hinge Loss - 2017 Abishek ]] thus it is a [[Models Robust to Noise]]
+Use a special loss function : [[Special Hinge Loss - 2017 Abishek ]] thus it is a #model_robust_to_noise 
 
 The inference method is the [[Inference Method - Hierarchical Inference - 2016 Ren]] with fixed threshold
 
@@ -21,4 +21,4 @@ This work is the first in which [[Transfer Learning in ET]] is proposed, authors
 
 The method is evaluated on [[Dataset - Ren's BBN]], [[Dataset - Ren's FIGER]], [[Dataset - Ren's Ontonotes]]
 
-#paper  
+#paper  #model_robust_to_noise #encoders_with_recurrent_architecture #pretrained_word_embeddings_glove 

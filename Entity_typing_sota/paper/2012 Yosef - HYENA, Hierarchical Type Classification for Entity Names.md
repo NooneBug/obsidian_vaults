@@ -12,8 +12,8 @@ Authors defines the dataset [[Dataset - YAGO505]]
 
 Experiments on [[Dataset - FIGER]] and [[Dataset - Original BBN]]
 
-Authors use [[Encoders - Handcrafted Features  Based Models]] and SVM 
+Authors use #encoder_with_handcrafted_features  and SVM 
 
 First paper to use a hierarchical inference method [[Inference Method - Hierarchical Inference - 2012 Josef]], so HYENA produces [[Predictions - Single Path Prediction]]
 
-#paper 
+#paper #encoder_with_handcrafted_features 

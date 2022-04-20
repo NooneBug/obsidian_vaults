@@ -1,0 +1,95 @@
+{
+  "main": {
+    "id": "19542bceab6a0c36",
+    "type": "split",
+    "children": [
+      {
+        "id": "ec9b4f869ce928ce",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "papers/Knowledge Enhanced Neural Networks.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "360141416258e19b",
+    "type": "split",
+    "children": [
+      {
+        "id": "e7c6aafc263c7973",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4fd4932ab4ab9411",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "af5fa301701ea7e7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "a7561092973e9c34",
+    "type": "split",
+    "children": [
+      {
+        "id": "b0714e2b0c0246cd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4018d79f699233b3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "papers/Knowledge Enhanced Neural Networks.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "ec9b4f869ce928ce",
+  "lastOpenFiles": [
+    "papers/Knowledge Enhanced Neural Networks.md",
+    "papers/Neural-Symbolic Learning and Reasoning; A Survey and Interpretation.md",
+    "papers/Neural Networks Enhancement with Logical Knowledge.md"
+  ]
+}

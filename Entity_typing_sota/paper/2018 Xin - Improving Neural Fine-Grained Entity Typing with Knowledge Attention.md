@@ -1,4 +1,3 @@
-
 http://nlp.csai.tsinghua.edu.cn/~lyk/publications/aaai2018_entitytyping.pdf
 
 *we take information from KBs into consideration to bridge entity mentions and their context together, and thereby propose Knowledge-Attention Neural Fine-Grained Entity Typing.*
@@ -7,7 +6,7 @@ http://nlp.csai.tsinghua.edu.cn/~lyk/publications/aaai2018_entitytyping.pdf
 
 ![[2018_xin_architeture.png]]
 
-They propose a recurrent neural network to encode the input sentence and the and a neural network to encode entity information from a KB. [[Encoders - Neural Based Models - Recurrent architectures]], [[Encoders - Neural Based Models - Attention based architectures]] , [[Encoders - Pretrained Word Embeddings]]
+They propose a recurrent neural network to encode the input sentence and the and a neural network to encode entity information from a KB. #encoders_with_recurrent_architecture , #encoder_with_attention , #pretrained_word_embeddings_glove 
 
 The sentence encoder is composed of three components:
 
@@ -25,4 +24,4 @@ The authors also provide a disambiguation mechanism in order to decide which KB 
 
 The authors propose two datasets: WIKI-MAN and WIKI-AUTO that contains also explicit information to link entities in a KB 
 
-#paper 
+#paper #encoder_with_attention #encoders_with_recurrent_architecture #pretrained_word_embeddings_glove 

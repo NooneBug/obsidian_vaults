@@ -2,4 +2,4 @@ A version of [[Dataset - Ontonotes v5 - GFT]] dataset automatically regenerated 
 
 Performance are in [[Performances - Ren's Ontonotes]]
 
-#dataset 
+#dataset #dataset_with_10_to_999_classes #dataset_with_hierarchical_set_of_types 

@@ -12,8 +12,8 @@ https://aclanthology.org/N19-1084.pdf
 
 The architecture is composed as follows:
 
-- Words are represented with GloVe [[Encoders - Pretrained Word Embeddings]] and positional embeddings
-- Context is encoded with Bi-LSTM + self attention [[Encoders - Neural Based Models - Recurrent architectures]] [[Encoders - Neural Based Models - Attention based architectures]]
+- Words are represented with GloVe #pretrained_word_embeddings_glove  and positional embeddings
+- Context is encoded with Bi-LSTM + self attention #encoders_with_recurrent_architecture  #encoder_with_attention 
 - Entity mention is encoded with char CNN and self-attention
 - Context and entity mention encodings are fed into a network with attention instead of being concatenated
 - Type embeddings are extracted from the learned weight matrix for types [[Models with Type Representations]] enhanced with
@@ -24,7 +24,4 @@ Inference is made by optimizing the threshold value after the training
 
 Experimented on [[Dataset - UFET]]
 
-
-
-
-#paper 
+#paper #encoder_with_attention #encoders_with_recurrent_architecture 

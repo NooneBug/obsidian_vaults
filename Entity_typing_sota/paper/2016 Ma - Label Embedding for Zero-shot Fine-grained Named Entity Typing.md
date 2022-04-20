@@ -30,8 +30,8 @@ This method uses simple [[Ranking Loss]]
 
 The inference method is explained in [[Inference Method - Hierarchical Inference - 2016 Ma]] 
 
-The encoder is based on [[Encoders - Handcrafted Features  Based Models]]
+The encoder is an #encoder_with_handcrafted_features 
 
 The approach is evaluated on [[Dataset - Ren's BBN]], [[Dataset - Ren's FIGER]], [[Dataset - Ren's Ontonotes]] only for few shot and zero shot (and so it is not reported)
 
-#paper 
+#paper #encoder_with_handcrafted_features 

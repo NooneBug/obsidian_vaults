@@ -15,11 +15,11 @@ https://aclanthology.org/N19-1087.pdf
 
 The type representation [[Models with Type Representations]] and the input representation are represented in the same joint space and compared with dot product
 
-- The entity mention representation is obtained with the same approach as [[2017 Shimaoka - Neural Architectures for Fine-grained Entity Type Classification]] [[Encoders - Neural Based Models - Recurrent architectures]][[Encoders - Pretrained Word Embeddings]]
+- The entity mention representation is obtained with the same approach as [[2017 Shimaoka - Neural Architectures for Fine-grained Entity Type Classification]] #encoders_with_recurrent_architecture #pretrained_word_embeddings_glove 
 - Type representation is obtained by averaging wikipedia definitions of the type
 	- Since definition are long, they are divided in paragraph and different bag of word representation are obtained (average of the vectors of each word in the paragraph)
 	- Then a score for each representation is computed and the average of the score is used to perform the inference
 
 Experiments are conduced on [[Dataset - Ren's FIGER]]
 
-#paper 
+#paper #encoders_with_recurrent_architecture #pretrained_word_embeddings_glove 

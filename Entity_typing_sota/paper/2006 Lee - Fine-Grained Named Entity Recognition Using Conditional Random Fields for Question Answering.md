@@ -2,8 +2,8 @@ https://www.researchgate.net/publication/221055786_Fine-Grained_Named_Entity_Rec
 
 Defines a hierarchy composed of 147 fine-grained types , with 15 trees and max depth=4
 
-Use conditional random fields and [[Encoders - Handcrafted Features  Based Models]] to classify and recognize and entity
+Use conditional random fields and #encoder_with_handcrafted_features  to classify and recognize and entity
 
 They use the predicted type informations to enhance Question Answering
 
-#paper 
+#paper #encoder_with_handcrafted_features 

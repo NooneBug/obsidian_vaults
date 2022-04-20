@@ -28,12 +28,13 @@ All computed by [[2016 Ren - AFET, Automatic Fine-Grained Entity Typing by Hiera
 | 2021 Dai - Ultra-Fine Entity Typing with Weak Supervision from a Masked Language Model                                | .8544 | .8035 |
 | 2021 Ling - Prompt-Learning for Fine-Grained Entity Typing                                                            | .7977 | .7453 |
 | 2021 Liu - Fine-grained Entity Typing via Label Reasoning                                                             | .776  | .718  |
+| 2021 Li - Enhancing Label Representations with Relational Inductive Bias Constraint for Fine-Grained Entity Typing    | .845  | .792  |
 | :-------------------------------------------------------------------------------------------------------------------- | ----- | ----- |
 | 2019 Lin - An Attentive Fine-Grained Entity Typing Model with Latent Type Representation (augmented dataset)          | .829  | .773  |
 | 2019 Xiong - Imposing Label-Relational Inductive Bias for Extremely Fine-Grained Entity Typing (augmented dataset)    | .778  | .722  |
 | 2019 Onoe - Learning to Denoise Distantly-Labeled Data for Entity Typing (augmented dataset)                          | .845  | .792  |
 | 2020 Lopez - A Fully Hyperbolic Neural Model for Hierarchical Multi-Class Classification (augmented dataset)          | .778  | .722  |
-| 2020 Wang - An Empirical Study of Pre-trained Embedding on Ultra-Fine Entity Typing (augmented dataset)               | .818  | .763      |
+| 2020 Wang - An Empirical Study of Pre-trained Embedding on Ultra-Fine Entity Typing (augmented dataset)               | .818  | .763  |
 | 2021 Liu - Fine-grained Entity Typing via Label Reasoning                                                             | .848  | .801  |
 |                                                                                                                       |       |       |
 

@@ -26,5 +26,6 @@ All computed by [[2016 Ren - AFET, Automatic Fine-Grained Entity Typing by Hiera
 | 2020 Dai - Exploiting Semantic Relations for Fine-grained Entity Typing                                              | .8909 | .8663 |
 | 2021 Onoe - Modeling Fine-Grained Entity Types with Box Embeddings                                                   | .816  | .77   |
 | 2021 Hou - Transfer learning for fine-grained entity typing                                                          | .8227 | .7967 |
-
+| 2021 Li - Enhancing Label Representations with Relational Inductive Bias Constraint for Fine-Grained Entity Typing   | .877  | .844  |
+ 
 #performance 

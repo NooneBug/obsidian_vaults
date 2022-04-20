@@ -1,6 +1,6 @@
 https://www.ijcai.org/Proceedings/15/Papers/179.pdf
 
-Introduce a [[Encoders - Neural Based Models - Recurrent architectures]] to predict types for entity mentions. The model is based on the automatically learned distributed representations of mentions and contexts.
+Introduce a #encoders_with_recurrent_architecture  to predict types for entity mentions. The model is based on the automatically learned distributed representations of mentions and contexts.
 
 Introduce the [[Encoders - Sentence splitting]] 
 
@@ -20,4 +20,4 @@ Experiments are conduced on [[Dataset - FIGER]] [[Dataset - YAGO505]] and [[Data
 
 Since softmax is used, probably produces [[Predictions - Single Path Prediction]] and [[Predictions - Partial Path Prediction]]
 
-#paper 
+#paper #encoders_with_recurrent_architecture

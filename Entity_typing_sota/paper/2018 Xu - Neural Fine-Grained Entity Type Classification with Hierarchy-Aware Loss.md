@@ -17,4 +17,4 @@ Authors propose two different losses:
 
 This approach is experimented on [[Dataset - Ren's Ontonotes]] and [[Dataset - Ren's FIGER]]
 
-#paper 
+#paper #encoder_with_attention #encoders_with_recurrent_architecture

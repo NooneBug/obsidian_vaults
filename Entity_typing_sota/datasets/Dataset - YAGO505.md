@@ -4,6 +4,4 @@ We start with five broad classes namely PERSON, LOCATION, ORGANIZATION, EVENT an
 
 Corpora is extracted from Wikipedia and annotated with [[Distant Supervision]]
 
-So this is a [[Datasets with 10 to 999 classes]] and a [[Datasets with hierarchical sets of types]]
-
-#dataset
+#dataset #dataset_with_10_to_999_classes #dataset_with_hierarchical_set_of_types 

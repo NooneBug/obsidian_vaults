@@ -8,11 +8,11 @@ This is an approach towards [[Zero Shot Fine Grained Entity Typing]], represent 
 
 The network is composed as follows:
 
-- Mention encoder: average of pretrained word vectors [[Encoders - Pretrained Word Embeddings]]
-- Context encoder: two BiLSTM (one for left and one for right context) + attention [[Encoders - Neural Based Models - Recurrent architectures]] [[Encoders - Neural Based Models - Attention based architectures]]
+- Mention encoder: average of pretrained word vectors #pretrained_word_embeddings_glove 
+- Context encoder: two BiLSTM (one for left and one for right context) + attention #encoders_with_recurrent_architecture  #encoder_with_attention 
 - Features: other handcrafted features are added to the input representation
-- Type Embeddings: average of pretrained word vectors that form the type name [[Encoders - Pretrained Word Embeddings]]
+- Type Embeddings: average of pretrained word vectors that form the type name #pretrained_word_embeddings_glove 
 
 Method is experimented on [[Dataset - Ren's FIGER]] and a disambiguation dataset
 
-#paper 
+#paper #encoder_with_attention #encoders_with_recurrent_architecture #pretrained_word_embeddings_glove 

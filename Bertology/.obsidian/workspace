@@ -1,0 +1,98 @@
+{
+  "main": {
+    "id": "f64bd59d668c7376",
+    "type": "split",
+    "children": [
+      {
+        "id": "e65dc979d96be44b",
+        "type": "leaf",
+        "state": {
+          "type": "graph",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b71747e45e493c9e",
+    "type": "split",
+    "children": [
+      {
+        "id": "eded91a16241ebe1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "66d5f8b391a49dcf",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a7bd6fbe87c126cf",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "184fefc8921c1272",
+    "type": "split",
+    "children": [
+      {
+        "id": "deca450f5cd27475",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "97be630969a3e47c",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "e65dc979d96be44b",
+  "lastOpenFiles": [
+    "Bertology Video.md",
+    "BERT.md",
+    "What does BERT learn?.md",
+    "What does it takes to disrupt BERT.md",
+    "Does lottery ticket hypotesis hold for BERT.md",
+    "How important are attention heads?.md",
+    "What do the pretraining and finetuning do?.md",
+    "Revealing the dark secrets of BERT.md",
+    "Next Sentence Prediction.md",
+    "Attention.md"
+  ]
+}

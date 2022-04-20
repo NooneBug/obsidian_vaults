@@ -17,7 +17,7 @@ The model is explained also as:
 	3. Perform joint embedding of entity mentions M and type hierarchy Y into the same lowdimensional space where, in that space, close objects also share similar types (Secs. 3.3-3.6). 
 	4. For each test mention m, estimate its type-path Y ∗ (on the hierarchy Y) in a top-down manner using the learned embeddings (Sec. 3.6).
 	
-So it is based on [[Encoders - Handcrafted Features  Based Models]] and [[Ranking Loss]] : [[Ranking Loss - 2016 Ren - Partial Label Loss]], thus it is a [[Models Robust to Noise]]
+So it is based on #encoder_with_handcrafted_features  and [[Ranking Loss]] : [[Ranking Loss - 2016 Ren - Partial Label Loss]], thus it is a #model_robust_to_noise
 
 Inference method is explained in [[Inference Method - Hierarchical Inference - 2016 Ren]]
 
@@ -26,4 +26,4 @@ The similarity between entity mention representation and type representations is
 AFET is eperimented on regenerated datasets, so on [[Dataset - Ren's FIGER]], [[Dataset - Ren's Ontonotes]] and on [[Dataset - Ren's BBN]]
 
 
-#paper 
+#paper #model_robust_to_noise #encoder_with_handcrafted_features 

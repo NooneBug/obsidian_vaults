@@ -4,6 +4,6 @@ Composed of one million words from Wall Street Journal texts in Penn's Treebank
 
 Originally used 92 types to categorize named entities, organized in 29 trees
 
-First [[Datasets with hierarchical sets of types]] with a complex hierarchy
+First #dataset_with_hierarchical_set_of_types with a complex hierarchy
 
-#dataset
+#dataset #dataset_with_10_to_999_classes  

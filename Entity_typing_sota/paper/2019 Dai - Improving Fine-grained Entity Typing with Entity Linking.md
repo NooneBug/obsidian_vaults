@@ -13,8 +13,8 @@ https://arxiv.org/pdf/1909.12079.pdf
 
 The model is composed with the following modules:
 
-- Context representation: BiLSTM over word vectors [[Encoders - Neural Based Models - Recurrent architectures]][[Encoders - Pretrained Word Embeddings]]
-- Mention string representation: average of mention word vectors [[Encoders - Pretrained Word Embeddings]] (GloVe)
+- Context representation: BiLSTM over word vectors #encoders_with_recurrent_architecture #pretrained_word_embeddings_glove 
+- Mention string representation: average of mention word vectors #pretrained_word_embeddings_glove 
 - KB Type Representation: 
 	- run an EL algorithm on the current example
 	- if EL returns something, extract the types and return the onehot encodings of all extracted types (one vector)
@@ -30,4 +30,4 @@ Authors use a variant of the [[Special Hinge Loss - 2017 Abishek]], simply the e
 The approach is experimented on [[Dataset - Ren's FIGER]] and [[Dataset - Ren's BBN]]
 
 #paper 
-#entity_linking 
+#entity_linking #encoders_with_recurrent_architecture #pretrained_word_embeddings_glove 

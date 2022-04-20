@@ -21,7 +21,7 @@ This article propose Transfer Learning for fine-grained entity typing in sense o
 
 - Language Models: [[Encoders - Neural Based Models - BERT Based Architectures | SpanBERT]]
 - Topic Models: HMM-LDA
-- Vector Representation of words: [[Encoders - Pretrained Word Embeddings | FastText]], [[Encoders - Neural Based Models - Recurrent architectures | LSTM ]]
+- Vector Representation of words: #pretrained_word_embeddings_fasttext, LSTM #encoders_with_recurrent_architecture 
 
 *"We formulate the typing model for FGET as a local binary classifier on each type of the taxonomy. The typing model makes predictions based on the feature representations of mention phrase and context. For each mention $m$, we denote the embedded mention feature as $v_m$ and the context feature as $v_c$. The probability of entity mention $m$ being type $t_i$ can be computed by: $P(t_i | m, c) = \sigma(f_i(concat(v_m, v_c) + b)$"*
 
@@ -53,4 +53,4 @@ School of Natural and Computational Sciences, Massey University, Albany, New Zea
 
 Shanghai Research Center for Brain Science and Brain-Inspired Intelligence, Zhangjiang Lab, Shanghai, China (3)
 
-#paper 
+#paper #encoders_with_recurrent_architecture #pretrained_word_embeddings_fasttext 

@@ -6,10 +6,10 @@ https://aclanthology.org/D15-1103.pdf
 
 Each extractor has a stopping condition, which we check whenever the extractor produced at least one type. When the stopping condition is met, we directly proceed to the type selection phase. The reasoning behind this approach is to bias FINET towards the most explicit types
 
-First approach in using [[Encoders - Pretrained Word Embeddings]]
+First approach in using #pretrained_word_embeddings_word2vec
 
 Evaluated on Name Entity Recognition / inedite datasets
 
 (ndr very useful for Docebo)
 
-#paper
+#paper #pretrained_word_embeddings_word2vec 

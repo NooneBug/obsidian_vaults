@@ -8,7 +8,7 @@ https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9085112
 
 The architecture is composed as follows: 
 
--	Word-level representation: a sentence is represented though a [[Encoders - Neural Based Models - Recurrent architectures |Bi-LSTM]] with [[Encoders - Neural Based Models - Attention based architectures |self-attention]]. Mention is represented in a tricky way (*not really well explained*).
+-	Word-level representation: a sentence is represented though a Bi-LSTM #encoders_with_recurrent_architecture  with self-attention #encoder_with_attention . Mention is represented in a tricky way (*not really well explained*).
 -	Char-level representation: char embedding of the mention characters.
 
 Then the model [[Hierarchy Representation - 2020 Ren |represent the hierarchy internally]]
@@ -22,4 +22,4 @@ The inference is hierarchical and is the same as [[Inference Method - Hierarchic
 The approach is experimented on [[Dataset - Ren's FIGER]], [[Dataset - Ren's Ontonotes]]
  
 
-#paper 
+#paper #model_robust_to_noise #encoder_with_attention #encoders_with_recurrent_architecture 

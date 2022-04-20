@@ -2,9 +2,9 @@ These models are designed to be robust against noise, so use loss functions whic
 
 Models robust to noise are:
 
-[[2016 Ren  - Label Noise Reduction in Entity Typing by Heterogeneous Partial-Label Embedding]], 
-[[2016 Ren - AFET, Automatic Fine-Grained Entity Typing by Hierarchical Partial-Label Embedding]],
-[[2017 Abishek - Fine-Grained Entity Type Classification by Jointly Learning Representations and Label Embeddings]]
-[[2020 Ren - Fine-Grained Entity Typing with Hierarchical Inference]]
-[[2020 Zhang - Learning with Noise, Improving Distantly-Supervised Fine-grained Entity Typing via Automatic Relabeling]]
-[[2021 Ali - Fine-Grained Named Entity Typing over Distantly Supervised Data via Refinement in Hyperbolic Space]]
+[2016 Ren  - Label Noise Reduction in Entity Typing by Heterogeneous Partial-Label Embedding](obsidian://open?vault=Entity_typing_sota&file=paper%2F2016%20Ren%20%20-%20Label%20Noise%20Reduction%20in%20Entity%20Typing%20by%20Heterogeneous%20Partial-Label%20Embedding), 
+[2016 Ren - AFET, Automatic Fine-Grained Entity Typing by Hierarchical Partial-Label Embedding](obsidian://open?vault=Entity_typing_sota&file=paper%2F2016%20Ren%20-%20AFET%2C%20Automatic%20Fine-Grained%20Entity%20Typing%20by%20Hierarchical%20Partial-Label%20Embedding),
+[2017 Abishek - Fine-Grained Entity Type Classification by Jointly Learning Representations and Label Embeddings](obsidian://open?vault=Entity_typing_sota&file=paper%2F2017%20Abishek%20-%20Fine-Grained%20Entity%20Type%20Classification%20by%20Jointly%20Learning%20Representations%20and%20Label%20Embeddings)
+[2020 Ren - Fine-Grained Entity Typing with Hierarchical Inference](obsidian://open?vault=Entity_typing_sota&file=paper%2F2020%20Ren%20-%20Fine-Grained%20Entity%20Typing%20with%20Hierarchical%20Inference)
+[2020 Zhang - Learning with Noise, Improving Distantly-Supervised Fine-grained Entity Typing via Automatic Relabeling](obsidian://open?vault=Entity_typing_sota&file=paper%2F2020%20Zhang%20-%20Learning%20with%20Noise%2C%20Improving%20Distantly-Supervised%20Fine-grained%20Entity%20Typing%20via%20Automatic%20Relabeling)
+[2021 Ali - Fine-Grained Named Entity Typing over Distantly Supervised Data via Refinement in Hyperbolic Space](obsidian://open?vault=Entity_typing_sota&file=paper%2F2021%20Ali%20-%20Fine-Grained%20Named%20Entity%20Typing%20over%20Distantly%20Supervised%20Data%20via%20Refinement%20in%20Hyperbolic%20Space)

@@ -12,11 +12,11 @@ The approach is composed of these steps:
 
 - Add a STOP node as son of each non-leaf node (figure 3), now each type can be identified by a leaf node. This approach allows [[Predictions - Partial Path Prediction]]
 - Label is inferred with a complex graph based approach (see the paper)
-- Type Embedding is computed as the sum of vectors each word in the name of the type and its ancestors. Using [[Encoders - Pretrained Word Embeddings]] (GloVe), [[Models with Type Representations]]
+- Type Embedding is computed as the sum of vectors each word in the name of the type and its ancestors. Using #pretrained_word_embeddings_glove  (GloVe), [[Models with Type Representations]]
 - Entity mention embedding is the average of the vectors of the words (GloVe)
-- Context Embedding is a BiLSTM fed with GloVe vectors and attention [[Encoders - Neural Based Models - Recurrent architectures]], [[Encoders - Neural Based Models - Attention based architectures]]
+- Context Embedding is a BiLSTM fed with GloVe vectors and attention #encoders_with_recurrent_architecture , #encoder_with_attention 
 
 
 Approach is evaluated on [[Dataset - Ren's BBN]], [[Dataset - Ren's FIGER]], [[Dataset - Ren's Ontonotes]]
 
-#paper 
+#paper #encoder_with_attention #pretrained_word_embeddings_glove 

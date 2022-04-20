@@ -27,8 +27,8 @@ LME takes in input the predictions of ET and evaluates the soundness, so backpro
 [[Inference Method - Threshold or Max]] is used as inference method on ET output.
 
 **Encoder**
-- Entity mention is encoded as the average of the entity's words [[Encoders - Pretrained Word Embeddings]]
-- Context is encoded with [[Encoders - Neural Based Models - Recurrent architectures | two BiLSTM]] with [[Encoders - Neural Based Models - Attention based architectures | self-attention]]
+- Entity mention is encoded as the average of the entity's words #pretrained_word_embeddings_glove 
+- Context is encoded with two BiLSTM #encoders_with_recurrent_architecture  with self-attention #encoder_with_attention 
 - Handcrafted features from [[2014 Gillick - Context-Dependent Fine-Grained Entity Type Tagging]] and [[2015 Yogatama - Embedding Methods for Fine Grained Entity Type Classification]]
 
 Then a linear layer produces a score for each type. The network is trained with BCE
@@ -49,10 +49,6 @@ Experiments
 
 Approach is experimented on [[Dataset - Ren's FIGER]] and [[Dataset - Ren's Ontonotes]]
 
-
-
-
-
 ___
 
 Ji Xin1,2, 
@@ -65,4 +61,4 @@ Maosong Sun1
 
 2David R. Cheriton School of Computer Science, University of Waterloo, Canada
 
-#paper 
+#paper #encoder_with_attention #encoders_with_recurrent_architecture #pretrained_word_embeddings_glove 

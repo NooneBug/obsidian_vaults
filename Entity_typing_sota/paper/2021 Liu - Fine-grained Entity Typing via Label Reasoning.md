@@ -29,7 +29,7 @@ This approach uses a [[Encoders - Neural Based Models - BERT Based Architectures
 **Deductive reasoning for extrinsic label dependencies**
 "*The deductive reasoning-based decoder sequentially generates labels based on both context and previous labels, e.g., “for his books" + person → writer and “record an album" + person → musician. In this way, a label is decoded by considering both context-based prediction and previous labels-based prediction*"
 
-This intuition is defined with [[Encoders - Neural Based Models - Recurrent architectures |auto-regressive LSTM]] with [[Encoders - Neural Based Models - Attention based architectures |two kinds of attention]]: attention on context and attention on previous generated labels 
+This intuition is defined with auto-regressive LSTM #encoders_with_recurrent_architecture  with two kinds of attention #encoder_with_attention : attention on context and attention on previous generated labels 
 
 A vector is obtained from BERT, attentions and LSTMs, concatenated in a strange way (see the paper, maybe this is a parameter optimization) and the type with highest logit is taken as next predicted label. This label, together with the input (sentence + previous labels) will form the input for the next step of the auto-regressive function. To stop the process, also a special token \[EOS\]  can be generated as label.
 
@@ -69,4 +69,4 @@ Hua Wu4
 3University of Chinese Academy of Sciences, Beijing, China 
 4Baidu Inc., Beijing, China
 
-#paper 
+#paper #encoder_with_attention 

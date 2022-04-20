@@ -8,8 +8,8 @@ https://aclanthology.org/S18-2022.pdf
 
 Authors propose a model with three encoders:
 
-- Entity Encoder: average of embedding of all word vectors [[Encoders - Pretrained Word Embeddings]]
-- Sentence Level Encoder:  Bi-LSTM on the sentence [[Encoders - Neural Based Models - Recurrent architectures]] with Attention [[Encoders - Neural Based Models - Attention based architectures]]
+- Entity Encoder: average of embedding of all word vectors #pretrained_word_embeddings_glove 
+- Sentence Level Encoder:  Bi-LSTM on the sentence #encoders_with_recurrent_architecture with Attention #encoder_with_attention 
 - Document-level Context Encoder: Multi-Level perceptron (Le and Mikolov 2014)
 
 The obtained encoding is compared with type embeddings [[Models with Type Representations]]
@@ -18,4 +18,4 @@ The approach is based on Adaptive Threshold, which uses adaptive threshold for e
 
 The approach is experimented on [[Dataset - Ren's Ontonotes]], [[Dataset - Ren's BBN]], [[Dataset - Ren's FIGER]]
 
-#paper 
+#paper #encoder_with_attention #encoders_with_recurrent_architecture #pretrained_word_embeddings_glove 

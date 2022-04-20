@@ -2,9 +2,9 @@ https://aclanthology.org/W16-1313.pdf
 
 *"In this work we propose a novel attentionbased neural network model for the task of fine-grained entity type classification that unlike previously proposed models recursively composes representations of entity mention contexts."*
 
-So work based on [[Encoders - Neural Based Models - Recurrent architectures]], [[Encoders - Sentence splitting]]
+So work based on #encoders_with_recurrent_architecture , [[Encoders - Sentence splitting]]
 
-Uses Glove for word embeddings [[Encoders - Pretrained Word Embeddings]]
+Uses Glove for word embeddings #pretrained_word_embeddings_glove
 
 First method which uses attention
 
@@ -20,4 +20,4 @@ Experimented on [[Dataset - FIGER]]
 
 
 
-#paper 
+#paper #encoders_with_recurrent_architecture #pretrained_word_embeddings_glove 
