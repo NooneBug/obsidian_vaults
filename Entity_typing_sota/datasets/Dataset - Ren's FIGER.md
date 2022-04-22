@@ -2,4 +2,6 @@ A version of [[Dataset - FIGER]] automatically reannotated by [[2016 Ren - AFET,
 
 Performances in [[Performances - Ren's Figer]]
 
+Zero Shot performances are in [[Performances - zero-shot FIGER]]
+
 #dataset #dataset_with_10_to_999_classes #dataset_with_hierarchical_set_of_types 

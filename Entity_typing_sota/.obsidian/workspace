@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "b2b5aa9dc354235e",
+        "id": "60d258fe596fde11",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "performances/Performances - Ren's Ontonotes.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -19,7 +23,7 @@
     "type": "split",
     "children": [
       {
-        "id": "6fd8095d78d90cf8",
+        "id": "c730079dff4a33a5",
         "type": "tabs",
         "children": [
           {
@@ -49,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 489
+    "width": 197
   },
   "right": {
     "id": "53c4873889e075c6",
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "performances/Performances - Ren's Ontonotes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,24 +115,25 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "b2b5aa9dc354235e",
+  "active": "60d258fe596fde11",
   "lastOpenFiles": [
+    "performances/Performances - Ren's Ontonotes.md",
     "paper/2021 Chen - An Empirical Study on Multiple Information Sources for Zero-Shot Fine-Grained Entity Typing.md",
-    "paper/2021 Liu - Fine-grained Entity Typing via Label Reasoning.md",
-    "encoders/Encoders - Neural Based Models - BERT Based Architectures.md",
-    "encoders/Encoders - Neural Based Models - Attention based architectures.md",
-    "Zero Shot Fine Grained Entity Typing.md",
+    "paper/2021 Li - Enhancing Label Representations with Relational Inductive Bias Constraint for Fine-Grained Entity Typing.md",
     "paper/2016 Ma - Label Embedding for Zero-shot Fine-grained Named Entity Typing.md",
-    "paper/2021 Sun - Fine-Grained Chemical Entity Typing with Multimodal Knowledge Representation.md",
-    "paper/2020 Ren - Fine-Grained Entity Typing with Hierarchical Inference.md",
+    "Few Shot Fine Grained Entity Typing.md",
+    "paper/2020 Zhang - MZET, Memory Augmented Zero-Shot Fine-grained Named Entity Typing.md",
     "Downstream task in which ET is usefull.md",
-    "paper/2021 Ding - Prompt-Learning for Fine-Grained Entity Typing.md"
+    "paper/2020 Zhang - Learning with Noise, Improving Distantly-Supervised Fine-grained Entity Typing via Automatic Relabeling.md",
+    "paper/2021 Ali - Fine-Grained Named Entity Typing over Distantly Supervised Data via Refinement in Hyperbolic Space.md",
+    "performances/Performances - zero-shot Ontonotes.md"
   ]
 }

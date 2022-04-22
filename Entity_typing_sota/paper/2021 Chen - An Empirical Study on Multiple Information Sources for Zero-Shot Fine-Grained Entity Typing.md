@@ -81,7 +81,43 @@ where $x$ is the score vector from a module for mention $m$ towards all types $t
 #### Datasets
 Experiments are carried on [[Dataset - Ren's BBN]] and [[Dataset - Ren's FIGER]] level-1 types are used as seen types and level-2 types are used as unseen (following [[2016 Ma - Label Embedding for Zero-shot Fine-grained Named Entity Typing|Ma et al (2016)]] setup)
 
+![[2021_chen_performance.png]]
 
+#### Ablation Studies
+
+![[2021_chen_ablation.png]]
+
+**Ablations of CA** 
+We observe that the vanilla CA (i.e., the BERT-based CA module without fine-tuning, denoted as “CA w/o finetuning”) has reached a certain level of performance. This indicates the potential of BERT for context consistency assessment thanks to its large-scale unsupervised pre-training technique. After fine-tuning with our modified mask mechanism, CA surpasses its vanilla version by 23.13% and 10.28% on BBN and Wiki respectively.
+
+**Ablations of HA** 
+We show that Transformer based type encoder greatly contributes to the HA module. To validate it, we replace Transformer encoder with averaged Glove word embeddings to obtain type representations and denote it as “*HAGlove*”. Besides, we also implement the variation of HA that removes the Transformer encoder and simply multiplies the type embeddings by a binary hierarchical matrix as (Ma et al., 2016) to model the type hierarchy (denoted as “*HA-HierMatrix*”). We see that HA greatly advances its counterparts that do not use Transformer encoder. Also notice that *HA-HierMatrix* performs better than *HA-Glove*, indicating hierarchical constraint enforced by *HierMatrix* is also important for type representation learning. In addition, HA also shows a strong advantage over Proto-HLE and MZET* which also take the relationships among types into account.
+
+**Ablations of KA** 
+We remove either descriptions or prototypes from KA and denote them as “KA w/o Description” and “KA w/o Prototypes”. The results reveal that, both descriptions and prototypes consistently contribute to KA, wherein prototypes seem to play a more important role on both datasets. In fact, the prototypes used in KA are carefully selected by Ma et al. (2016) while the descriptions from WordNet only contain the brief high-level summaries of types. Additionally, two baselines (i.e., Proto-HLE and DZET) which also leverages background knowledge are included for a more comprehensive comparison. We notice that KA w/o Prototypes is slightly inferior to DZET which also uses type descriptions by a type-description matching approach. However, when prototypes and descriptions are combined, the superiority of KA with NLI framework is obvious.
+
+**Impact of Long-tail Types**
+
+![[2021_Chen_long_tail.png]]
+
+We examine the performance of each module on the test subset of long-tail (with less than 200 test cases) unseen types. We compute the precision, recall and F1 value for each type and report the average values over all these types in Table 5. The results show CA obtains the best $F1_{avg}$ score on the long-tail types. In fact, CA is based on the pretrained BERT that contains much implicit information of the unseen long-tail types. Moreover, CA masks the mentions and completely depends on the contexts for prediction. This reduces the risk for CA to remember the mentions for prediction and improves the generalization capability. KA produces better $P_{avg}$ score than HA, which verifies that background knowledge is helpful in distinguishing among easily confused types. However, KA often makes mistakes on the unseen types that share little knowledge with the seen types, which makes KA perform poorly in $R_{avg}$. We also notice that the combination of different information sources brings a significant improvement to the performance of MSF regarding $P_{avg}$, but a drop regarding $R_{avg}$ on the contrary. This inspires us to take more advantages of CA while minimizing the disturbance from KA and HA to promote the model’s generalization capacity on long-tail types in the future.
+
+**Impact of Context Length** 
+
+![[2021_chen_context_length.png]]
+
+We separate the test samples into three groups by the context length, and compare the Ma-F1 scores in each group, as shown in Figure 3. We see that CA, HA, KA and MSF all perform better on the mentions with longer contexts, since longer contexts tend to be more informative than the shorter ones. MSF outperforms the single-source modules CA, HA and KA in both the situations with short and median contexts. Nevertheless, the performance of MSF is poorer than CA in the long context scenario. This indicates that the information from context consistency is with higher confidence in handling longer contexts. Whereas introducing HA and KA modules may prevent the performance growth compared with only using CA module in this case. Conversely, a distinct drop appears when CA is evaluated on the mentions with short contexts.
+
+**Complementarity among Different Information Sources**
+
+![[2021_chen_general_venn.png]] 
+
+We present the overlaps and disjoint parts of the true cases predicted by the single-source modules in Figure 4. About 31.33% of the test mentions are successfully categorized by all the three modules, while the rest are misidentified by at least one module. We notice that HA and KA share the most true cases (up to 61.04%, i.e., 31.33% + 29.71%) among the pairwise intersections. A possible reason is that HA and KA use the same mention-context encoder based on ELMo. Another reason is that the premises and hypothesis constructed by KA implicitly encode some hierarchical information like HA. For example, part of the prototypes are shared between the parent and child KA demonstrates greater capacity than HA with 5.27% (i.e., 2.17% + 3.1%) additional true cases that HA fails to recognize, since background knowledge helps to distinguish among the confusing sibling types sharing the same parent type. However, there still exist 1.44% (i.e., 0.65% + 0.79%) cases where HA does better than KA. This is because the hierarchy-wise information incorporated to KA is less obvious than that inside HA. Meanwhile, KA also suffers from the problem of low recall in long-tail types as discussed in Sec 4.3.1. Another noticeable observation is that quite a proportion of cases (16.2%) are difficult for HA and KA to recognize, but easy for CA. This indicates the consistency between type names and contexts is a non-negligible clue for the improvement of performance in ZFET.
+
+**Contributions of Multiple Information Sources to MSF** 
+![[2021_chen_paired_venns.png]]
+
+We also look into the intersections and differences between the true case sets of MSF and CA/HA/KA, as well as their union in Figure 5. We see that MSF takes more advantage of HA and KA, with 57.73% and 61.5% overlaps, respectively. Although CA provides lots of auxiliary information for MSF, there still exist 6.84% true cases of CA wrongly predicted by MSF after fusion. Besides, the 4.76% missing part of HA and the 4.82% of KA also remain to be more fully exploited. Thus, it is worth exploring deeply to make the best of each information source during model fusion. In addition, Figure 5(d) shows that 2.07% complex examples are correctly predicted by MSF while are mistaken by all the three single-source modules. 12.01% samples are correctly identified by at least one of the modules but are mistaken by MSF. Besides, there are 13.96% hard examples misidentified by both the single-source modules (i.e., CA ∪ HA ∪ KA)
 
 ---
 

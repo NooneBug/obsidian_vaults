@@ -27,6 +27,7 @@ Entity linking
 	- Hongyu Lin, Yaojie Lu, Jialong Tang, Xianpei Han, Le Sun, Zhicheng Wei, and Nicholas Jing Yuan. 2020. A rigorous study on named entity recognition: Can fine-tuning pretrained model lead to the promised land? In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing, EMNLP 2020,
 	- Wenkai Zhang, Hongyu Lin, Xianpei Han, and Le Sun. 2021a. De-biasing distantly supervised named entity recognition via causal intervention. In Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing
 	- Wenkai Zhang, Hongyu Lin, Xianpei Han, Le Sun, Huidan Liu, Zhicheng Wei, and Nicholas Jing Yuan. 2021b. Denoising distantly supervised named entity recognition via a hypergeometric probabilistic model. In Thirty-Fifth AAAI Conference on Artificial Intelligence, AAAI 2021,
+	- Rosa Stern, Benoˆıt Sagot, and Fred´ eric B ´ echet. 2012. A joint named entity recognition and entity linking system. ´ In Proceedings of the Workshop on Innovative Hybrid Approaches to the Processing of Textual Data, pages 52–60. Association for Computational Linguistics.
 	
 Entity Search:
 	
