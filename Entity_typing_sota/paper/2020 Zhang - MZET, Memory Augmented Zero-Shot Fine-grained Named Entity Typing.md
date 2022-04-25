@@ -73,7 +73,7 @@ Max-margin loss is used to rank correct mention-type pairs higher than wrong one
 
 **4 Datasets**
 
-Experiments are carried out on [[Dataset - Ren's Ontonotes]], [[Dataset - Ren's BBN]] and [[Dataset - Ren's FIGER]] following [[2016 Ma - Label Embedding for Zero-shot Fine-grained Named Entity Typing|Ma et al 2016]] partition (leaves = unseen, non-leaves = seen)
+Experiments are carried out on [[Dataset - Ren's Ontonotes]], [[Dataset - Ren's BBN]] and [[Dataset - Ren's FIGER]] following [[2016 Ma - Zero-shot dataset partition|Ma et al 2016]] partition (leaves = unseen, non-leaves = seen)
 
 
 

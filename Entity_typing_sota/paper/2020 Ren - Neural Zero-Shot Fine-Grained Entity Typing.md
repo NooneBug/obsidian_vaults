@@ -41,7 +41,7 @@ Previous fine-grained entity typing neural models with attention do not contain 
 All representations are optimized through a ranking loss to rank the score of the positive examples higher than the score of negative examples; the score is the dot product between the type representation a learnt matrix A and the concatenation of mention and context representations.
 
 #### Experiment
-Experiments are conducted on [[Dataset - Ren's BBN]], [[Dataset - Ren's FIGER]] and [[Dataset - Ren's Ontonotes]]; for zero-shot the same partition used by [[2016 Ma - Label Embedding for Zero-shot Fine-grained Named Entity Typing|Ma et al 2016]]
+Experiments are conducted on [[Dataset - Ren's BBN]], [[Dataset - Ren's FIGER]] and [[Dataset - Ren's Ontonotes]]; for zero-shot the same [[2016 Ma - Zero-shot dataset partition|partition]] used by [[2016 Ma - Label Embedding for Zero-shot Fine-grained Named Entity Typing|Ma et al 2016]]
 
 
 ---

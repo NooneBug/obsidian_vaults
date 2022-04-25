@@ -79,7 +79,7 @@ Given a test mention $m$ and a candidate type $t$ in $T_test$, we first compute 
 where $x$ is the score vector from a module for mention $m$ towards all types $t \in T_{test}$ with $x$ as component. $µ_x$ and $σ_x$ denote the mean and standard deviation of the vector $x$. The final decision score by our fusion model for type $t$ is: $score_t = \lambda_1 s'_t + \lambda_2 y'_t + \lambda_3 p'_t$ where $\lambda_1,\lambda_2,\lambda_3 \geq 0$ are hyper-parameters and $\lambda_1 +\lambda_2 + \lambda_3 = 1$.
 
 #### Datasets
-Experiments are carried on [[Dataset - Ren's BBN]] and [[Dataset - Ren's FIGER]] level-1 types are used as seen types and level-2 types are used as unseen (following [[2016 Ma - Label Embedding for Zero-shot Fine-grained Named Entity Typing|Ma et al (2016)]] setup)
+Experiments are carried on [[Dataset - Ren's BBN]] and [[Dataset - Ren's FIGER]] level-1 types are used as seen types and level-2 types are used as unseen (following [[2016 Ma - Zero-shot dataset partition|Ma et al (2016)]] dataset partition)
 
 ![[2021_chen_performance.png]]
 

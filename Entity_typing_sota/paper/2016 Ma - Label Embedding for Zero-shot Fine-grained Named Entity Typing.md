@@ -32,6 +32,6 @@ The inference method is explained in [[Inference Method - Hierarchical Inference
 
 The encoder is an #encoder_with_handcrafted_features 
 
-The approach is evaluated on [[Dataset - Ren's BBN]], [[Dataset - Ren's FIGER]], [[Dataset - Ren's Ontonotes]] only for few shot and zero shot (and so it is not reported)
+The approach is evaluated on [[Dataset - Ren's BBN]], [[Dataset - Ren's FIGER]], [[Dataset - Ren's Ontonotes]] only for few shot and zero shot following [[2016 Ma - Zero-shot dataset partition]]
 
 #paper #encoder_with_handcrafted_features 
