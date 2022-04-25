@@ -1,3 +1,8 @@
+https://aclanthology.org/2020.coling-main.7.pdf
+
+https://github.com/TowerZhang/MZET
+
+
 #### Abstract
 
 With the growing size and granularity of the entity types, few previous researches concern with newly emerged entity types. 
@@ -34,13 +39,50 @@ The overview of the proposed MZET framework is illustrated in Figure 1. Specific
 In the zero-shot entity typing task, there are no mentions available for these unseen entity types. Without the labeled data, we are not able to model the direct mapping from the new mentions to the new types. Here, we propose a novel zero-shot memory network that utilizes seen entity types to bridge the gap between the new mentions and the zero-shot entity types
 
 **3.1.1 Memory augmented Typing Function** 
+
+tl:dr literature simply compute the score of the input mention with respect to the inputed type (that can be unseen); instead, they compute an explicit score for each *seen type* using$MEM_{y_{seen}}$, that is simply a softmax over the scores on each seen type. They advocate that using seen types to favour the recognizement of unseen types remind the human process, also based on similarity w.r.t. previous knowledge.
+
 To enable the zero-shot paradigm, previous researches (Ma et al., 2016; Obeidat et al., 2019) introduce a score function $f(·)$ to rate the match of a given entity mention $x$ and an entity type $y$, where $y$ is the raw type picked from $Y_{seen}$ or $Y_{unseen}$. The definition for $f(·)$ is: $f(x, y) = \Theta(A, x) \cdot \phi(y, B) = Ax \cdot By$ where $\Theta(x, A) : x \rightarrow Ax$ and $\phi(y, B) : y \rightarrow By$ serve as the mapping functions that project $x$ and $y$ into a shared semantic space by neural networks (ours are depicted in Sec. 3.2 and Sec.3.3 respectively). $f(·)$ is the distance estimation of $Ax$ and $By$ in the shared space 
 
-Considering the lack of interpretability of the representations in the shared semantic space, we propose the memory network augmented zero-shot FNET to construct another high-level shared space, called Association Space. Each dimension in the association space links to an entity type. The representation in this space indicates the association information with each entity type. The score function for memory augmented zero-shot FNET is changed into $f'$ : $f'(x, y) = MEM_{y_{seen}}(\Theta(x, A), \phi(y, B)) = MEM_{y_{seen}}(Ax, By)$ where $MEM_{y_{seen}}(·)$ means rating score estimated by a memory network for the zero-shot paradigm with $Y_{seen}$ as the memory component. Meanwhile, the memory component is the aforementioned association space to guide unseen entity typing by linking them to each seen type stored in the memory components, like humans recognizing new things by intuitively associating with the knowledge they have memorized. In fact, $MEM_{y_{seen}}(·)$ loads $Ax$ and $By$ in the shared semantic space into the high-level association space, and then estimates matching score under the help of their connections to the seen types in the memory. 
+Considering the lack of interpretability of the representations in the shared semantic space, we propose the memory network augmented zero-shot FNET to construct another high-level shared space, called **Association Space.** _Each dimension in the association space links to an entity type_. The representation in this space indicates the association information with each entity type. The score function for memory augmented zero-shot FNET is changed into $f'$ : $f'(x, y) = MEM_{y_{seen}}(\Theta(x, A), \phi(y, B)) = MEM_{y_{seen}}(Ax, By)$ where $MEM_{y_{seen}}(·)$ means rating score estimated by a memory network for the zero-shot paradigm with $Y_{seen}$ as the memory component. Meanwhile, the memory component is the aforementioned association space to guide unseen entity typing by linking them to each seen type stored in the memory components, like humans recognizing new things by intuitively associating with the knowledge they have memorized. In fact, $MEM_{y_{seen}}(·)$ loads $Ax$ and $By$ in the shared semantic space into the high-level association space, and then estimates matching score under the help of their connections to the seen types in the memory. 
+
+**3.1.2 Zero-Shot Memory Network Model** 
+
+tl:dr The representation of an unseen type in the association space is based on its similarities wrt seen types; similarities are computed applying a softmax on the euclidean distances between the unseen type representation, computed during the *zero-shot testing (???)* and the seen type representation, computed during the training
+
+The key points to implement MEMYseen (·) are interpreted as follows: 
+1) The Association Space is constructed with all the seen types representations to bridge the gap between mentions and unseen types. 
+2) The mention representation is augmented by the association with seen types.
+3) The augmented mention and type representation are projected into the Association Space. Association augmented mention can be directly project into it. But for the unseen types, associations between them with the seen types are formed by the type semantic similarity, which exactly presents each unseen type in the Association Space.
+
+**3.2 Mention Processor**
+
+Words in mention are represented in pretrained embeddings; to tackle out-of-vocabulary words char-level embedding is learnt at runtime using a Bi-LSTM. The concatenations of word and char embeddings are inputed in anther Bi-LSTM to extract and overall mention representation.
+
+To obtain the context representation: a fixed window is used to cut the context surrounding the mention; then the cutted senttence (cutted left context, mention, cutted right context) is inputed to BERT. Each output token is inputed in a Bi-LSTM with attention #encoder_with_attention #encoders_with_recurrent_architecture 
+
+The final mention representation is the concatenation of char, mention and context embedding
+
+**3.3 Label Processor**
+
+Label name is inputed to BERT to obtain a word level representation. Following [[2016 Ma - Label Embedding for Zero-shot Fine-grained Named Entity Typing|Ma et al 2016]], in the Label Processor they integrate the semantic embeddings of the child label and its parent label into a single embedding vector as the fine-grained label representation. To do this, they perform the dot product of the BERT-based embeddings with a binary hierarchical matrix that explicitly represents the hierarchy (1 on label index and 1 on ancestor indexes) 
+
+**3.4 Loss Function**
+
+Max-margin loss is used to rank correct mention-type pairs higher than wrong ones
+
+**4 Datasets**
+
+Experiments are carried out on [[Dataset - Ren's Ontonotes]], [[Dataset - Ren's BBN]] and [[Dataset - Ren's FIGER]] following [[2016 Ma - Label Embedding for Zero-shot Fine-grained Named Entity Typing|Ma et al 2016]] partition (leaves = unseen, non-leaves = seen)
+
+
 
 
 
 ---
+
+
+Code: https://github.com/TowerZhang/MZET
 
 Tao Zhang 1 , 
 Congying Xia 1 , 
@@ -50,4 +92,4 @@ Philip S. Yu 1
 1 University of Illinois at Chicago, Chicago, IL, USA; 
 2 Google Research, Mountain view, CA, USA
 
-#paper 
+#paper

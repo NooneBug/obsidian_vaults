@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "60d258fe596fde11",
+        "id": "e7b4fd9075776966",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "performances/Performances - Ren's Ontonotes.md",
+            "file": "datasets/2016 Ma - Zero-shot dataset partition.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hierarch",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 197
+    "width": 298
   },
   "right": {
     "id": "53c4873889e075c6",
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "performances/Performances - Ren's Ontonotes.md",
+                "file": "datasets/2016 Ma - Zero-shot dataset partition.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,17 +123,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "60d258fe596fde11",
+  "active": "e7b4fd9075776966",
   "lastOpenFiles": [
-    "performances/Performances - Ren's Ontonotes.md",
-    "paper/2021 Chen - An Empirical Study on Multiple Information Sources for Zero-Shot Fine-Grained Entity Typing.md",
-    "paper/2021 Li - Enhancing Label Representations with Relational Inductive Bias Constraint for Fine-Grained Entity Typing.md",
+    "datasets/2016 Ma - Zero-shot dataset partition.md",
     "paper/2016 Ma - Label Embedding for Zero-shot Fine-grained Named Entity Typing.md",
-    "Few Shot Fine Grained Entity Typing.md",
+    "performances/Performances - zero-shot FIGER.md",
+    "performances/Performances - zero-shot BBN.md",
+    "paper/2021 Chen - An Empirical Study on Multiple Information Sources for Zero-Shot Fine-Grained Entity Typing.md",
+    "performances/Performances - zero-shot Ontonotes.md",
     "paper/2020 Zhang - MZET, Memory Augmented Zero-Shot Fine-grained Named Entity Typing.md",
-    "Downstream task in which ET is usefull.md",
-    "paper/2020 Zhang - Learning with Noise, Improving Distantly-Supervised Fine-grained Entity Typing via Automatic Relabeling.md",
-    "paper/2021 Ali - Fine-Grained Named Entity Typing over Distantly Supervised Data via Refinement in Hyperbolic Space.md",
-    "performances/Performances - zero-shot Ontonotes.md"
+    "performances/Performances - Ren's Ontonotes.md",
+    "paper/2021 Li - Enhancing Label Representations with Relational Inductive Bias Constraint for Fine-Grained Entity Typing.md",
+    "Few Shot Fine Grained Entity Typing.md"
   ]
 }
