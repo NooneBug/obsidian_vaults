@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Zero Shot Fine Grained Entity Typing.md",
+            "file": "paper/2021 Chen - An Empirical Study on Multiple Information Sources for Zero-Shot Fine-Grained Entity Typing.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Zero Shot Fine Grained Entity Typing.md",
+                "file": "paper/2021 Chen - An Empirical Study on Multiple Information Sources for Zero-Shot Fine-Grained Entity Typing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,12 +124,12 @@
   },
   "active": "d9e48be45f6097e3",
   "lastOpenFiles": [
+    "paper/2021 Chen - An Empirical Study on Multiple Information Sources for Zero-Shot Fine-Grained Entity Typing.md",
     "Zero Shot Fine Grained Entity Typing.md",
     "paper/2016 Ma - Label Embedding for Zero-shot Fine-grained Named Entity Typing.md",
     "paper/2020 Zhang - MZET, Memory Augmented Zero-Shot Fine-grained Named Entity Typing.md",
     "paper/2020 Ren - Neural Zero-Shot Fine-Grained Entity Typing.md",
     "datasets/2016 Ma - Zero-shot dataset partition.md",
-    "paper/2021 Chen - An Empirical Study on Multiple Information Sources for Zero-Shot Fine-Grained Entity Typing.md",
     "performances/Performances - zero-shot FIGER.md",
     "performances/Performances - zero-shot BBN.md",
     "performances/Performances - zero-shot Ontonotes.md",
