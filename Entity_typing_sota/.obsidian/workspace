@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "d9e48be45f6097e3",
+        "id": "17b5c8818f47c8af",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "performances/Performances - Ren's Ontonotes.md",
+            "file": "Models with Type Representations.md",
             "mode": "source",
             "source": false
           }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "?",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "performances/Performances - Ren's Ontonotes.md",
+                "file": "Models with Type Representations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,17 +122,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d9e48be45f6097e3",
+  "active": "17b5c8818f47c8af",
   "lastOpenFiles": [
-    "performances/Performances - Ren's Ontonotes.md",
-    "performances/Performances - Ren's Figer.md",
-    "performances/Performances - FIGER.md",
-    "paper/2018 Zhang - Path-Based Attention Neural Model for Fine-Grained Entity Typing.md",
-    "paper/2021 Chen - An Empirical Study on Multiple Information Sources for Zero-Shot Fine-Grained Entity Typing.md",
-    "Zero Shot Fine Grained Entity Typing.md",
-    "paper/2016 Ma - Label Embedding for Zero-shot Fine-grained Named Entity Typing.md",
+    "Models with Type Representations.md",
+    "paper/2021 Ali - Fine-Grained Named Entity Typing over Distantly Supervised Data via Refinement in Hyperbolic Space.md",
     "paper/2020 Zhang - MZET, Memory Augmented Zero-Shot Fine-grained Named Entity Typing.md",
+    "paper/2020 Shi - Alleviate Dataset Shift Problem in Fine-grained Entity Typing with Virtual Adversarial Training.md",
     "paper/2020 Ren - Neural Zero-Shot Fine-Grained Entity Typing.md",
-    "datasets/2016 Ma - Zero-shot dataset partition.md"
+    "paper/2020 Chen - Hierarchical Entity Typing via Multi-level Learning to Rank.md",
+    "paper/2019 Xin - Put It Back, Entity Typing with Language Model Enhancement.md",
+    "paper/2019 Obeidat - Description-Based Zero-shot Fine-Grained Entity Typing.md",
+    "paper/2018 Yuan - OTyper , A Neural Architecture for Open Named Entity Typing.md",
+    "paper/2016 Ma - Label Embedding for Zero-shot Fine-grained Named Entity Typing.md"
   ]
 }

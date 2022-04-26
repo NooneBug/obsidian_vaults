@@ -21,7 +21,7 @@ Experiments show that NZFET outperforms existing zero-shot fine-grained entity t
 
 **Entity Type, Mention and Context Representations.** 
 
-tl:dr - mention is represented as the average of embeddings of the words; context is represented by applying bi-LSTM with attention on the context; it is not clear how the type is represented, the paper starts talking about example mentions (the authors use the examples extracted by [[2016 Ma - Label Embedding for Zero-shot Fine-grained Named Entity Typing|Ma et al 2016]], but when the type representation is explained these example mentions are not mentioned but an attention method is explained (it is not clear if based on the input mention, as seems from figure 1, or based on the example mentions; based on the experiment section, examples are used to train the type attention network, then the network is applied on the input sentence at inference time)
+tl:dr - mention is represented as the average of embeddings of the words; context is represented by applying bi-LSTM with attention on the context; it is not clear how the type is represented, the paper starts talking about example mentions (the authors use the examples extracted by [[2016 Ma - Label Embedding for Zero-shot Fine-grained Named Entity Typing|Ma et al 2016]], but when the type representation is explained these example mentions are not mentioned, instead an attention method is explained (it is not clear if based on the input mention, as seems from figure 1, or based on the example mentions. In the experiment section, examples are used to train the type attention network, then the network is applied on the input sentence at inference time)
 
 ---
 

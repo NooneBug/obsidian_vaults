@@ -1,4 +1,4 @@
-https://ojs.aaai.org/index.php/AAAI/article/view/12162
+https://dl.acm.org/doi/pdf/10.5555/3504035.3505116
 
 #### Abstract
 In this paper, we propose an end-to-end typing model, called the path-based attention neural model (PAN), to learn a noise-robust performance by leveraging the hierarchical structure of types
@@ -14,7 +14,7 @@ Motivated by this, we propose an end-to-end typing model, called the Path-based 
 
 The sentence encoder is the [[2017 Shimaoka - Neural Architectures for Fine-grained Entity Type Classification|Shimaoka's one]], then attention $\alpha_{1, t}$ on each type $t$ is used to obtain a weighted sum $s_{e, t}$ of the single token embeddings $s_i$  
 
-Also types are represented; each type has an embedding $t_l$ and the type representation $p_{t_l}$ is obtained by the composition of the type representation $t_l$ and the representation of all $t_l$ ancestors. In this way, hierarchical related types will share parameters for type representation. It makes learning easier especially for infrequent subtypes, which suffer from dearth of training data, since the attentions for these subtypes can get support from the attention for parent type.
+Also [[Models with Type Representations|types are represented]]; each type has an embedding $t_l$ and the type representation $p_{t_l}$ is obtained by the composition of the type representation $t_l$ and the representation of all $t_l$ ancestors. In this way, hierarchical related types will share parameters for type representation. It makes learning easier especially for infrequent subtypes, which suffer from dearth of training data, since the attentions for these subtypes can get support from the attention for parent type.
 
 #### Experiments
 

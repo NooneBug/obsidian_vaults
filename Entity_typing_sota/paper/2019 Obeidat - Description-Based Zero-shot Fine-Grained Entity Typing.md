@@ -8,7 +8,6 @@ https://aclanthology.org/N19-1087.pdf
 
 *Note that the descriptions can be quite long, often containing many different parts that are useful for recognizing different entity mentions. This motivates us to generate a bag of representations for each type and apply average pooling to aggregate the results.*
 
-*
 • We proposed a description-based zero-shot fine-grained entity typing framework that uses Wikipedia descriptions to represent and detect novel types unseen in training. 
 • We created a new test set for fine-grained entity typing that provides much better coverage of the level-2 (fine-grained) types compared to the original FIGER test data. 
 • We provided experimental evidence of the effectiveness of our approach in comparison with established baselines*
