@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "paper/2021 Chen - An Empirical Study on Multiple Information Sources for Zero-Shot Fine-Grained Entity Typing.md",
+            "file": "performances/Performances - Ren's Ontonotes.md",
             "mode": "source",
             "source": false
           }
@@ -49,8 +49,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -70,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "paper/2021 Chen - An Empirical Study on Multiple Information Sources for Zero-Shot Fine-Grained Entity Typing.md",
+                "file": "performances/Performances - Ren's Ontonotes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,15 +124,15 @@
   },
   "active": "d9e48be45f6097e3",
   "lastOpenFiles": [
+    "performances/Performances - Ren's Ontonotes.md",
+    "performances/Performances - Ren's Figer.md",
+    "performances/Performances - FIGER.md",
+    "paper/2018 Zhang - Path-Based Attention Neural Model for Fine-Grained Entity Typing.md",
     "paper/2021 Chen - An Empirical Study on Multiple Information Sources for Zero-Shot Fine-Grained Entity Typing.md",
     "Zero Shot Fine Grained Entity Typing.md",
     "paper/2016 Ma - Label Embedding for Zero-shot Fine-grained Named Entity Typing.md",
     "paper/2020 Zhang - MZET, Memory Augmented Zero-Shot Fine-grained Named Entity Typing.md",
     "paper/2020 Ren - Neural Zero-Shot Fine-Grained Entity Typing.md",
-    "datasets/2016 Ma - Zero-shot dataset partition.md",
-    "performances/Performances - zero-shot FIGER.md",
-    "performances/Performances - zero-shot BBN.md",
-    "performances/Performances - zero-shot Ontonotes.md",
-    "performances/Performances - Ren's Ontonotes.md"
+    "datasets/2016 Ma - Zero-shot dataset partition.md"
   ]
 }
