@@ -9,3 +9,7 @@ Is an extreme case of [[Few Shot Fine Grained Entity Typing]]
 [[2018 Zhou - Zero-Shot Open Entity Typing as Type-Compatible Grounding]]
 
 [[2019 Obeidat - Description-Based Zero-shot Fine-Grained Entity Typing]]
+
+[[2020 Ren - Neural Zero-Shot Fine-Grained Entity Typing]]
+
+[[2021 Chen - An Empirical Study on Multiple Information Sources for Zero-Shot Fine-Grained Entity Typing]]

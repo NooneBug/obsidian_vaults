@@ -7,8 +7,12 @@
         "id": "d9e48be45f6097e3",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Zero Shot Fine Grained Entity Typing.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Zero Shot Fine Grained Entity Typing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,6 +124,7 @@
   },
   "active": "d9e48be45f6097e3",
   "lastOpenFiles": [
+    "Zero Shot Fine Grained Entity Typing.md",
     "paper/2016 Ma - Label Embedding for Zero-shot Fine-grained Named Entity Typing.md",
     "paper/2020 Zhang - MZET, Memory Augmented Zero-Shot Fine-grained Named Entity Typing.md",
     "paper/2020 Ren - Neural Zero-Shot Fine-Grained Entity Typing.md",
@@ -127,7 +133,6 @@
     "performances/Performances - zero-shot FIGER.md",
     "performances/Performances - zero-shot BBN.md",
     "performances/Performances - zero-shot Ontonotes.md",
-    "performances/Performances - Ren's Ontonotes.md",
-    "paper/2021 Li - Enhancing Label Representations with Relational Inductive Bias Constraint for Fine-Grained Entity Typing.md"
+    "performances/Performances - Ren's Ontonotes.md"
   ]
 }
