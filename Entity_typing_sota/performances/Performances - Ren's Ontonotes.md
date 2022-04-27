@@ -16,6 +16,7 @@ All computed by [[2016 Ren - AFET, Automatic Fine-Grained Entity Typing by Hiera
 | 2018 Xu - Neural Fine-Grained Entity Type Classification with Hierarchy-Aware Loss                                    | .764  | .702  |
 | 2018 Zhang - Fine-grained Entity Typing through Increased Discourse Context and Adaptive Classification Thresholds    | .733  | .6761 |
 | 2018 Zhang - Path-Based Attention Neural Model for Fine-Grained Entity Typing   | .7280 | .6650 |
+| 2018 Zhou - Zero-Shot Open Entity Typing as Type-Compatible Grounding                         | .669  | .608   |
 | 2019 Chen - Improving Distantly-supervised Entity Typing with Compact Latent Space Clustering                         | .778  | .72   |
 | 2019 Wu - Modeling Noisy Hierarchical Types in Fine-Grained Entity Typing, A Content-Based Weighting Approach         | .712  | .648  |
 | 2019 Xin - Put It Back, Entity Typing with Language Model Enhancement                                                 | .7241 | .6517 |

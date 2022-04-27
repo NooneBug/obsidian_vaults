@@ -15,9 +15,9 @@ Then the model [[Hierarchy Representation - 2020 Ren |represent the hierarchy in
 
 The loss is Binary Cross Entropy
 
-They apply a [[Denoising Techniques - 2020 Ren | denoising technique]] under [[Noise Definition - Single Ancestor vs Multi Ancestor| their own noise definition]]
+They apply a [[Denoising Techniques - 2020 Ren |denoising technique]] under [[Noise Definition - Single Ancestor vs Multi Ancestor|their own noise definition]]
 
-The inference is hierarchical and is the same as [[Inference Method - Hierarchical Inference - 2016 Ren |Ren, Abishek]] and so the [[Predictions - Single Path Prediction | predictions are strictly single path]] with an optimization on the threshold value
+The inference is hierarchical and is the same as [[Inference Method - Hierarchical Inference - 2016 Ren |Ren, Abishek]] and so the [[Predictions - Single Path Prediction |predictions are strictly single path]] with an optimization on the threshold value
 
 The approach is experimented on [[Dataset - Ren's FIGER]], [[Dataset - Ren's Ontonotes]]
  
