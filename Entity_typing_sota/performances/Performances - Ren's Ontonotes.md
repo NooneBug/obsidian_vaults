@@ -31,6 +31,7 @@ All computed by [[2016 Ren - AFET, Automatic Fine-Grained Entity Typing by Hiera
 | 2021 Ling - Prompt-Learning for Fine-Grained Entity Typing                                                            | .7977 | .7453 |
 | 2021 Liu - Fine-grained Entity Typing via Label Reasoning                                                             | .776  | .718  |
 | 2021 Li - Enhancing Label Representations with Relational Inductive Bias Constraint for Fine-Grained Entity Typing    | .845  | .792  |
+| 2021 Qian - Fine-grained Entity Typing without Knowledge Base   | .7438  | .6787  |
 | :-------------------------------------------------------------------------------------------------------------------- | ----- | ----- |
 | 2019 Lin - An Attentive Fine-Grained Entity Typing Model with Latent Type Representation (augmented dataset)          | .829  | .773  |
 | 2019 Xiong - Imposing Label-Relational Inductive Bias for Extremely Fine-Grained Entity Typing (augmented dataset)    | .778  | .722  |
