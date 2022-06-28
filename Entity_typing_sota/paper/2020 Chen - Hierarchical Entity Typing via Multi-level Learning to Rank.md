@@ -1,5 +1,28 @@
 https://arxiv.org/pdf/2004.02286.pdf
 
+https://github.com/ctongfei/hierarchical-typing
+
+#### Abstract
+
+We propose a novel method for hierarchical entity classification that embraces ontological structure at both training and during prediction. At training, our novel multi-level learning-to-rank loss compares positive types against negative siblings according to the type tree. During prediction, we define a coarse-to-fine decoder that restricts viable candidates at each level of the ontology based on already predicted parent type(s).
+
+#### Introduction
+
+Owing to the historical transition from “flat” NER types, there has been relatively little work in FET that exploits ontological tree structure, where type labels satisfy the hierarchical property: a subtype is valid only if its parent supertype is also valid. We propose a novel method that takes the explicit ontology structure into account, by a multi-level learning to rank approach that ranks the candidate types conditioned on the given entity mention. Intuitively, coarser types are easier whereas finer types are harder to classify: we capture this intuition by allowing distinct margins at each level of the ranking model.
+
+Coupled with a novel coarse-to-fine decoder that searches on the type hierarchy, our approach guarantees that predictions do not violate the hierarchical property, and achieves state-of-the-art results according to multiple measures across various commonly used datasets.
+
+#### Problem Formulation
+
+We denote a mention as a tuple $x = (w, l,r)$, where $w = (w_1, · · · , w_n)$ is the sentential context and the span $[l : r]$ marks a mention of interest in sentence $w$ that is, the mention of interest is $(w_l , · · · , w_r )$. Given $x$, a hierarchical entity typing model outputs a set of types $Y$ in the type ontology $Y$, i.e. $Y \subseteq Y$. Type hierarchies take the form of a forest, where each tree is rooted by a top-level supertype (e.g. `/person`, `/location,` etc.). We add a dummy parent node 
+ `entity = /`, the supertype of all entity types, to all the top-level types, effectively transforming a type forest to a type tree. 
+
+We now introduce some notation for referring to aspects of a type tree. The binary relation “type z is a subtype of y” is denoted as z <: y. The unique parent of a type $y$ in the type tree is denoted $\bar y \in Y$, where $\bar y$ is undefined for $y =$ `entity`. The immediate subtypes of $y$ (children nodes) are denoted $Ch(y) \subseteq Y$. Siblings of $y$, those sharing the same immediate parent, are denoted $Sb(y) \subseteq Y$, where $y < Sb(y)$.
+
+
+
+# Old
+
 *"We propose a novel method for hierarchical entity classification that embraces ontological structure at both training and during prediction. At training, our novel multi-level learning-to-rank loss compares positive types against negative siblings according to the type tree. During prediction, we define a coarse to-fine decoder that restricts viable candidates at each level of the ontology based on already predicted parent type(s).""*
 
 *"We propose a novel method that takes the explicit ontology structure into account, by a multi-level learning to rank approach that ranks the candidate types conditioned on the given entity mention. Intuitively, coarser types are easier whereas finer types are harder to classify: we capture this intuition by allowing distinct margins at each level of the ranking model"*
@@ -20,5 +43,12 @@ ComplEx is used to initialize type representation
 
 The approach is evaluated on AIDA, [[Dataset - Ren's BBN]][[Dataset - Ren's Ontonotes]][[Dataset - Ren's FIGER]]
 
+
+---
+Tongfei Chen 
+Yunmo Chen 
+Benjamin Van Durme 
+
+Johns Hopkins University
 
 #paper 

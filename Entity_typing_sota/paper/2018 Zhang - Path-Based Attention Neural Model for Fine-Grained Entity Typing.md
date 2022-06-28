@@ -20,9 +20,6 @@ Also [[Models with Type Representations|types are represented]]; each type has a
 
 The approach is experimented on [[Dataset - Ren's Ontonotes]], [[Performances - Ren's Figer]]
 
-
-
-
 ---
 
 Denghui Zhang, 1 

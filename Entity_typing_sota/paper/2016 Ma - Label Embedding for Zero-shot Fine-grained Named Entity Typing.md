@@ -1,5 +1,7 @@
 https://ww.sentic.net/label-embedding-for-zero-shot-named-entity-typing.pdf
 
+https://github.com/fnet-coling/ner-zero
+
 *In this paper, we present a label embedding method that incorporates prototypical and hierarchical information to learn pre-trained label embeddings. In addition, we adapt a zero-shot framework that can predict both seen and previously unseen entity types. We perform evaluation on three benchmark datasets with two settings: **
 	
 	1) few-shots recognition where all types are covered by the training set;  
@@ -33,5 +35,8 @@ The inference method is explained in [[Inference Method - Hierarchical Inference
 The encoder is an #encoder_with_handcrafted_features 
 
 The approach is evaluated on [[Dataset - Ren's BBN]], [[Dataset - Ren's FIGER]], [[Dataset - Ren's Ontonotes]] only for few shot and zero shot following [[2016 Ma - Zero-shot dataset partition]]
+
+*Joint embedding methods such as WSABIE learn label embeddings from the whole training set including noisy labeled instances resulting from weak supervision. It is inevitable that the resulting label embeddings are affected by noisy labels and fail to accurately capture the semantic correlation between types.*
+
 
 #paper #encoder_with_handcrafted_features 
