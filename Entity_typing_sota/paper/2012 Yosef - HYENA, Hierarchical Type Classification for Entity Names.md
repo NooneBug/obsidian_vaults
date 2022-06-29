@@ -16,4 +16,6 @@ Authors use #encoder_with_handcrafted_features  and SVM
 
 First paper to use a hierarchical inference method [[Inference Method - Hierarchical Inference - 2012 Josef]], so HYENA produces [[Predictions - Single Path Prediction]]
 
+They published a demo https://aclanthology.org/P13-4023.pdf
+
 #paper #encoder_with_handcrafted_features 

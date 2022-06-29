@@ -68,7 +68,47 @@ The automatically generated type labels have two kinds of label noises: [[Noise 
 
 Using training examples with such label noises, some approaches ignore the noises and treat training corpus as normal [8], [26], [100], [101]. The performance of these approaches is decreased by such label noises. 
 
-Another approach is to devise mechanisms to deal with the noises, to either directly tweak the noisy labels, such as [[2014 Gillick - Context-Dependent Fine-Grained Entity Type Tagging|Gillick et al.]], [77], [[2018 Choi - Ultra-Fine Entity Typing|Choi et al.]]; or enhance the typing model with the ability of tackling label noises, such as [102], [103], [104], [99]. These mechanisms are reviewed as follows:
+Another approach is to devise mechanisms to deal with the noises, to either directly tweak the noisy labels, such as [[2014 Gillick - Context-Dependent Fine-Grained Entity Type Tagging|Gillick et al.]], [77], [[2018 Choi - Ultra-Fine Entity Typing|Choi et al.]]; or enhance the typing model with the ability of tackling label noises, such as [[2016 Ren - AFET, Automatic Fine-Grained Entity Typing by Hierarchical Partial-Label Embedding|Ren 2016a]], [[2016 Ren  - Label Noise Reduction in Entity Typing by Heterogeneous Partial-Label Embedding|Ren 2016b]], [[2017 Abishek - Fine-Grained Entity Type Classification by Jointly Learning Representations and Label Embeddings|Abishek 2017]], [[2018 Xu - Neural Fine-Grained Entity Type Classification with Hierarchy-Aware Loss|2018 Xu et al.]]. These mechanisms are reviewed as follows:
+
+**Out-of-Context Label Noise Reduction** 
+
+[[2018 Choi - Ultra-Fine Entity Typing|Choi et al.]] used head words as distant supervision to avoid out-of-context noisy labels. For example, for mention “the 44th president of US”, a KB may provide multiple types such as *author, lawyer*, and *president*. Head words can reduce the type set to *president*. But such distant supervision is not always available, thus most of the noisy labels will not be reduced. 
+
+[[2014 Gillick - Context-Dependent Fine-Grained Entity Type Tagging|Gillick et al.]] used the following two heuristics to reduce out-of-context noisy labels: (i) coarse type pruning: deleting type labels that are inconsistent with the prediction of a standard NER classifier trained on ACE [79] data; (ii) minimum count pruning: removing type labels that appear only once in a document. However, such heuristics may cause some mentions to have ‘none’ labels.
+
+[[2016 Ren - AFET, Automatic Fine-Grained Entity Typing by Hierarchical Partial-Label Embedding|AFET]] separates the loss functions for clean (with single type label) and noisy (with multiple type labels) examples, and uses clean examples to de-noise those examples with noisy labels. But the performance is sensitive to parameters, which are corpus dependent. To obviate the need for tuning parameters, [[2017 Abishek - Fine-Grained Entity Type Classification by Jointly Learning Representations and Label Embeddings|Abishek 2017]] proposed a neural network model with a [[Special Hinge Loss - 2017 Abishek|variant of hinge loss function for noisy examples]]. The model makes the maximum score for the set of positive but noisy types greater than one. But the possible semantic correlations among types were ignored during the training of type embeddings.
+
+**Overly-Specific Label Noise Reduction** 
+
+[[2014 Gillick - Context-Dependent Fine-Grained Entity Type Tagging|Gillick et al.]] used the so called sibling pruning to heuristically remove overly-specific labels, i.e., sibling labels would be removed if they share a single parent type. For example, a mention labelled with `/person/artist/director` and `/person/artist/actor` would be reduced to `/person/artist`. The performance of their typing model has noticeable improvement after reducing the noisy labels using this heuristic. But this also removes training examples for non-prominent types.
+
+**General Label Noise Reduction** 
+
+WiFiNE [61] uses the following two heuristics to de-noise the labels: (i) the type arguments of Freebase relations, e.g., the `place_of_birth` relation indicates that the type of the first argument is person; (ii) the sharing of common attributes, e.g., if two entities appear in the same sentence, and the non-noisy mention has a type set which is a subset of the noisy mention, then the noisy label is replaced with the non-noisy label. Such heuristics may keep noisy labels while removing true labels.
+
+[[2016 Ren  - Label Noise Reduction in Entity Typing by Heterogeneous Partial-Label Embedding|Ren 2016b]] used unambiguous mentions (only one type label) as distant supervision to de-noise those mentions with multiple labels that appear in a similar context. The mentions, contextual words and type labels, were embedded into a common dimensional space by optimizing a margin-based rank loss function. Because the noise reduction step was separated from the typing model, the errors engendered by noise reduction will be propagated into the typing model.
+
+To alleviate this phenomenon,  [[2018 Xu - Neural Fine-Grained Entity Type Classification with Hierarchy-Aware Loss|2018 Xu et al.]] proposed a simple variant of cross-entropy loss to handle data with out-of-context noises, and introduced a hierarchical loss normalization process to let the model understand the type hierarchy and mitigate the negative effects of overlyspecific noises. But the hierarchical loss normalization parameters need to be tuned on a different corpus.
+
+**Label Noise Reduction for Entity-level FGET** 
+
+Entity-level FGET methods [[2017 Yaghoobzadeh - Multi-Multi-View Learning, Multilingual and Multi-Representation Entity Typing|2017 Yaghoobzadeh]], [[2017 Murty - Finer Grained Entity Typing with TypeNet|2017 Murty]], [[2018 Murty - Hierarchical Losses and New Resources for Fine-grained Entity Typing and Linking|2018 Murty]] use multi-instance multi label (MIML) learning [105] to reduce the negative effects of label noises. MIML operates over a bag of mentions (collection of all sentences/contexts containing the same entity) rather than over a single mention. For MIML, at least one mention of a bag justifies the types given in the KB, and one bag can have multiple types. But this may amplify the dominance of prominent entities with prominent types, and make the prediction on tail types more difficult.
+
+### Feature Representation
+
+In this section, we present a comprehensive review of feature representations for FGET.
+
+**Hand-crafted Features**
+
+The following categories of hand-crafted features have been exploited for FGET: Mention-level, Context-level, Document-level, Corpus-level, Gazetteers, External and Type-based.
+
+Mention-level features include: syntactic head, non-head token, POS tags, word shape, characters, and prefix/suffix. Brown cluster id [33], [30] of all words [[2012 Ling - Fine-Grained Entity Recognition|Ling and Weld]] or head word [[2014 Gillick - Context-Dependent Fine-Grained Entity Type Tagging|Gillick et al.]], WordNet synset of words [[2015 Del Corro - FINET, Context-Aware Fine-Grained Named Entity Typing|2015 Del Corro]] are used as well.
+
+Contextual features used in FGET include: n-gram of words around the mention phrase, POS tags of contextual words. The syntactic dependency features, such as the role of the mention head on the dependency tree [[2012 Ling - Fine-Grained Entity Recognition|Ling and Weld]], [[2014 Gillick - Context-Dependent Fine-Grained Entity Type Tagging|Gillick et al.]], the lexical parent of the mention head [[2014 Gillick - Context-Dependent Fine-Grained Entity Type Tagging|Gillick et al.]], the verb governing an entity mention [[2010 Rahman - Inducing Fine-Grained Semantic Classes via Hierarchical and Collective Classification|2010 Rahman]], are also used in FGET.
+
+Topic features are from a simple bag-of-words topic model with eight topics (e.g., arts, business, entertainment etc.) [[2014 Gillick - Context-Dependent Fine-Grained Entity Type Tagging|Gillick et al.]], or unigrams, bigrams, and trigrams extracted from a paragraph window [[2012 Yosef - HYENA, Hierarchical Type Classification for Entity Names|2012 Josef HYENA]].
+
+
 
 ---
 Ruili Wang, 
