@@ -18,7 +18,7 @@ If the representations are computed runtime they can be biased by noise and/or t
 - [[2019 Xiong - Imposing Label-Relational Inductive Bias for Extremely Fine-Grained Entity Typing]] represent co-occurrences with a graph and apply graph convolution network and GloVe to extract the type representation based on cooccurrence and word embeddings.
 - [[2020 Shi - Alleviate Dataset Shift Problem in Fine-grained Entity Typing with Virtual Adversarial Training]] learn runtime representations and use them in the loss
 - [[2021 Onoe - Modeling Fine-Grained Entity Types with Box Embeddings]]: represent each type with box
-- [[2021 Qian - Fine-grained Entity Typing without Knowledge Base]] uses [[2019 Lin - An Attentive Fine-Grained Entity Typing Model with Latent Type Represen8468tation|2019 Lin]] so also uses type representation.
+- [[2021 Qian - Fine-grained Entity Typing without Knowledge Base]] uses [[2019 Lin - An Attentive Fine-Grained Entity Typing Model with Latent Type Representation|2019 Lin]] so also uses type representation.
 - [[2021 Selvaraj - Cross-Lingual Fine-Grained Entity Typing]] similar to [[2019 Onoe - Learning to Denoise Distantly-Labeled Data for Entity Typing]], so learn type representations
 
 If the representations are pre-computed (using GloVe, word2vec, ELMo or BERT) their quality can be checked before the training, also zero-shot learning is suitable

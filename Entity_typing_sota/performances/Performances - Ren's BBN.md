@@ -23,8 +23,9 @@ All computed by [[2016 Ren - AFET, Automatic Fine-Grained Entity Typing by Hiera
 | 2020 Dai - Exploiting Semantic Relations for Fine-grained Entity Typing                                              | .9147 | .9170 |
 | 2021 Onoe - Modeling Fine-Grained Entity Types with Box Embeddings                                                   | .787  | .78   |
 | 2021 Ali - Fine-Grained Named Entity Typing over Distantly Supervised Data via Refinement in Hyperbolic Space        | .829  | .835  |
-| 2021 Ling - Prompt-Learning for Fine-Grained Entity Typing                                                           | .7082 | .7155 |
+| 2021 Ding - Prompt-Learning for Fine-Grained Entity Typing                                                           | .7082 | .7155 |
 | 2021 Li - Enhancing Label Representations with Relational Inductive Bias Constraint for Fine-Grained Entity Typing   | .876  | .860
-|       |       |
+| 2022 Wu       | .819      | .823
+| 2022 Pang       | .862      | .867
 
 #performance 

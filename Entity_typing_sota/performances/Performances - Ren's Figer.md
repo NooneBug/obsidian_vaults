@@ -24,11 +24,12 @@ All computed by [[2016 Ren - AFET, Automatic Fine-Grained Entity Typing by Hiera
 | 2020 Ren - Fine-Grained Entity Typing with Hierarchical Inference                                                    | .823  | .800  |
 | 2019 Xin - Put It Back, Entity Typing with Language Model Enhancement                                                | .8061 | .7695 | 
 | 2020 Zhang - Learning with Noise, Improving Distantly-Supervised Fine-grained Entity Typing via Automatic Relabeling | .832  | .801  |
-| 2020 Ren - Fine-Grained Entity Typing with Hierarchical Inference                                                    | .826  | .808  |
+| 2020 Chen - Hierarchical Entity Typing via Multi-level Learning to Rank                                                    | .826  | .808  |
 | 2020 Dai - Exploiting Semantic Relations for Fine-grained Entity Typing                                              | .8909 | .8663 |
 | 2021 Onoe - Modeling Fine-Grained Entity Types with Box Embeddings                                                   | .816  | .77   |
 | 2021 Hou - Transfer learning for fine-grained entity typing                                                          | .8227 | .7967 |
 | 2021 Li - Enhancing Label Representations with Relational Inductive Bias Constraint for Fine-Grained Entity Typing   | .877  | .844  |
 | 2021 Qian - Fine-grained Entity Typing without Knowledge Base   | .7778  | .7473  |
+| 2022 Pang       | .822      | .811
  
 #performance 

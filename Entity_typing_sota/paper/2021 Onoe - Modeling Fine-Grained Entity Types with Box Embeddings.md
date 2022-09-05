@@ -14,8 +14,8 @@ https://github.com/yasumasaonoe/Box4Types.
 
 The architecture is composed as follows:
 
-- [[Encoders - Neural Based Models - BERT Based Architectures | Bert Encoder]]:  Cast the sentence as CLS mention SEP sentence SEP and use the CLS as representation
-- [[Models with Type Representations | Type Encoder]]: each type has a runtime learned box (a Gumbel Box)
+- [[Encoders - Neural Based Models - BERT Based Architectures |Bert Encoder]]:  Cast the sentence as CLS mention SEP sentence SEP and use the CLS as representation
+- [[Models with Type Representations |Type Encoder]]: each type has a runtime learned box (a Gumbel Box)
 
 Inference methods:
 
