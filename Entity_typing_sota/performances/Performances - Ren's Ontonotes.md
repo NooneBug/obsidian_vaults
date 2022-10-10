@@ -21,8 +21,8 @@ All computed by [[2016 Ren - AFET, Automatic Fine-Grained Entity Typing by Hiera
 | 2019 Wu - Modeling Noisy Hierarchical Types in Fine-Grained Entity Typing, A Content-Based Weighting Approach         | .712  | .648  |
 | 2019 Xin - Put It Back, Entity Typing with Language Model Enhancement                                                 | .7241 | .6517 |
 | 2020 Ren - Fine-Grained Entity Typing with Hierarchical Inference                                                     | .774  | .725  |
+| 2020 Chen - Hierarchical Entity Typing via Multi-level Learning to Rank                                                     | .730  | .681  |
 | 2020 Zhang - Learning with Noise, Improving Distantly-Supervised Fine-grained Entity Typing via Automatic Relabeling  | .788  | .730  |
-| 2020 Ren - Fine-Grained Entity Typing with Hierarchical Inference                                                     | .730  | .681  |
 | 2020 Shi - Alleviate Dataset Shift Problem in Fine-grained Entity Typing with Virtual Adversarial Training            | .864  | .812  |
 | 2021 Onoe - Modeling Fine-Grained Entity Types with Box Embeddings                                                    | .773  | .79   |
 | 2021 Hou - Transfer learning for fine-grained entity typing                                                           | .7648 | .7072 |
@@ -34,7 +34,9 @@ All computed by [[2016 Ren - AFET, Automatic Fine-Grained Entity Typing by Hiera
 | 2021 Qian - Fine-grained Entity Typing without Knowledge Base   | .7438  | .6787  |
 | 2022 Pang - Divide and Denoise, Learning from Noisy Labels in Fine-Grained Entity Typing with Cluster-Wise Loss Correction       | .796      | .740
 | 2022 Li - Ultra-fine Entity Typing with Indirect Supervision from Natural Language Inference       | .866      | .814 |
-| 2022 Yang - Multi-stage Knowledge Enhancement for Ultrafine-grained Entity Typing       | .801      | .746 |
+| 2022 Xu - A Three-Stage Curriculum Learning Framework with Hierarchical Label Smoothing for Fine-Grained Entity Typing       | .801      | .746 |
+| 2022 Wu - Dealing With Hierarchical Types and Label Noise in Fine-Grained Entity Typing       | .732      | .669 |
+| 2022 Pan - Automatic Noisy Label Correction for Fine-Grained Entity Typing       | .813      | .753 |
 | :------------------------------------------------------------------------------------------------ | ----- | ----- |
 | 2019 Lin - An Attentive Fine-Grained Entity Typing Model with Latent Type Representation (augmented dataset)          | .829  | .773  |
 | 2019 Xiong - Imposing Label-Relational Inductive Bias for Extremely Fine-Grained Entity Typing (augmented dataset)    | .778  | .722  |
@@ -42,6 +44,6 @@ All computed by [[2016 Ren - AFET, Automatic Fine-Grained Entity Typing by Hiera
 | 2020 Lopez - A Fully Hyperbolic Neural Model for Hierarchical Multi-Class Classification (augmented dataset)          | .778  | .722  |
 | 2020 Wang - An Empirical Study of Pre-trained Embedding on Ultra-Fine Entity Typing (augmented dataset)               | .818  | .763  |
 | 2021 Liu - Fine-grained Entity Typing via Label Reasoning                                                             | .848  | .801  |
-|                                                                                                                       |       |       |
+| 2022 Pan - Automatic Noisy Label Correction for Fine-Grained Entity Typing       | .871      | .815 |
 
 #performance 

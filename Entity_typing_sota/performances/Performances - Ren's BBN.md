@@ -25,8 +25,8 @@ All computed by [[2016 Ren - AFET, Automatic Fine-Grained Entity Typing by Hiera
 | 2021 Ali - Fine-Grained Named Entity Typing over Distantly Supervised Data via Refinement in Hyperbolic Space        | .829  | .835  |
 | 2021 Ding - Prompt-Learning for Fine-Grained Entity Typing                                                           | .7082 | .7155 |
 | 2021 Li - Enhancing Label Representations with Relational Inductive Bias Constraint for Fine-Grained Entity Typing   | .876  | .860
-| 2022 Wu       | .819      | .823
+| 2022 Wu - Dealing With Hierarchical Types and Label Noise in Fine-Grained Entity Typing       | .819      | .823
 | 2022 Pang - Divide and Denoise, Learning from Noisy Labels in Fine-Grained Entity Typing with Cluster-Wise Loss Correction       | .862      | .867
-| 2022 Yang - Multi-stage Knowledge Enhancement for Ultrafine-grained Entity Typing       | .817      | .818
+| 2022 Xu - A Three-Stage Curriculum Learning Framework with Hierarchical Label Smoothing for Fine-Grained Entity Typing       | .817      | .818
 
 #performance 
