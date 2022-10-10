@@ -12,5 +12,7 @@ Performances on [[Dataset - UFET]]
 | 2021 Onoe - Modeling Fine-Grained Entity Types with Box Embeddings                             | .448  |       |
 | 2021 Dai - Ultra-Fine Entity Typing with Weak Supervision from a Masked Language Model         | .491  |       |
 | 2021 Liu - Fine-grained Entity Typing via Label Reasoning                                      | .454  |       |
+| 2022 Yang - Multi-stage Knowledge Enhancement for Ultrafine-grained Entity Typing   | .482  |       |
+| 2022 Li - Ultra-fine Entity Typing with Indirect Supervision from Natural Language Inference   | .506  |       |
 
 #performance 
