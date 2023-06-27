@@ -1,6 +1,6 @@
 https://aclanthology.org/S18-2022.pdf
 
-![[2018_xin_architeture.png]]
+![[2018_zhang_architecture.png]]
 
 *We propose a neural architecture (Figure) which learns more context-aware representations by using a better attention mechanism and taking advantage of semantic discourse information available in both the document as well as sentence-level contexts*
 

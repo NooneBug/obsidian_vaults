@@ -1,0 +1,7 @@
+### From [[2019 Lawrence - Argument Mining; a Survey]]:
+
+Opinion mining is “the computational study of opinions, sentiments, and emotions expressed in text” (Liu 2010). The terms “opinion mining” and “sentiment analysis” are often used interchangeably; however, sentiment analysis is specifically limited to positive and negative views, whereas opinion mining may encompass a broader range of opinions
+
+The link between sentiment, opinion, and argumentative structure is described in Hogenboom et al. (2010), where the role that argumentation plays in expressing and promoting an opinion is considered and a framework proposed for incorporating information on argumentation structure into the models for economic sentiment discovery in text.
+
+Based on their role in the argumentation structure, text segments are assigned different weights relating to their contribution to the overall sentiment. Conclusions, for example, are hypothesized to be good summaries of the main message in a text and therefore key indicators of sentiment. **The interesting point here, from an argument mining perspective, is that this theory could equally be reversed and sentiment be used as an indicator of the argumentative process found in a text.** Taking the example of conclusions, those segments that align with the overall sentiment of the document are more likely to be a conclusion than those that do not.

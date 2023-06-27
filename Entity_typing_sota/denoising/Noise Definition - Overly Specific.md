@@ -2,7 +2,7 @@ A kind of noise in entity typing defined by [[2018 Xu - Neural Fine-Grained Enti
 
 Example:
 
-Kerr graduated from the University of Arizoza in 1988
+Kerr graduated from the University of Arizona in 1988
 
 Annotations for "Kerr": Person, Coach, Athlete
 

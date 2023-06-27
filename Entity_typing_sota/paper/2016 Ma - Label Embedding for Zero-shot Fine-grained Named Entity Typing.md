@@ -21,7 +21,7 @@ Prototype vectors are obtained following these steps:
 	2. Obtain the Hierarchical Label Embedding by building a binary vector for each label; the binary vector has 
 		A. a number of dimension equal to the number of types
 		B. a one in correspondance of the parent label
-	3. For each label, multipli Prototypical Word Vector with Hierarchical Label Embedding
+	3. For each label, multiply Prototypical Word Vector with Hierarchical Label Embedding
 
 The learning is done in two setups:
 
